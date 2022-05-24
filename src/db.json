@@ -1,0 +1,32 @@
+{
+  "contacts": [
+    {
+      "numbers": [
+        { "id": 1, "number": "+ 996 000 00 00 00" },
+        { "id": 2, "number": "+ 996 500 123 456" },
+        { "id": 3, "number": "+ 996 500 123 456" }
+      ],
+      "email": "mail@gmail.com",
+      "links": [
+        { "id": 1, "title": "Instagram" },
+        { "id": 2, "title": "Telegram" },
+        { "id": 3, "title": "Whatsapp" }
+      ]
+    }
+  ],
+  "logo": [
+    {
+      "id": 1,
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978542259207290880/logo.png"
+    },
+    {
+      "id": 2,
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978542259207290880/logo.png"
+    },
+    {
+      "id": 3,
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978542259207290880/logo.png"
+    }
+  ],
+  "collections": [{}]
+}
