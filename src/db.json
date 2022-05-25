@@ -462,5 +462,926 @@
       ]
     }
   ],
-  "collections": []
+  "collections": [
+    {
+      "id": 1,
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+      "title": "Коллекция лето 2020",
+      "goods": [
+        {
+          "id": 1,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        },
+        {
+          "id": 2,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        },
+        {
+          "id": 3,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        },
+        {
+          "id": 4,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+      "title": "Коллекция лето 2020",
+      "goods": [
+        {
+          "id": 1,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        },
+        {
+          "id": 2,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        },
+        {
+          "id": 3,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        },
+        {
+          "id": 4,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+      "title": "Коллекция осень 2020",
+      "goods": [
+        {
+          "id": 1,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        },
+        {
+          "id": 2,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        },
+        {
+          "id": 3,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        },
+        {
+          "id": 4,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+      "title": "Коллекция зима 2020",
+      "goods": [
+        {
+          "id": 1,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        },
+        {
+          "id": 2,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        },
+        {
+          "id": 3,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        },
+        {
+          "id": 4,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+      "title": "Для выезда на природу",
+      "goods": [
+        {
+          "id": 1,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        },
+        {
+          "id": 2,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        },
+        {
+          "id": 3,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        },
+        {
+          "id": 4,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+      "title": "Платья",
+      "goods": [
+        {
+          "id": 1,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        },
+        {
+          "id": 2,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        },
+        {
+          "id": 3,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        },
+        {
+          "id": 4,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+      "title": "Платья",
+      "goods": [
+        {
+          "id": 1,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        },
+        {
+          "id": 2,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        },
+        {
+          "id": 3,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        },
+        {
+          "id": 4,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+      "title": "Ябки",
+      "goods": [
+        {
+          "id": 1,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        },
+        {
+          "id": 2,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        },
+        {
+          "id": 3,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        },
+        {
+          "id": 4,
+          "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+          "title": "Вечернее Платье",
+          "code": "Платье PL984/dakota",
+          "colors": [
+            {
+              "blue": "#73A39D",
+              "green": "#84CC4C",
+              "lightGrey": "#B5A8A1",
+              "brown": "#AB844A",
+              "darkBlue": "#6977F0",
+              "white": "#FFFFFF",
+              "grey": "#141414",
+              "pink": "#FF0000"
+            }
+          ],
+          "isFavotire": true,
+          "isNew": true,
+          "isDiscount": true,
+          "price": { "price": 1365, "oldPrice": 2730 },
+          "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+          "sizes": "42-50",
+          "countInBundle": 5,
+          "material": "Полиэстер",
+          "compound": "Полиэстер"
+        }
+      ]
+    }
+  ]
 }
