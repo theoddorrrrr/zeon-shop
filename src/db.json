@@ -1,32 +1,466 @@
 {
-  "contacts": [
-    {
-      "numbers": [
-        { "id": 1, "number": "+ 996 000 00 00 00" },
-        { "id": 2, "number": "+ 996 500 123 456" },
-        { "id": 3, "number": "+ 996 500 123 456" }
-      ],
-      "email": "mail@gmail.com",
-      "links": [
-        { "id": 1, "title": "Instagram" },
-        { "id": 2, "title": "Telegram" },
-        { "id": 3, "title": "Whatsapp" }
-      ]
-    }
-  ],
-  "logo": [
+  "contacts": {
+    "numbers": [
+      { "id": 1, "number": "+996 000 00 00 00" },
+      { "id": 2, "number": "+996 500 123 456" },
+      { "id": 3, "number": "+996 500 123 456" }
+    ],
+    "email": "mail@gmail.com",
+    "links": [
+      { "id": 1, "title": "Instagram" },
+      { "id": 2, "title": "Telegram" },
+      { "id": 3, "title": "Whatsapp" }
+    ]
+  },
+  "aboutUs": {
+    "title": "О нас",
+    "description": "У нас Вы найдёте всё, что Вам так нужно. Ассортимент магазина постоянно расширяется и дополняется в зависимости от пожеланий клиентов. Женская одежда из наших коллекций – это комфортная, стильная и качественная одежда не только на каждый день, но и для любых ситуаций по доступным ценам.Натуральные материалы, продуманные силуэты, современный дизайн и возможность легкого сочетания моделей помогут Вам всегда оставаться в центре внимания и чувствовать себя уместно в любой ситуации.Если Вы любите одеваться ярко, модно и оригинально, у нас Вы найдете все необходимое, чтобы всегда быть в центре внимания. У нас большая коллекция для любого торжества и праздника, которая сможет удовлетворить вкус самой взыскательной модницы! А для деловых ситуаций, в которых Вам непременно нужно выглядеть элегантно и стильно, мы предлагаем Вам одежду из коллекции ''деловой стиль и офис''. Мода постоянно диктует нам свои требования и для современной девушки, желающей идти в ногу со временем, важно иметь возможность постоянно пополнять свой гардероб стильной одеждой.",
+    "src": [
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634360569888818/3.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634360813142036/1.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634361144483870/2.png"
+    ]
+  },
+  "logo": {
+    "id": 1,
+    "src": "https://cdn.discordapp.com/attachments/978541129228230710/978542259207290880/logo.png"
+  },
+  "hot": [
     {
       "id": 1,
-      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978542259207290880/logo.png"
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+      "title": "Вечернее Платье",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        {
+          "blue": "#73A39D",
+          "green": "#84CC4C",
+          "lightGrey": "#B5A8A1",
+          "brown": "#AB844A",
+          "darkBlue": "#6977F0",
+          "white": "#FFFFFF",
+          "grey": "#141414",
+          "pink": "#FF0000"
+        }
+      ],
+      "isFavotire": true,
+      "isNew": true,
+      "isDiscount": true,
+      "price": { "price": 1365, "oldPrice": 2730 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
     },
     {
       "id": 2,
-      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978542259207290880/logo.png"
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+      "title": "Вечернее Платье",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        {
+          "blue": "#73A39D",
+          "green": "#84CC4C",
+          "lightGrey": "#B5A8A1",
+          "brown": "#AB844A",
+          "darkBlue": "#6977F0",
+          "white": "#FFFFFF",
+          "grey": "#141414",
+          "pink": "#FF0000"
+        }
+      ],
+      "isFavotire": true,
+      "isNew": true,
+      "isDiscount": true,
+      "price": { "price": 1365, "oldPrice": 2730 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
     },
     {
       "id": 3,
-      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978542259207290880/logo.png"
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+      "title": "Вечернее Платье",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        {
+          "blue": "#73A39D",
+          "green": "#84CC4C",
+          "lightGrey": "#B5A8A1",
+          "brown": "#AB844A",
+          "darkBlue": "#6977F0",
+          "white": "#FFFFFF",
+          "grey": "#141414",
+          "pink": "#FF0000"
+        }
+      ],
+      "isFavotire": true,
+      "isNew": true,
+      "isDiscount": true,
+      "price": { "price": 1365, "oldPrice": 2730 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 4,
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+      "title": "Вечернее Платье",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        {
+          "blue": "#73A39D",
+          "green": "#84CC4C",
+          "lightGrey": "#B5A8A1",
+          "brown": "#AB844A",
+          "darkBlue": "#6977F0",
+          "white": "#FFFFFF",
+          "grey": "#141414",
+          "pink": "#FF0000"
+        }
+      ],
+      "isFavotire": true,
+      "isNew": true,
+      "isDiscount": true,
+      "price": { "price": 1365, "oldPrice": 2730 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
     }
   ],
-  "collections": [{}]
+  "bestSellers": [
+    {
+      "id": 1,
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978597821714432021/dress02.png",
+      "title": "Вечернее платье",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        {
+          "blue": "#73A39D",
+          "green": "#84CC4C",
+          "lightGrey": "#B5A8A1",
+          "brown": "#AB844A",
+          "darkBlue": "#6977F0",
+          "white": "#FFFFFF",
+          "grey": "#141414",
+          "pink": "#FF0000"
+        }
+      ],
+      "isFavotire": true,
+      "isNew": true,
+      "isDiscount": true,
+      "price": { "price": 1365, "oldPrice": 2730 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 2,
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978597821714432021/dress02.png",
+      "title": "Вечернее платье",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        {
+          "blue": "#73A39D",
+          "green": "#84CC4C",
+          "lightGrey": "#B5A8A1",
+          "brown": "#AB844A",
+          "darkBlue": "#6977F0",
+          "white": "#FFFFFF",
+          "grey": "#141414",
+          "pink": "#FF0000"
+        }
+      ],
+      "isFavotire": true,
+      "isNew": true,
+      "isDiscount": true,
+      "price": { "price": 1365, "oldPrice": 2730 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 3,
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978597821714432021/dress02.png",
+      "title": "Вечернее платье",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        {
+          "blue": "#73A39D",
+          "green": "#84CC4C",
+          "lightGrey": "#B5A8A1",
+          "brown": "#AB844A",
+          "darkBlue": "#6977F0",
+          "white": "#FFFFFF",
+          "grey": "#141414",
+          "pink": "#FF0000"
+        }
+      ],
+      "isFavotire": true,
+      "isNew": true,
+      "isDiscount": true,
+      "price": { "price": 1365, "oldPrice": 2730 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 4,
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978597821714432021/dress02.png",
+      "title": "Вечернее платье",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        {
+          "blue": "#73A39D",
+          "green": "#84CC4C",
+          "lightGrey": "#B5A8A1",
+          "brown": "#AB844A",
+          "darkBlue": "#6977F0",
+          "white": "#FFFFFF",
+          "grey": "#141414",
+          "pink": "#FF0000"
+        }
+      ],
+      "isFavotire": true,
+      "isNew": true,
+      "isDiscount": true,
+      "price": { "price": 1365, "oldPrice": 2730 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "title": "Lorem ipsum dolor sit amet",
+      "descriptions": "Sit ullamcorper at gravida quis feugiat. Laoreet leo dolor, dui eget sit viverra justo, malesuada. Viverra pharetra, augue neque felis enim dui id cum. At pellentesque diam nulla ac amet quisque quis. Est consectetur ullamcorper curabitur quis viverra hac molestie. Elit pulvinar congue ut amet adipiscing felis tincidunt. Amet quis varius aliquam hendrerit tempus. Sed sit diam quis scelerisque congu econgu econgu econguecongu econguecon guecon guecon guecong ueconguecong uec ongue. Sit ullamcorper at gravida quis feugiat. Laoreet leo dolor, dui eget sit viverra justo, malesuada. Viverra pharetra, augue neque  Sit ullamcorper at gravida quis feugiat. Laoreet leo dolor, dui eget sit viverra justo, malesuada. Viverra pharetra, augue neque felis enim dui id cum. At pellentesque diam nulla ac amet quisque quis. Est consectetur ullamcorper curabitur quis viverra hac molestie. Elit pulvinar congue ut amet adipiscing felis tincidunt. Amet quis varius aliquam hendrerit tempus. Sed sit diam quis ",
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978634001629716480/4.png",
+      "qna": [
+        {
+          "id": 1,
+          "question": "Как я могу заказать одежду?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 2,
+          "question": "Как осуществляется доставка?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 3,
+          "question": "Где производятся вещи?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 4,
+          "question": "Как будет упакован заказ?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 5,
+          "question": "Lorem ipsum dolor sit amet?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 6,
+          "question": "Есть ли возврат, при условии если одежда пришла не того размера?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 7,
+          "question": "Как я могу оставить заявку на обратную связь",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Lorem ipsum dolor sit amet",
+      "descriptions": "Sit ullamcorper at gravida quis feugiat. Laoreet leo dolor, dui eget sit viverra justo, malesuada. Viverra pharetra, augue neque felis enim dui id cum. At pellentesque diam nulla ac amet quisque quis. Est consectetur ullamcorper curabitur quis viverra hac molestie. Elit pulvinar congue ut amet adipiscing felis tincidunt. Amet quis varius aliquam hendrerit tempus. Sed sit diam quis scelerisque congu econgu econgu econguecongu econguecon guecon guecon guecong ueconguecong uec ongue. Sit ullamcorper at gravida quis feugiat. Laoreet leo dolor, dui eget sit viverra justo, malesuada. Viverra pharetra, augue neque  Sit ullamcorper at gravida quis feugiat. Laoreet leo dolor, dui eget sit viverra justo, malesuada. Viverra pharetra, augue neque felis enim dui id cum. At pellentesque diam nulla ac amet quisque quis. Est consectetur ullamcorper curabitur quis viverra hac molestie. Elit pulvinar congue ut amet adipiscing felis tincidunt. Amet quis varius aliquam hendrerit tempus. Sed sit diam quis ",
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978634001340301312/3.png",
+      "qna": [
+        {
+          "id": 1,
+          "question": "Как я могу заказать одежду?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 2,
+          "question": "Как осуществляется доставка?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 3,
+          "question": "Где производятся вещи?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 4,
+          "question": "Как будет упакован заказ?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 5,
+          "question": "Lorem ipsum dolor sit amet?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 6,
+          "question": "Есть ли возврат, при условии если одежда пришла не того размера?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 7,
+          "question": "Как я могу оставить заявку на обратную связь",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Lorem ipsum dolor sit amet",
+      "descriptions": "Sit ullamcorper at gravida quis feugiat. Laoreet leo dolor, dui eget sit viverra justo, malesuada. Viverra pharetra, augue neque felis enim dui id cum. At pellentesque diam nulla ac amet quisque quis. Est consectetur ullamcorper curabitur quis viverra hac molestie. Elit pulvinar congue ut amet adipiscing felis tincidunt. Amet quis varius aliquam hendrerit tempus. Sed sit diam quis scelerisque congu econgu econgu econguecongu econguecon guecon guecon guecong ueconguecong uec ongue. Sit ullamcorper at gravida quis feugiat. Laoreet leo dolor, dui eget sit viverra justo, malesuada. Viverra pharetra, augue neque  Sit ullamcorper at gravida quis feugiat. Laoreet leo dolor, dui eget sit viverra justo, malesuada. Viverra pharetra, augue neque felis enim dui id cum. At pellentesque diam nulla ac amet quisque quis. Est consectetur ullamcorper curabitur quis viverra hac molestie. Elit pulvinar congue ut amet adipiscing felis tincidunt. Amet quis varius aliquam hendrerit tempus. Sed sit diam quis ",
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978634000992194620/2.png",
+      "qna": [
+        {
+          "id": 1,
+          "question": "Как я могу заказать одежду?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 2,
+          "question": "Как осуществляется доставка?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 3,
+          "question": "Где производятся вещи?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 4,
+          "question": "Как будет упакован заказ?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 5,
+          "question": "Lorem ipsum dolor sit amet?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 6,
+          "question": "Есть ли возврат, при условии если одежда пришла не того размера?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 7,
+          "question": "Как я могу оставить заявку на обратную связь",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Lorem ipsum dolor sit amet",
+      "descriptions": "Sit ullamcorper at gravida quis feugiat. Laoreet leo dolor, dui eget sit viverra justo, malesuada. Viverra pharetra, augue neque felis enim dui id cum. At pellentesque diam nulla ac amet quisque quis. Est consectetur ullamcorper curabitur quis viverra hac molestie. Elit pulvinar congue ut amet adipiscing felis tincidunt. Amet quis varius aliquam hendrerit tempus. Sed sit diam quis scelerisque congu econgu econgu econguecongu econguecon guecon guecon guecong ueconguecong uec ongue. Sit ullamcorper at gravida quis feugiat. Laoreet leo dolor, dui eget sit viverra justo, malesuada. Viverra pharetra, augue neque  Sit ullamcorper at gravida quis feugiat. Laoreet leo dolor, dui eget sit viverra justo, malesuada. Viverra pharetra, augue neque felis enim dui id cum. At pellentesque diam nulla ac amet quisque quis. Est consectetur ullamcorper curabitur quis viverra hac molestie. Elit pulvinar congue ut amet adipiscing felis tincidunt. Amet quis varius aliquam hendrerit tempus. Sed sit diam quis ",
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978634000614703204/1.png",
+      "qna": [
+        {
+          "id": 1,
+          "question": "Как я могу заказать одежду?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 2,
+          "question": "Как осуществляется доставка?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 3,
+          "question": "Где производятся вещи?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 4,
+          "question": "Как будет упакован заказ?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 5,
+          "question": "Lorem ipsum dolor sit amet?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 6,
+          "question": "Есть ли возврат, при условии если одежда пришла не того размера?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 7,
+          "question": "Как я могу оставить заявку на обратную связь",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Lorem ipsum dolor sit amet",
+      "descriptions": "Sit ullamcorper at gravida quis feugiat. Laoreet leo dolor, dui eget sit viverra justo, malesuada. Viverra pharetra, augue neque felis enim dui id cum. At pellentesque diam nulla ac amet quisque quis. Est consectetur ullamcorper curabitur quis viverra hac molestie. Elit pulvinar congue ut amet adipiscing felis tincidunt. Amet quis varius aliquam hendrerit tempus. Sed sit diam quis scelerisque congu econgu econgu econguecongu econguecon guecon guecon guecong ueconguecong uec ongue. Sit ullamcorper at gravida quis feugiat. Laoreet leo dolor, dui eget sit viverra justo, malesuada. Viverra pharetra, augue neque  Sit ullamcorper at gravida quis feugiat. Laoreet leo dolor, dui eget sit viverra justo, malesuada. Viverra pharetra, augue neque felis enim dui id cum. At pellentesque diam nulla ac amet quisque quis. Est consectetur ullamcorper curabitur quis viverra hac molestie. Elit pulvinar congue ut amet adipiscing felis tincidunt. Amet quis varius aliquam hendrerit tempus. Sed sit diam quis ",
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978634000291754024/5.png",
+      "qna": [
+        {
+          "id": 1,
+          "question": "Как я могу заказать одежду?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 2,
+          "question": "Как осуществляется доставка?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 3,
+          "question": "Где производятся вещи?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 4,
+          "question": "Как будет упакован заказ?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 5,
+          "question": "Lorem ipsum dolor sit amet?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 6,
+          "question": "Есть ли возврат, при условии если одежда пришла не того размера?",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        },
+        {
+          "id": 7,
+          "question": "Как я могу оставить заявку на обратную связь",
+          "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
+        }
+      ]
+    }
+  ],
+  "collections": []
 }
