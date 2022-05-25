@@ -12,6 +12,11 @@ export const getContacts = async () => {
     return response
 }
 
+export const getAboutUs = async () => {
+    const response = await axios.get('http://localhost:3000/aboutUs')
+
+    return response
+}
 
 
     
