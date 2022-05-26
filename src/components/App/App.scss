@@ -1,26 +1,104 @@
-.container {
-  max-width: 1366px;
-  margin: 0 auto;
+.header {
 }
 
-header.header {
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__logo {
+  height: 43px;
+  width: 95px;
+}
+
+.header-breadcrumbs {
+  min-height: 58px;
+  padding: 1em;
+}
+
+.header-body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5em;
+  padding: 1em;
+  height: 64px;
+  @media (min-width: 768px) {
+    min-height: 153px;
+    .nav-mobile {
+      display: none;
+    }
+    .burger {
+      display: none;
+    }
+
+    .header__logo {
+      height: 70px;
+      width: 162px;
+    }
+  }
 }
 
-nav.nav {
+.nav {
   position: absolute;
   height: 100vh;
-  width: 300px;
+  width: 250px;
   top: 0;
   left: 0;
-  z-index: 100;
-  background: grey;
-  color: white;
+  z-index: 10;
+  background-color: white;
+  padding: 1em;
+  &__backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 250px;
+    width: calc(100vw - 250px);
+    height: 100vh;
+    background-color: #d7d7d779;
+    z-index: -1;
+    pointer-events: none;
+  }
+
   li {
     list-style: none;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    overflow: auto;
+  }
+
+  &__title {
+    font-size: 16px;
+    margin-bottom: 1em;
+  }
+
+  &__menu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+  }
+
+  &-contacts__social-media {
+    display: flex;
+    justify-content: start;
+    gap: 1em;
+    padding: 0.5em;
+  }
+  .close-btn {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+  }
+  &-mobile {
+    @media (min-width: 768px) {
+      display: none;
+    }
   }
 }
 
@@ -35,8 +113,9 @@ nav.nav {
     content: "";
     position: absolute;
     width: 25px;
+    border-radius: 5px;
     height: 3px;
-    background-color: black;
+    background-color: #354455;
     top: calc(50% - 8px);
     left: 50%;
     transform: translate(-50%);
@@ -45,9 +124,10 @@ nav.nav {
   span:nth-child(2)::before {
     content: "";
     position: absolute;
+    border-radius: 5px;
     width: 25px;
     height: 3px;
-    background-color: black;
+    background-color: #354455;
     top: 50%;
     left: 50%;
     transform: translate(-50%);
@@ -56,13 +136,28 @@ nav.nav {
   span:nth-child(3)::before {
     content: "";
     position: absolute;
+    border-radius: 5px;
     width: 25px;
     height: 3px;
-    background-color: black;
+    background-color: #354455;
     top: calc(50% + 8px);
     left: 50%;
     transform: translate(-50%);
   }
 }
 
+.btn {
+  border: 0;
+  background-color: transparent;
+  font-weight: normal;
+}
 
+.button {
+  display: flex;
+  gap: 0.5em;
+}
+
+.header__divider {
+  display: flex;
+  align-items: center;
+}

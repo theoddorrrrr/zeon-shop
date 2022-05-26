@@ -10,6 +10,11 @@
       { "id": 1, "title": "Instagram" },
       { "id": 2, "title": "Telegram" },
       { "id": 3, "title": "Whatsapp" }
+    ],
+    "mobileSocialMedia": [
+      {"id": 1, "title": "Telegram", "data": "tel:+996000000000", "src": "https://cdn.discordapp.com/attachments/978541129228230710/979305840274186271/telegram.png"},
+      {"id": 2, "title": "WhatsApp", "data": "https://www.whatsapp.com/?lang=ru", "src": "https://cdn.discordapp.com/attachments/978541129228230710/979305840047702016/whatsapp.png"},
+      {"id": 3, "title": "Phone", "data": "https://www.whatsapp.com/?lang=ru", "src": "https://cdn.discordapp.com/attachments/978541129228230710/979305840500670474/telephone.png"}
     ]
   },
   "aboutUs": {

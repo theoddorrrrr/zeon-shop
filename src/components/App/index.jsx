@@ -1,28 +1,11 @@
-import Header from "../Header";
+import { createStore } from "redux";
+import Wrapper from "../Wrapper";
 import "./App.scss";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      Lorem impusm Lorem impusm Lorem impusm Lorem impusm Lorem impusm Lorem
-      impusm Lorem impusm Lorem impusm Lorem impusm Lorem impusm Lorem impusm
-      Lorem impusm Lorem impusm Lorem impusm Lorem impusm Lorem impusm Lorem
-      impusm Lorem impusm Lorem impusm Lorem impusm Lorem impusmLorem impusm
-      Lorem impusm Lorem impusmLorem impusm Lorem impusm Lorem impusmLorem
-      impusm Lorem impusm Lorem impusmLorem impusm Lorem impusm Lorem
-      impusmLorem impusm Lorem impusm Lorem impusmLorem impusm Lorem impusm
-      Lorem impusmLorem impusm Lorem impusm Lorem impusmLorem impusm Lorem
-      impusm Lorem impusmLorem impusm Lorem impusm Lorem impusmLorem impusm
-      Lorem impusm Lorem impusmLorem impusm Lorem impusm Lorem impusmLorem
-      impusm Lorem impusm Lorem impusmLorem impusm Lorem impusm Lorem
-      impusmLorem impusm Lorem impusm Lorem impusmLorem impusm Lorem impusm
-      Lorem impusmLorem impusm Lorem impusm Lorem impusmLorem impusm Lorem
-      impusm Lorem impusmLorem impusm Lorem impusm Lorem impusmLorem impusm
-      Lorem impusm Lorem impusmLorem impusm Lorem impusm Lorem impusmLorem
-      impusm Lorem impusm Lorem impusmLorem impusm Lorem impusm Lorem
-      impusmLorem impusm Lorem impusm Lorem impusmLorem impusm Lorem impusm
-      Lorem impusmLorem impusm Lorem impusm Lorem impusm
+      <Wrapper />
     </div>
   );
 }
