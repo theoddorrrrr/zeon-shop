@@ -40,6 +40,15 @@ body.fixed {
   touch-action: none;
 }
 
-.wrapper {
+.app {
   font-size: 13px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
 }

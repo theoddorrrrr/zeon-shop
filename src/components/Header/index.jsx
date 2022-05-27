@@ -1,4 +1,4 @@
-import { getLogo, getContacts, fetchContacts } from "../../api/API";
+import { fetchInfo } from "../../api/API";
 import { useEffect, useState } from "react";
 import search from "../../assets/icons/search.png";
 import { Breadcrumbs, Divider, Link, Typography } from "@mui/material";
@@ -7,14 +7,15 @@ import { useDispatch, useSelector } from "react-redux";
 import { setIsNavbarAction } from "../../store/reducers/navbarSlice";
 import favoriteImg from "../../assets/icons/heart.png";
 import cartImg from "../../assets/icons/cart.png";
+import { Link as LinkRouter } from "react-router-dom";
 
 const Header = () => {
   const dispatch = useDispatch();
   const isNavbar = useSelector((state) => state.navbar.isNavbar);
 
   useEffect(() => {
-    dispatch(fetchContacts());
-  }, [])
+    dispatch(fetchInfo());
+  }, []);
 
   return (
     <header className="header">
@@ -22,7 +23,6 @@ const Header = () => {
         <div className="header-wrapper">
           {isNavbar ? <Navbar /> : null}
           <HeaderBody />
-          {/* <HeaderDesktop /> */}
           <Divider className="header__divider" />
           <HeaderBreadCrumbs />
         </div>
@@ -32,20 +32,18 @@ const Header = () => {
 };
 
 const HeaderBody = () => {
-  const [logo, setLogo] = useState();
-
-  useEffect(() => {
-    const f = async () => {
-      const responseLogo = await getLogo();
-      setLogo(responseLogo.data.src);
-    };
-    f();
-  }, []);
+  const info = useSelector((state) => state.info);
 
   return (
     <div className="header-body">
       <Burger />
-      <img className="header__logo" src={logo} />
+      {info.loading ? (
+        <span>Loading</span>
+      ) : (
+        <LinkRouter to="/">
+          <img className="header__logo" src={info.data.logo.src} />
+        </LinkRouter>
+      )}
       <Search />
     </div>
   );
@@ -72,19 +70,14 @@ const HeaderBreadCrumbs = () => {
 };
 
 const HeaderDesktop = () => {
-  
-  return (
-    <nav className="nav nav-desktop">
-      
-    </nav>
-  )
-}
+  return <nav className="nav nav-desktop"></nav>;
+};
 
 const Navbar = () => {
   const dispatch = useDispatch();
   const isNavbar = useSelector((state) => state.navbar.isNavbar);
-  const contacts = useSelector((state) => state.contacts);
-  const contact = useSelector((state) => state.contacts.contacts.numbers[0].number)
+  const info = useSelector((state) => state.info);
+  const contact = useSelector((state) => state.info.data.numbers[0]);
 
   const toggleNavbar = () => {
     dispatch(setIsNavbarAction(isNavbar));
@@ -96,41 +89,67 @@ const Navbar = () => {
       <div className="nav__menu">
         <ul className="nav__list">
           <li className="nav__title">Меню</li>
-          <li>О нас</li>
-          <li>Новости</li>
-          <li>Коллекция</li>
+          <li>
+            <LinkRouter to="about-us" onClick={toggleNavbar}>
+              О нас
+            </LinkRouter>
+          </li>
+          <li>
+            <LinkRouter to="collections" onClick={toggleNavbar}>
+              Коллекция
+            </LinkRouter>
+          </li>
+          <li>
+            <LinkRouter to="news" onClick={toggleNavbar}>
+              Новости
+            </LinkRouter>
+          </li>
 
           <Divider />
 
-          <div className="button">
-            <img src={favoriteImg} alt="Favorite" />
-            <button className="btn favorite">Избранное</button>
+          <div className="favorite-btn">
+            <LinkRouter onClick={toggleNavbar} className="button" to="/favorite">
+              <img src={favoriteImg} alt="Favorite" />
+              <button className="btn favorite">Избранное</button>
+            </LinkRouter>
           </div>
-          <div className="button">
-            <img src={cartImg} alt="Cart" />
-            <button className="btn cart">Корзина</button>
+          <div className="cart-btn">
+            <LinkRouter onClick={toggleNavbar} className="button" to="/cart">
+              <img src={cartImg} alt="Cart" />
+              <button className="btn cart">Корзина</button>
+            </LinkRouter>
           </div>
         </ul>
         <div className="nav-contacts">
           <div className="nav-contacts__title">Свяжитесь с нами</div>
-          <div className="nav-contacts__contact">{contact}</div>
+          <div className="nav-contacts__contact">
+            {info.loading ? (
+              <span>Loading</span>
+            ) : (
+              <div>
+                <a href={contact.data}>{contact.title}</a>
+              </div>
+            )}
+          </div>
           <div className="nav-contacts__social-media">
-            {contacts.loading ? (
+            {info.loading ? (
               <div>Loading</div>
             ) : (
-              contacts.contacts.mobileSocialMedia.map((item) => {
-                return (<div key={item.id}>
-                  <a href={item.data}>
-                    <img src={item.src} alt={item.title} />
-                  </a>
-                </div>)
+              info.data.mobileSocialMedia.map((item) => {
+                return (
+                  <div key={item.id}>
+                    <a target="_blank" href={item.data}>
+                      <img src={item.src} alt={item.title} />
+                    </a>
+                  </div>
+                );
               })
             )}
           </div>
         </div>
       </div>
       <img src={closeBtn} onClick={toggleNavbar} className="close-btn" />
-      <div className="nav__backdrop"></div>
+      <div className="nav__backdrop" onClick={toggleNavbar}></div>
     </nav>
   );
 };
