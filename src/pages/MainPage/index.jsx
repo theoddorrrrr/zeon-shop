@@ -29,7 +29,7 @@ const MainPage = () => {
 
   return (
     <div>
-      <Slider className="slider" {...settings}>
+      {/* <Slider className="slider" {...settings}>
         {pages.loading ? (
           <span>Loading</span>
         ) : (
@@ -41,9 +41,6 @@ const MainPage = () => {
             );
           })
         )}
-        {/* <div>
-          <img src={logo.data.src} alt="Img" />
-        </div>
         <div>
           <img src={logo.data.src} alt="Img" />
         </div>
@@ -55,8 +52,11 @@ const MainPage = () => {
         </div>
         <div>
           <img src={logo.data.src} alt="Img" />
-        </div> */}
-      </Slider>
+        </div>
+        <div>
+          <img src={logo.data.src} alt="Img" />
+        </div>
+      </Slider> */}
     </div>
   );
 };

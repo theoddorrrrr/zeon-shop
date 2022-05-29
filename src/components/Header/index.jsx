@@ -1,5 +1,5 @@
 import { fetchInfo } from "../../api/API";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import search from "../../assets/icons/search.png";
 import { Breadcrumbs, Divider, Link, Typography } from "@mui/material";
 import closeBtn from "../../assets/icons/close.svg";
@@ -19,15 +19,44 @@ const Header = () => {
 
   return (
     <header className="header">
-      <div className="header-container container">
+      <div className="header-container">
         <div className="header-wrapper">
           {isNavbar ? <Navbar /> : null}
+          <HeaderTop />
           <HeaderBody />
-          <Divider className="header__divider" />
-          <HeaderBreadCrumbs />
         </div>
       </div>
+      <Divider className="header__divider" />
+      <HeaderBreadCrumbs />
     </header>
+  );
+};
+
+const HeaderTop = () => {
+  return (
+    <div className="header-top">
+      <div>
+        <div className="header-top__container container">
+          <div className="header-top__body">
+            <ul className="nav__list_desktop">
+              <li>
+                <LinkRouter to="about-us">О нас</LinkRouter>
+              </li>
+              <li>
+                <LinkRouter to="collections">Коллекция</LinkRouter>
+              </li>
+              <li>
+                <LinkRouter to="news">Новости</LinkRouter>
+              </li>
+            </ul>
+
+            <ContactWithUs />
+          </div>
+        </div>
+
+        <Divider style={{ flex: "0 0 100%" }} />
+      </div>
+    </div>
   );
 };
 
@@ -35,23 +64,63 @@ const HeaderBody = () => {
   const info = useSelector((state) => state.info);
 
   return (
-    <div className="header-body">
-      <Burger />
-      {info.loading ? (
-        <span>Loading</span>
-      ) : (
-        <LinkRouter to="/">
-          <img className="header__logo" src={info.data.logo.src} />
-        </LinkRouter>
-      )}
-      <Search />
+    <div className="header-body__container container">
+      <div className="header-body">
+        <Burger />
+
+        {info.loading ? (
+          <span>Loading</span>
+        ) : (
+          <LinkRouter to="/">
+            <img className="header__logo" src={info.data.logo.src} />
+          </LinkRouter>
+        )}
+
+        <Search />
+
+        <FavoriteButton desktop={true} />
+        <CartButton desktop={true} />
+      </div>
     </div>
   );
 };
 
+const FavoriteButton = ({ toggleNavbar, desktop }) => {
+  const handleNavbar = () => {
+    if (toggleNavbar) {
+      toggleNavbar();
+    }
+  };
+
+  return (
+    <div className={desktop ? "favorite-btn_desktop" : "favorite-btn"}>
+      <LinkRouter className="button" to="/favorite" onClick={handleNavbar}>
+        <img src={favoriteImg} alt="Favorite" />
+        <button className="btn favorite">Избранное</button>
+      </LinkRouter>
+    </div>
+  );
+};
+
+const CartButton = ({ toggleNavbar, desktop }) => {
+  const handleNavbar = () => {
+    if (toggleNavbar) {
+      toggleNavbar();
+    }
+  };
+
+  return (
+    <div className={desktop ? "cart-btn_desktop" : "cart-btn"}>
+      <LinkRouter className="button" to="/cart" onClick={handleNavbar}>
+        <img src={cartImg} alt="Cart" />
+        <button className="btn cart">Корзина</button>
+      </LinkRouter>
+    </div>
+  );
+};
 const HeaderBreadCrumbs = () => {
   return (
-    <div className="header-breadcrumbs">
+    <div className="header-breadcrumbs container">
       <Breadcrumbs aria-label="breadcrumb">
         <Link underline="hover" color="inherit" href="/">
           MUI
@@ -69,15 +138,10 @@ const HeaderBreadCrumbs = () => {
   );
 };
 
-const HeaderDesktop = () => {
-  return <nav className="nav nav-desktop"></nav>;
-};
-
 const Navbar = () => {
   const dispatch = useDispatch();
   const isNavbar = useSelector((state) => state.navbar.isNavbar);
   const info = useSelector((state) => state.info);
-  const contact = useSelector((state) => state.info.data.numbers[0]);
 
   const toggleNavbar = () => {
     dispatch(setIsNavbarAction(isNavbar));
@@ -106,31 +170,12 @@ const Navbar = () => {
           </li>
 
           <Divider />
-
-          <div className="favorite-btn">
-            <LinkRouter onClick={toggleNavbar} className="button" to="/favorite">
-              <img src={favoriteImg} alt="Favorite" />
-              <button className="btn favorite">Избранное</button>
-            </LinkRouter>
-          </div>
-          <div className="cart-btn">
-            <LinkRouter onClick={toggleNavbar} className="button" to="/cart">
-              <img src={cartImg} alt="Cart" />
-              <button className="btn cart">Корзина</button>
-            </LinkRouter>
-          </div>
+          <FavoriteButton toggleNavbar={toggleNavbar} />
+          <CartButton toggleNavbar={toggleNavbar} />
         </ul>
         <div className="nav-contacts">
           <div className="nav-contacts__title">Свяжитесь с нами</div>
-          <div className="nav-contacts__contact">
-            {info.loading ? (
-              <span>Loading</span>
-            ) : (
-              <div>
-                <a href={contact.data}>{contact.title}</a>
-              </div>
-            )}
-          </div>
+          <ContactWithUs />
           <div className="nav-contacts__social-media">
             {info.loading ? (
               <div>Loading</div>
@@ -154,6 +199,26 @@ const Navbar = () => {
   );
 };
 
+const ContactWithUs = () => {
+  const info = useSelector((state) => state.info);
+
+  return (
+    <div>
+      <div className="nav-contacts__contact">
+        {info.loading ? (
+          <span>Loading</span>
+        ) : (
+          <div>
+            <a href={info.data.numbers[0].data}>
+              <span className="">Тел:</span> {info.data.numbers[0].title}
+            </a>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+};
+
 const Burger = () => {
   const dispatch = useDispatch();
   const isNavbar = useSelector((state) => state.navbar.isNavbar);
@@ -171,9 +236,17 @@ const Burger = () => {
 };
 
 const Search = () => {
+  const toggleHandler = () => {
+    console.log(111);
+  };
   return (
     <div className="search">
-      <img src={search} />
+      <label>
+        <input placeholder="Поиск"></input>
+        <div>
+          <img src={search} onClick={toggleHandler} />
+        </div>
+      </label>
     </div>
   );
 };

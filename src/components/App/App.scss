@@ -1,11 +1,3 @@
-.header {
-}
-
-.header-wrapper {
-  display: flex;
-  flex-direction: column;
-}
-
 .header__logo {
   height: 43px;
   width: 95px;
@@ -20,10 +12,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1em;
+  padding: 0.5em 1em;
   height: 64px;
+  gap: 3em;
   @media (min-width: 768px) {
     min-height: 153px;
+    padding: 0.5em 1em;
     .nav-mobile {
       display: none;
     }
@@ -83,6 +77,13 @@
     height: 100%;
   }
 
+  &-contacts__title {
+    margin-bottom: 0.5em;
+  }
+  &-contacts__contact span {
+    color: grey;
+  }
+
   &-contacts__social-media {
     display: flex;
     justify-content: start;
@@ -98,6 +99,47 @@
     @media (min-width: 768px) {
       display: none;
     }
+  }
+}
+
+.header-top {
+  display: none;
+  @media (min-width: 768px) {
+    display: block;
+  }
+
+  &__body {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+  }
+
+  .nav__list_desktop {
+    display: none;
+    @media (min-width: 768px) {
+      display: flex;
+      gap: 3em;
+      flex: 1 1 70%;
+    }
+    li {
+      list-style: none;
+    }
+  }
+
+  .nav-contacts__desktop {
+    display: none;
+    @media (min-width: 768px) {
+      display: flex;
+      flex: 1 1 30%;
+    }
+  }
+}
+
+.favorite-btn_desktop,
+.cart-btn_desktop {
+  display: none;
+  @media (min-width: 768px) {
+    display: block;
   }
 }
 
@@ -149,11 +191,13 @@
   border: 0;
   background-color: transparent;
   font-weight: normal;
+  cursor: pointer;
 }
 
 .button {
   display: flex;
   gap: 0.5em;
+  cursor: pointer;
 }
 
 .header__divider {
@@ -180,4 +224,42 @@
 
 .nav-contacts {
   margin-top: 1em;
+}
+
+.search {
+  input {
+    display: none;
+  }
+  @media (min-width: 768px) {
+    flex: 1 1;
+    background-color: rgb(239, 239, 239);
+    border: rgb(146, 146, 146);
+
+    label {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    input {
+      display: block;
+      border: 0;
+      padding: 1em 2em;
+      flex: 1 1 100%;
+      background-color: transparent;
+      &::placeholder {
+        background-color: transparent;
+      }
+    }
+    img {
+      width: 30px;
+      height: 30px;
+    }
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.3em;
+    }
+  }
 }
