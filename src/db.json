@@ -82,25 +82,27 @@
   "hot": [
     {
       "id": 1,
-      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png"
+      ],
       "title": "Вечернее Платье",
       "code": "Платье PL984/dakota",
       "colors": [
-        {
-          "blue": "#73A39D",
-          "green": "#84CC4C",
-          "lightGrey": "#B5A8A1",
-          "brown": "#AB844A",
-          "darkBlue": "#6977F0",
-          "white": "#FFFFFF",
-          "grey": "#141414",
-          "pink": "#FF0000"
-        }
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
       ],
-      "isFavotire": true,
-      "isNew": true,
+
       "isDiscount": true,
-      "price": { "price": 1365, "oldPrice": 2730 },
+      "price": { "price": 1365, "discount": 50, "oldPrice": 2730 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
       "sizes": "42-50",
       "countInBundle": 5,
@@ -109,25 +111,27 @@
     },
     {
       "id": 2,
-      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png"
+      ],
       "title": "Вечернее Платье",
       "code": "Платье PL984/dakota",
       "colors": [
-        {
-          "blue": "#73A39D",
-          "green": "#84CC4C",
-          "lightGrey": "#B5A8A1",
-          "brown": "#AB844A",
-          "darkBlue": "#6977F0",
-          "white": "#FFFFFF",
-          "grey": "#141414",
-          "pink": "#FF0000"
-        }
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
       ],
-      "isFavotire": true,
-      "isNew": true,
-      "isDiscount": true,
-      "price": { "price": 1365, "oldPrice": 2730 },
+
+      "isDiscount": false,
+      "price": { "price": 1365 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
       "sizes": "42-50",
       "countInBundle": 5,
@@ -136,25 +140,27 @@
     },
     {
       "id": 3,
-      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png"
+      ],
       "title": "Вечернее Платье",
       "code": "Платье PL984/dakota",
       "colors": [
-        {
-          "blue": "#73A39D",
-          "green": "#84CC4C",
-          "lightGrey": "#B5A8A1",
-          "brown": "#AB844A",
-          "darkBlue": "#6977F0",
-          "white": "#FFFFFF",
-          "grey": "#141414",
-          "pink": "#FF0000"
-        }
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
       ],
-      "isFavotire": true,
-      "isNew": true,
+
       "isDiscount": true,
-      "price": { "price": 1365, "oldPrice": 2730 },
+      "price": { "price": 1365, "discount": 50, "oldPrice": 2730 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
       "sizes": "42-50",
       "countInBundle": 5,
@@ -163,25 +169,259 @@
     },
     {
       "id": 4,
-      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png"
+      ],
       "title": "Вечернее Платье",
       "code": "Платье PL984/dakota",
       "colors": [
-        {
-          "blue": "#73A39D",
-          "green": "#84CC4C",
-          "lightGrey": "#B5A8A1",
-          "brown": "#AB844A",
-          "darkBlue": "#6977F0",
-          "white": "#FFFFFF",
-          "grey": "#141414",
-          "pink": "#FF0000"
-        }
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
       ],
-      "isFavotire": true,
-      "isNew": true,
-      "isDiscount": true,
-      "price": { "price": 1365, "oldPrice": 2730 },
+
+      "isDiscount": false,
+      "price": { "price": 1365 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 5,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png"
+      ],
+      "title": "Вечернее Платье",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "price": { "price": 1365 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 6,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png"
+      ],
+      "title": "Вечернее Платье",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "price": { "price": 1365 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 7,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png"
+      ],
+      "title": "Вечернее Платье",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "price": { "price": 1365 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 8,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png"
+      ],
+      "title": "Вечернее Платье",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "price": { "price": 1365 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 9,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png"
+      ],
+      "title": "Вечернее Платье",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "price": { "price": 1365 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 10,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png"
+      ],
+      "title": "Вечернее Платье",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "price": { "price": 1365 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 11,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png"
+      ],
+      "title": "Вечернее Платье",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "price": { "price": 1365 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 12,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978594763961925652/dress.png"
+      ],
+      "title": "Вечернее Платье",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "price": { "price": 1365 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
       "sizes": "42-50",
       "countInBundle": 5,
@@ -189,6 +429,7 @@
       "compound": "Полиэстер"
     }
   ],
+
   "bestSellers": [
     {
       "id": 1,
@@ -207,7 +448,7 @@
           "pink": "#FF0000"
         }
       ],
-      "isFavotire": true,
+      "isFavorite": true,
       "isNew": true,
       "isDiscount": true,
       "price": { "price": 1365, "oldPrice": 2730 },
@@ -234,7 +475,7 @@
           "pink": "#FF0000"
         }
       ],
-      "isFavotire": true,
+      "isFavorite": true,
       "isNew": true,
       "isDiscount": true,
       "price": { "price": 1365, "oldPrice": 2730 },
@@ -261,7 +502,7 @@
           "pink": "#FF0000"
         }
       ],
-      "isFavotire": true,
+      "isFavorite": true,
       "isNew": true,
       "isDiscount": true,
       "price": { "price": 1365, "oldPrice": 2730 },
@@ -288,7 +529,7 @@
           "pink": "#FF0000"
         }
       ],
-      "isFavotire": true,
+      "isFavorite": true,
       "isNew": true,
       "isDiscount": true,
       "price": { "price": 1365, "oldPrice": 2730 },
@@ -301,11 +542,31 @@
   ],
 
   "main-page": [
-    {"id" : 1, "title": "Image", "src": "https://cdn.discordapp.com/attachments/978541129228230710/978634134111002674/main.png"},
-    {"id" : 2, "title": "Image", "src": "https://cdn.discordapp.com/attachments/978541129228230710/978634134111002674/main.png"},
-    {"id" : 3, "title": "Image", "src": "https://cdn.discordapp.com/attachments/978541129228230710/978634134111002674/main.png"},
-    {"id" : 4, "title": "Image", "src": "https://cdn.discordapp.com/attachments/978541129228230710/978634134111002674/main.png"},
-    {"id" : 5, "title": "Image", "src": "https://cdn.discordapp.com/attachments/978541129228230710/978634134111002674/main.png"}
+    {
+      "id": 1,
+      "title": "Image",
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978634134111002674/main.png"
+    },
+    {
+      "id": 2,
+      "title": "Image",
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978634134111002674/main.png"
+    },
+    {
+      "id": 3,
+      "title": "Image",
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978634134111002674/main.png"
+    },
+    {
+      "id": 4,
+      "title": "Image",
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978634134111002674/main.png"
+    },
+    {
+      "id": 5,
+      "title": "Image",
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978634134111002674/main.png"
+    }
   ],
 
   "news": [
@@ -416,7 +677,7 @@
         "question": "Как я могу оставить заявку на обратную связь",
         "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. Ut cras ut rhoncus fermentum pharetra a sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet laoreet a, neque, gravida urna libero iaculis lacus. Pellentesque pellentesque massa ornare sit pellentesque elit nulla. Id est tellus maecenas ornare velit. "
       }
-  ]
+    ]
   },
   "public-offer": {
     "title": "Публичная офферта",
@@ -445,7 +706,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -472,7 +733,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -499,7 +760,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -526,7 +787,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -560,7 +821,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -587,7 +848,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -614,7 +875,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -641,7 +902,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -675,7 +936,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -702,7 +963,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -729,7 +990,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -756,7 +1017,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -790,7 +1051,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -817,7 +1078,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -844,7 +1105,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -871,7 +1132,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -905,7 +1166,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -932,7 +1193,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -959,7 +1220,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -986,7 +1247,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -1020,7 +1281,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -1047,7 +1308,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -1074,7 +1335,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -1101,7 +1362,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -1135,7 +1396,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -1162,7 +1423,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -1189,7 +1450,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -1216,7 +1477,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -1250,7 +1511,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -1277,7 +1538,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -1304,7 +1565,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },
@@ -1331,7 +1592,7 @@
               "pink": "#FF0000"
             }
           ],
-          "isFavotire": true,
+          "isFavorite": true,
           "isNew": true,
           "isDiscount": true,
           "price": { "price": 1365, "oldPrice": 2730 },

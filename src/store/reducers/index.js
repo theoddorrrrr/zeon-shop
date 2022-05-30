@@ -3,11 +3,15 @@ import { navbarSlice } from './navbarSlice'
 import { infoSlice } from './infoSlice'
 import { publicOfferSlice } from './publicOfferSlice'
 import { mainInfoSlice } from './mainInfoSlice'
+import { hotGoodsSlice } from './hotGoodsSlice'
+import { favoritesSlice } from './favoritesSlice'
 
 
 export const rootReducer = combineReducers({
     navbar: navbarSlice,
     info: infoSlice,
     publicOffer: publicOfferSlice,
-    mainInfo: mainInfoSlice
+    mainInfo: mainInfoSlice,
+    hotGoods: hotGoodsSlice,
+    favorites: favoritesSlice
 })
