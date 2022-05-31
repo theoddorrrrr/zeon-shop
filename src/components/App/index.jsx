@@ -11,8 +11,18 @@ import FavirotePage from "../../pages/FavoritesPage";
 import CartPage from "../../pages/CartPage";
 import HelpPage from "../../pages/HelpPage";
 import PublicOfferPage from "../../pages/PublicOfferPage";
+import { useDispatch } from "react-redux";
+import { useEffect } from "react";
+import { fetchHotGoods, fetchMainInfo } from "../../api/API";
 
 function App() {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(fetchMainInfo());
+    !JSON.parse(localStorage.getItem("hotGoods")) && dispatch(fetchHotGoods())
+  }, []);
+
   return (
     <div className="App">
       <Header />

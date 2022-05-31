@@ -22,7 +22,6 @@ const FavirotePage = () => {
 
   const unFavoriteHandler = (item) => {
     dispatch(ChangeFavoriteAction(item));
-    // const unFavoriteGood = [...hotGoods.data].filter((item) => item.id != id);
     dispatch(setUnFavorites(item));
   };
 
