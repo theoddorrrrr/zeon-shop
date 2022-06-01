@@ -4,7 +4,8 @@ import { useDispatch, useSelector } from "react-redux";
 import favorite from "../../assets/icons/heart-good.png";
 import favoriteActive from "../../assets/icons/heart-good-filled.png";
 
-import { ChangeFavoriteAction } from "../../store/reducers/hotGoodsSlice";
+import { ChangeFavoriteHotGoodsAction } from "../../store/reducers/hotGoodsSlice";
+import { ChangeFavoriteBestSellersAction } from "../../store/reducers/bestSellersSlice";
 
 import {
   setFavorites,
@@ -13,22 +14,24 @@ import {
 
 const FavirotePage = () => {
   const dispatch = useDispatch();
-  const favorites = useSelector((state) => state.favorites);
+  const favorites = localStorage.getItem("123")
+    ? JSON.parse(localStorage.getItem("123"))
+    : localStorage.setItem("123", [])
 
-  const favoriteHandler = (id) => {
-    const favoriteGood = [...favorites.data].filter((item) => item.id == id);
-    dispatch(setFavorites(favoriteGood));
-  };
+  console.log(favorites)
+  const state = useSelector((state) => state);
+  // console.log(state);
 
   const unFavoriteHandler = (item) => {
-    dispatch(ChangeFavoriteAction(item));
+    // console.log(item)
+    // dispatch(ChangeFavoriteHotGoodsAction(item)) || dispatch(ChangeFavoriteBestSellersAction(item))
     dispatch(setUnFavorites(item));
   };
 
   return (
     <div className="favorites-wrapper">
       <div>Избранное</div>
-      {favorites.length < 1 ? (
+      {favorites && favorites.length < 1 ? (
         <div>У вас пока нет избранных товаров</div>
       ) : (
         <>
@@ -44,21 +47,12 @@ const FavirotePage = () => {
                       </div>
                     )}
 
-                    {item.isFavorite ? (
-                      <div
-                        onClick={() => unFavoriteHandler(item)}
-                        className="goods__favorite"
-                      >
-                        <img src={favoriteActive} alt="Favorite" />
-                      </div>
-                    ) : (
-                      <div
-                        onClick={() => favoriteHandler(item)}
-                        className="goods__favorite"
-                      >
-                        <img src={favorite} alt="Favorite" />
-                      </div>
-                    )}
+                    <div
+                      onClick={() => unFavoriteHandler(item)}
+                      className="goods__favorite"
+                    >
+                      <img src={favoriteActive} alt="Favorite" />
+                    </div>
 
                     <img
                       className="goods__img"

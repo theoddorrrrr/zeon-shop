@@ -92,9 +92,11 @@ const FavoriteButton = ({ toggleNavbar, desktop }) => {
     }
   };
 
+  const isFavorite = useSelector(state => state.favorites.length)
+
   return (
     <div className={desktop ? "favorite-btn_desktop" : "favorite-btn"}>
-      <LinkRouter className="button" to="/favorite" onClick={handleNavbar}>
+      <LinkRouter className={isFavorite ? "button with-goods" : "button"} to="/favorite" onClick={handleNavbar}>
         <img src={favoriteImg} alt="Favorite" />
         <button className="btn favorite">Избранное</button>
       </LinkRouter>

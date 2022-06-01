@@ -13,14 +13,15 @@ import HelpPage from "../../pages/HelpPage";
 import PublicOfferPage from "../../pages/PublicOfferPage";
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
-import { fetchHotGoods, fetchMainInfo } from "../../api/API";
+import { fetchBestSellers, fetchHotGoods, fetchMainInfo } from "../../api/API";
 
 function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(fetchMainInfo());
-    !JSON.parse(localStorage.getItem("hotGoods")) && dispatch(fetchHotGoods())
+    dispatch(fetchMainInfo())
+    dispatch(fetchHotGoods())
+    dispatch(fetchBestSellers())
   }, []);
 
   return (

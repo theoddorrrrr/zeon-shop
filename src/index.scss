@@ -52,3 +52,17 @@ a {
 a:visited {
   color: inherit;
 }
+
+.with-goods{
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: -2px;
+    left: 13px;
+    border-radius: 50%;
+    background-color: red;
+  }
+}

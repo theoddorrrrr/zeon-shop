@@ -5,6 +5,7 @@ import { publicOfferSlice } from './publicOfferSlice'
 import { mainInfoSlice } from './mainInfoSlice'
 import { hotGoodsSlice } from './hotGoodsSlice'
 import { favoritesSlice } from './favoritesSlice'
+import { bestSellersSlice } from './bestSellersSlice'
 
 
 export const rootReducer = combineReducers({
@@ -13,5 +14,6 @@ export const rootReducer = combineReducers({
     publicOffer: publicOfferSlice,
     mainInfo: mainInfoSlice,
     hotGoods: hotGoodsSlice,
-    favorites: favoritesSlice
+    favorites: favoritesSlice,
+    bestSellersGoods: bestSellersSlice
 })

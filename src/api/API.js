@@ -3,22 +3,17 @@ import { GetInfoAction } from "../store/reducers/infoSlice";
 import { GetPublicOfferAction } from "../store/reducers/publicOfferSlice";
 import { GetMainInfoAction } from "../store/reducers/mainInfoSlice";
 import { GetHotGoodsAction, GetMoreHotGoodsAction } from "../store/reducers/hotGoodsSlice";
+import { GetBestSellersGoodsAction, GetMoreBestSellersGoodsAction } from "../store/reducers/bestSellersSlice";
 
 const instance = axios.create({
   baseURL: "http://localhost:3000/",
 });
 
+// Base Info
+
 export const fetchInfo = () => {
   return function (dispatch) {
     instance.get("info").then((json) => dispatch(GetInfoAction(json.data)));
-  };
-};
-
-export const fetchPublicOffer = () => {
-  return function (dispatch) {
-    instance
-      .get("public-offer")
-      .then((json) => dispatch(GetPublicOfferAction(json.data)));
   };
 };
 
@@ -30,11 +25,13 @@ export const fetchMainInfo = () => {
   };
 };
 
-export const fetchHotGoods = (items = 4) => {
+// Hot
+
+export const fetchHotGoods = (size = 4) => {
 
   return function (dispatch) {
     instance
-      .get(`hot?_limit=${items}`)
+      .get(`hot?_limit=${size}`)
       .then((json) => dispatch(GetHotGoodsAction(json.data)));
   };
 };
@@ -47,6 +44,33 @@ export const fetchMoreHotGoods = () => {
   };
 };
 
+// Best Sellers
+
+export const fetchBestSellers = (size = 4) => {
+  return function (dispatch) {
+    instance
+    .get(`bestSellers?_limit=${size}`)
+    .then((json) => dispatch(GetBestSellersGoodsAction(json.data)))
+  }
+}
+
+export const fetchMoreBestSellers = () => {
+  return function (dispatch) {
+    instance
+      .get(`bestSellers?_start=4&_end=12`)
+      .then((json) => dispatch(GetMoreBestSellersGoodsAction(json.data)));
+  };
+};
+
+// Public Offer
+
+export const fetchPublicOffer = () => {
+  return function (dispatch) {
+    instance
+      .get("public-offer")
+      .then((json) => dispatch(GetPublicOfferAction(json.data)));
+  };
+};
 
 
 // export const getAboutUs = async () => {

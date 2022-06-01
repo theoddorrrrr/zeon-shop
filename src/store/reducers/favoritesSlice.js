@@ -1,16 +1,23 @@
-const defaultState = JSON.parse(localStorage.getItem("favorites"))
-  ? JSON.parse(localStorage.getItem("favorites"))
-  : [];
+const defaultState =
+  localStorage.getItem("123") && JSON.parse(localStorage.getItem("123"));
+
 const SET_FAVORITES = "SET_FAVORITES";
 const SET_UNFAVORITES = "SET_UNFAVORITES";
 
 export const favoritesSlice = (state = defaultState, action) => {
   switch (action.type) {
     case SET_FAVORITES:
-      console.log(state);
+      localStorage.setItem("123", JSON.stringify([...state, action.payload]));
       return [...state, action.payload];
 
     case SET_UNFAVORITES:
+      localStorage.setItem(
+        "123",
+        JSON.stringify([
+          ...state.filter((good) => good.id !== action.payload.id),
+        ])
+      );
+
       return [...state.filter((good) => good.id !== action.payload.id)];
 
     default:
