@@ -6,7 +6,6 @@ import "slick-carousel/slick/slick-theme.css";
 import { useDispatch, useSelector } from "react-redux";
 
 import { fetchMoreBestSellers, fetchMoreHotGoods } from "../../api/API";
-import { ChangeFavoriteHotGoodsAction } from "../../store/reducers/hotGoodsSlice";
 
 import favorite from "../../assets/icons/heart-good.png";
 import favoriteActive from "../../assets/icons/heart-good-filled.png";
@@ -14,7 +13,6 @@ import {
   setFavorites,
   setUnFavorites,
 } from "../../store/reducers/favoritesSlice";
-import { ChangeFavoriteBestSellersAction } from "../../store/reducers/bestSellersSlice";
 
 const MainPage = () => {
   const settings = {
@@ -26,13 +24,14 @@ const MainPage = () => {
     slidesToScroll: 1,
   };
 
-  // const pages = useSelector((state) => state.mainInfo);
+  const state = useSelector(state => state)
+
   const hotGoods = useSelector((state) => state.hotGoods);
-  const favorites = useSelector((state) => state.favorites);
   const bestSellers = useSelector((state) => state.bestSellersGoods);
 
   const dispatch = useDispatch();
 
+  // Get More Goods
   const buttonHandler = () => {
     dispatch(fetchMoreHotGoods());
   };
@@ -41,42 +40,22 @@ const MainPage = () => {
     dispatch(fetchMoreBestSellers());
   };
 
-  //Hot
+  // Favorite Functions
   const favoriteHandler = (item) => {
-    // dispatch(ChangeFavoriteHotGoodsAction(item));
     dispatch(setFavorites(item));
   };
 
   const unFavoriteHandler = (item) => {
-    // dispatch(ChangeFavoriteHotGoodsAction(item));
     dispatch(setUnFavorites(item));
   };
-
-  //BestSellers
-  const favoriteBestSellers = (item) => {
-    console.log("BESTS");
-    // dispatch(ChangeFavoriteBestSellersAction(item));
-    dispatch(setFavorites(item));
-  };
-  const unFavoriteBestSellers = (item) => {
-    // dispatch(ChangeFavoriteBestSellersAction(item));
-    dispatch(setUnFavorites(item));
-  };
-
-  useEffect(() => {
-    localStorage.setItem("favorites", JSON.stringify(favorites));
-  }, [hotGoods, bestSellers]);
-
-  // useEffect(() => {
-  //   localStorage.getItem("123")
-  //     ? localStorage.getItem("123")
-  //     : localStorage.setItem("123", []);
-  // });
 
   const fav = localStorage.getItem("123")
     ? JSON.parse(localStorage.getItem("123"))
     : localStorage.setItem("123", [])
-  console.log(fav);
+
+  useEffect(()=> {
+
+  }, [state])
 
   return (
     <>
@@ -89,7 +68,6 @@ const MainPage = () => {
             <div className="goods__items">
               {bestSellers.data.map((item) => {
                 const isFavorite = fav && fav.some((i) => i.id === item.id);
-                console.log(isFavorite);
                 return (
                   <div className="goods__item" key={item.id}>
                     <div className="goods__images">
@@ -101,14 +79,14 @@ const MainPage = () => {
 
                       {isFavorite ? (
                         <div
-                          onClick={() => unFavoriteBestSellers(item)}
+                          onClick={() => unFavoriteHandler(item)}
                           className="goods__favorite"
                         >
                           <img src={favoriteActive} alt="Favorite" />
                         </div>
                       ) : (
                         <div
-                          onClick={() => favoriteBestSellers(item)}
+                          onClick={() => favoriteHandler(item)}
                           className="goods__favorite"
                         >
                           <img src={favorite} alt="Favorite" />
@@ -169,7 +147,7 @@ const MainPage = () => {
 
       {bestSellers.data.length <= 4 && (
         <button onClick={getMoreBestSellers} className="button btn button-load">
-          More
+          Еще
         </button>
       )}
 
@@ -261,7 +239,7 @@ const MainPage = () => {
 
         {hotGoods.data.length <= 4 && (
           <button onClick={buttonHandler} className="button btn button-load">
-            More
+            Еще
           </button>
         )}
 

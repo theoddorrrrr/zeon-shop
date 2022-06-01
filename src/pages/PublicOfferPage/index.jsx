@@ -6,7 +6,6 @@ const PublicOfferPage = () => {
   const dispatch = useDispatch();
 
   const publicOffer = useSelector((state) => state.publicOffer);
-  console.log(publicOffer);
 
   useEffect(() => {
     dispatch(fetchPublicOffer());

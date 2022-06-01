@@ -1,5 +1,6 @@
-const defaultState =
-  localStorage.getItem("123") && JSON.parse(localStorage.getItem("123"));
+const defaultState = localStorage.getItem("123")
+  ? JSON.parse(localStorage.getItem("123"))
+  : []
 
 const SET_FAVORITES = "SET_FAVORITES";
 const SET_UNFAVORITES = "SET_UNFAVORITES";

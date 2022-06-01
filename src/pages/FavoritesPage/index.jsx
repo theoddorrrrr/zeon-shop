@@ -1,41 +1,33 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
-import favorite from "../../assets/icons/heart-good.png";
 import favoriteActive from "../../assets/icons/heart-good-filled.png";
 
-import { ChangeFavoriteHotGoodsAction } from "../../store/reducers/hotGoodsSlice";
-import { ChangeFavoriteBestSellersAction } from "../../store/reducers/bestSellersSlice";
-
 import {
-  setFavorites,
   setUnFavorites,
 } from "../../store/reducers/favoritesSlice";
 
 const FavirotePage = () => {
   const dispatch = useDispatch();
+  const state = useSelector(state => state)
+
+  const array = []
   const favorites = localStorage.getItem("123")
     ? JSON.parse(localStorage.getItem("123"))
-    : localStorage.setItem("123", [])
-
-  console.log(favorites)
-  const state = useSelector((state) => state);
-  // console.log(state);
+    : localStorage.setItem("123", JSON.stringify(array))
 
   const unFavoriteHandler = (item) => {
-    // console.log(item)
-    // dispatch(ChangeFavoriteHotGoodsAction(item)) || dispatch(ChangeFavoriteBestSellersAction(item))
     dispatch(setUnFavorites(item));
   };
 
   return (
     <div className="favorites-wrapper">
       <div>Избранное</div>
-      {favorites && favorites.length < 1 ? (
+      {!favorites || favorites.length < 1 ? (
         <div>У вас пока нет избранных товаров</div>
       ) : (
         <>
-          <div>Товаров в избранном: {favorites.length}</div>
+          <div>Товаров в избранном: {favorites?.length}</div>
           <div className="goods__items">
             {favorites.map((item) => {
               return (
