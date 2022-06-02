@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 
 import favoriteActive from "../../assets/icons/heart-good-filled.png";
 
@@ -9,10 +10,13 @@ import {
 
 const FavirotePage = () => {
   const dispatch = useDispatch();
-  const state = useSelector(state => state)
+  const favorites = useSelector(state => state.favorites)
+
+  let navigate = useNavigate();
+
 
   const array = []
-  const favorites = localStorage.getItem("123")
+  const fav = localStorage.getItem("123")
     ? JSON.parse(localStorage.getItem("123"))
     : localStorage.setItem("123", JSON.stringify(array))
 
@@ -23,15 +27,15 @@ const FavirotePage = () => {
   return (
     <div className="favorites-wrapper">
       <div>Избранное</div>
-      {!favorites || favorites.length < 1 ? (
+      {!fav || fav.length < 1 ? (
         <div>У вас пока нет избранных товаров</div>
       ) : (
         <>
-          <div>Товаров в избранном: {favorites?.length}</div>
+          <div>Товаров в избранном: {fav?.length}</div>
           <div className="goods__items">
-            {favorites.map((item) => {
+            {fav.map((item) => {
               return (
-                <div key={item.id} className="goods__item">
+                <div onClick={()=> navigate(`/${item.collection}/${item.id}`)} key={item.id} className="goods__item">
                   <div className="goods__images">
                     {item.price?.discount && (
                       <div className="goods__discount">

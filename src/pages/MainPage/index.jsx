@@ -5,7 +5,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useDispatch, useSelector } from "react-redux";
 
-import { fetchMoreBestSellers, fetchMoreHotGoods } from "../../api/API";
+import {
+  fetchMoreBestSellers,
+  fetchMoreColletions,
+  fetchMoreHotGoods,
+} from "../../api/API";
 
 import favorite from "../../assets/icons/heart-good.png";
 import favoriteActive from "../../assets/icons/heart-good-filled.png";
@@ -13,21 +17,28 @@ import {
   setFavorites,
   setUnFavorites,
 } from "../../store/reducers/favoritesSlice";
+import { useNavigate } from "react-router-dom";
+import arrow from "../../assets/icons/up.png";
 
 const MainPage = () => {
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
     autoplay: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    arrows: false,
+    easing: true,
   };
 
-  const state = useSelector(state => state)
+  let navigate = useNavigate();
 
+  const favorites = useSelector((state) => state.favorites);
   const hotGoods = useSelector((state) => state.hotGoods);
   const bestSellers = useSelector((state) => state.bestSellersGoods);
+  const mainInfo = useSelector((state) => state.mainInfo);
+  const collections = useSelector((state) => state.collections);
 
   const dispatch = useDispatch();
 
@@ -40,25 +51,42 @@ const MainPage = () => {
     dispatch(fetchMoreBestSellers());
   };
 
+  const getMoreCollections = () => {
+    dispatch(fetchMoreColletions());
+  };
+
   // Favorite Functions
-  const favoriteHandler = (item) => {
+  const favoriteHandler = (e, item) => {
+    e.stopPropagation();
     dispatch(setFavorites(item));
   };
 
-  const unFavoriteHandler = (item) => {
+  const unFavoriteHandler = (e, item) => {
+    e.stopPropagation();
     dispatch(setUnFavorites(item));
   };
 
+  // Takes goods from local storage
   const fav = localStorage.getItem("123")
     ? JSON.parse(localStorage.getItem("123"))
-    : localStorage.setItem("123", [])
-
-  useEffect(()=> {
-
-  }, [state])
+    : localStorage.setItem("123", []);
 
   return (
     <>
+      <Slider className="slider" {...settings}>
+        {mainInfo.loading ? (
+          <span>Loading</span>
+        ) : (
+          mainInfo.data.sliderImages.map((item) => {
+            return (
+              <div className="slider__item" key={item.src}>
+                <img className="slider__img" src={item.src} alt={item.title} />
+              </div>
+            );
+          })
+        )}
+      </Slider>
+
       <div className="goods__wrapper">
         {bestSellers.loading ? (
           <div>Loading</div>
@@ -69,7 +97,11 @@ const MainPage = () => {
               {bestSellers.data.map((item) => {
                 const isFavorite = fav && fav.some((i) => i.id === item.id);
                 return (
-                  <div className="goods__item" key={item.id}>
+                  <div
+                    className="goods__item"
+                    onClick={() => navigate(`/bestSellers/${item.id}`)}
+                    key={item.id}
+                  >
                     <div className="goods__images">
                       {item.price?.discount && (
                         <div className="goods__discount">
@@ -79,14 +111,14 @@ const MainPage = () => {
 
                       {isFavorite ? (
                         <div
-                          onClick={() => unFavoriteHandler(item)}
+                          onClick={(e) => unFavoriteHandler(e, item)}
                           className="goods__favorite"
                         >
                           <img src={favoriteActive} alt="Favorite" />
                         </div>
                       ) : (
                         <div
-                          onClick={() => favoriteHandler(item)}
+                          onClick={(e) => favoriteHandler(e, item)}
                           className="goods__favorite"
                         >
                           <img src={favorite} alt="Favorite" />
@@ -162,7 +194,11 @@ const MainPage = () => {
                 const isFavorite = fav && fav.some((i) => i.id === item.id);
 
                 return (
-                  <div className="goods__item" key={item.id}>
+                  <div
+                    className="goods__item"
+                    onClick={() => navigate(`/hot/${item.id}`)}
+                    key={item.id}
+                  >
                     <div className="goods__images">
                       {item.price?.discount && (
                         <div className="goods__discount">
@@ -172,14 +208,14 @@ const MainPage = () => {
 
                       {isFavorite ? (
                         <div
-                          onClick={() => unFavoriteHandler(item)}
+                          onClick={(e) => unFavoriteHandler(e, item)}
                           className="goods__favorite"
                         >
                           <img src={favoriteActive} alt="Favorite" />
                         </div>
                       ) : (
                         <div
-                          onClick={() => favoriteHandler(item)}
+                          onClick={(e) => favoriteHandler(e, item)}
                           className="goods__favorite"
                         >
                           <img src={favorite} alt="Favorite" />
@@ -236,42 +272,73 @@ const MainPage = () => {
             </div>
           </>
         )}
-
-        {hotGoods.data.length <= 4 && (
-          <button onClick={buttonHandler} className="button btn button-load">
-            Еще
-          </button>
-        )}
-
-        {/* <Slider className="slider" {...settings}>
-        {pages.loading ? (
-          <span>Loading</span>
-        ) : (
-          pages.data.map((item) => {
-            return (
-              <div className="slider__item" key={item.src}>
-                <img className="slider__img" src={item.src} alt={item.title} />
-              </div>
-            );
-          })
-        )}
-        <div>
-          <img src={logo.data.src} alt="Img" />
-        </div>
-        <div>
-          <img src={logo.data.src} alt="Img" />
-        </div>
-        <div>
-          <img src={logo.data.src} alt="Img" />
-        </div>
-        <div>
-          <img src={logo.data.src} alt="Img" />
-        </div>
-        <div>
-          <img src={logo.data.src} alt="Img" />
-        </div>
-      </Slider> */}
       </div>
+
+      {hotGoods.data.length <= 4 && (
+        <button onClick={buttonHandler} className="button btn button-load">
+          Еще
+        </button>
+      )}
+
+      {collections.loading ? (
+        <div>Loading</div>
+      ) : (
+        <div className="collections">
+          <div className="collections__text title">Коллекция</div>
+          <div className="collections__items">
+            {collections.data.map((item) => {
+              return (
+                <div
+                  onClick={() => navigate(`/${item.goods}`)}
+                  className="collections__item"
+                  key={item.id}
+                >
+                  <div className="collections__img">
+                    <img src={item.src} alt={item.title} />
+                    <div className="collections__title">{item.title}</div>
+                  </div>
+
+                  <div className="collections__button">
+                    <button className="button btn button-show-all">
+                      <span>Смотреть все</span>
+                      <img className="arrow-more" src={arrow} alt="arrow" />
+                    </button>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      {collections.data.length <= 4 && (
+        <button onClick={getMoreCollections} className="button btn button-load">
+          Еще
+        </button>
+      )}
+
+      {mainInfo.loading ? (
+        <div>Loading</div>
+      ) : (
+        <div className="advantages container">
+          <h2 className="advantages__title title">Наши преимущества</h2>
+          <div className="advantages__items">
+            {mainInfo.data.advantages.map((item) => {
+              return (
+                <div className="advantages__item" key={item.id}>
+                  <div className="advantages__img">
+                    <img src={item.src} alt={item.title} />
+                  </div>
+                  <div className="advantages__text">{item.title}</div>
+                  <div className="advantages__description">
+                    {item.description}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
     </>
   );
 };

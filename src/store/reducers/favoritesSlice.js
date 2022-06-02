@@ -8,10 +8,12 @@ const SET_UNFAVORITES = "SET_UNFAVORITES";
 export const favoritesSlice = (state = defaultState, action) => {
   switch (action.type) {
     case SET_FAVORITES:
+      console.log('FAV');
       localStorage.setItem("123", JSON.stringify([...state, action.payload]));
       return [...state, action.payload];
 
     case SET_UNFAVORITES:
+      console.log('UNF');
       localStorage.setItem(
         "123",
         JSON.stringify([
