@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { instance } from "../../api/API";
 import cartImg from "../../assets/icons/cart.png";
 
@@ -11,18 +11,24 @@ import {
   setFavorites,
   setUnFavorites,
 } from "../../store/reducers/favoritesSlice";
+import { addToCart } from "../../store/reducers/cartSlice";
 
 const Details = () => {
   const [data, setData] = useState([]);
+  const [currentColor, setCurrentColor] = useState("#73A39D");
   let { pathname } = useLocation();
   const dispatch = useDispatch();
+  let navigate = useNavigate();
 
   const favorites = useSelector((state) => state.favorites);
+  const isFavorite = favorites.some((i) => i.id == data.id);
 
-  const getData = async () => {
+  const getData = async (pathname) => {
     const { data } = await instance.get(`${pathname}`);
     setData(data);
   };
+
+  const cart = useSelector((state) => state.cart);
 
   // Favorite Functions
   const favoriteHandler = (item) => {
@@ -34,11 +40,25 @@ const Details = () => {
   };
 
   useEffect(() => {
-    getData();
+    getData(pathname);
   }, []);
 
-  const isFavorite = favorites.some((i) => i.id == data.id);
-  useEffect(() => {}, [favorites]);
+  const cartHandler = (item, currentColor) => {
+    item.selectedColor = currentColor;
+    item.count = 1;
+    dispatch(addToCart(item));
+  };
+
+  let isInCart =
+    cart &&
+    cart.some((i) => data.id == i.id && currentColor == i.selectedColor);
+
+  const setColor = (color) => { 
+    setCurrentColor(color)
+    isInCart = cart.some((i) => data.id === i.id && currentColor == i.selectedColor);
+  }
+
+  useEffect(() => {}, [favorites, isInCart, cart, data, setColor]);
 
   return (
     <div>
@@ -63,13 +83,13 @@ const Details = () => {
               <span>Артикул</span> {data.code}
             </div>
             <div className="details__colors">
-              {" "}
-              Цвет
-              {data.colors.map((color) => {
+              <h3>Цвет</h3>
+              {data.colors.map((color, index) => {
                 return (
                   <div
-                    key={color}
-                    className="details__color"
+                    className="details__color details__color-item"
+                    onClick={(color) => setColor(color.target.id)}
+                    // onClick={(color) => setCurrentColor(color.target.id)}
                     style={
                       color === "#FFFFFF"
                         ? {
@@ -78,28 +98,33 @@ const Details = () => {
                           }
                         : { backgroundColor: color }
                     }
-                  ></div>
+                    key={index}
+                  >
+                    <input
+                      type="radio"
+                      id={color}
+                      name="color"
+                      defaultChecked={color == "#73A39D" && true}
+                    />
+                    <label htmlFor={color}></label>
+                  </div>
                 );
               })}
             </div>
             <div className="details__prices">
-                        {data.isDiscount ? (
-                          <>
-                            <span className="details__price">
-                              {data.price.price} р
-                            </span>
-                            <span className="details__old-price">
-                              {data.price?.oldPrice} р
-                            </span>
-                          </>
-                        ) : (
-                          <span className="details__price">
-                            {data.price.price} р
-                          </span>
-                        )}
-                      </div>
+              {data.isDiscount ? (
+                <>
+                  <span className="details__price">{data.price.price} р</span>
+                  <span className="details__old-price">
+                    {data.price?.oldPrice} р
+                  </span>
+                </>
+              ) : (
+                <span className="details__price">{data.price.price} р</span>
+              )}
+            </div>
             <div className="details__description">
-              О товаре: <br />
+              <h3>О товаре:</h3>
               <span>{data.description}</span>
             </div>
             <div className="details__info">
@@ -117,9 +142,22 @@ const Details = () => {
               </div>
             </div>
             <div className="details__buttons">
-              <div className="details__button btn details__button_cart">
-                <img src={cartImg} alt="Cart" /> <span>Добавить в корзину</span>
-              </div>
+              {isInCart ? (
+                <div
+                  onClick={() => navigate(`/cart`)}
+                  className="details__button btn details__button_cart"
+                >
+                  <span>Перейти в корзину</span>
+                </div>
+              ) : (
+                <div
+                  onClick={() => cartHandler(data, currentColor)}
+                  className="details__button btn details__button_cart"
+                >
+                  <img src={cartImg} alt="Cart" />{" "}
+                  <span>Добавить в корзину</span>
+                </div>
+              )}
               {!isFavorite ? (
                 <div
                   onClick={() => favoriteHandler(data)}

@@ -71,6 +71,10 @@ const MainPage = () => {
     ? JSON.parse(localStorage.getItem("123"))
     : localStorage.setItem("123", []);
 
+  const cart = localStorage.getItem("cart")
+  ? JSON.parse(localStorage.getItem("cart"))
+  : localStorage.setItem("cart", []);
+
   return (
     <>
       <Slider className="slider" {...settings}>

@@ -95,7 +95,7 @@ const FavoriteButton = ({ toggleNavbar, desktop }) => {
   const isFavorite = useSelector(state => state.favorites.length)
 
   return (
-    <div className={desktop ? "favorite-btn_desktop" : "favorite-btn"}>
+    <div className={desktop ? "favorite-btn_desktop" : "favorite-btn mobile"}>
       <LinkRouter className={isFavorite ? "button with-goods" : "button"} to="/favorite" onClick={handleNavbar}>
         <img src={favoriteImg} alt="Favorite" />
         <button className="btn favorite">Избранное</button>
@@ -111,9 +111,10 @@ const CartButton = ({ toggleNavbar, desktop }) => {
     }
   };
 
+  const isCart = useSelector(state => state.cart.length)
   return (
-    <div className={desktop ? "cart-btn_desktop" : "cart-btn"}>
-      <LinkRouter className="button" to="/cart" onClick={handleNavbar}>
+    <div className={desktop ? "cart-btn_desktop" : "cart-btn mobile"}>
+      <LinkRouter className={isCart ? "button with-goods" : "button"} to="/cart" onClick={handleNavbar}>
         <img src={cartImg} alt="Cart" />
         <button className="btn cart">Корзина</button>
       </LinkRouter>

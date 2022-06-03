@@ -1111,538 +1111,2926 @@
     "title": "Публичная офферта",
     "description": "Sit ullamcorper at gravida quis feugiat. Laoreet leo dolor, dui eget sit viverra justo, malesuada. Viverra pharetra, augue neque felis enim dui id cum. At pellentesque diam nulla ac amet quisque quis. Est consectetur ullamcorper curabitur quis viverra hac molestie. Elit pulvinar congue ut amet adipiscing felis tincidunt. Amet quis varius aliquam hendrerit tempus. Sed sit diam quis scelerisque congu econgu econgu econguecongu econguecon guecon guecon guecong ueconguecong uec ongue. Sit ullamcorper at gravida quis feugiat. Laoreet leo dolor, dui eget sit viverra justo, malesuada. Viverra pharetra, augue neque  Sit ullamcorper at gravida quis feugiat. Laoreet leo dolor, dui eget sit viverra justo, malesuada. Viverra pharetra, augue neque felis enim dui id cum. At pellentesque diam nulla ac amet quisque quis. Est consectetur ullamcorper curabitur quis viverra hac molestie. Elit pulvinar congue ut amet adipiscing felis tincidunt. Amet quis varius aliquam hendrerit tempus. Sed sit diam quis"
   },
-  "summer2020": {
-    "title": "Коллекция лето 2020",
-    "goods": [
-      {
-        "id": 100,
-        "src": [
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
-        ],
-        "title": "Летний наряд",
-        "collection": "summer2020",
-        "code": "Платье PL984/dakota",
-        "colors": [
-          "#73A39D",
-          "#84CC4C",
-          "#B5A8A1",
-          "#AB844A",
-          "#6977F0",
-          "#FFFFFF",
-          "#141414",
-          "#FF0000"
-        ],
-  
-        "isDiscount": true,
-        "isFavorite": false,
-        "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
-        "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
-        "sizes": "42-50",
-        "countInBundle": 5,
-        "material": "Полиэстер",
-        "compound": "Полиэстер"
-      },
-      {
-        "id": 101,
-        "src": [
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
-        ],
-        "title": "Летний наряд",
-        "collection": "summer2020",
-        "code": "Платье PL984/dakota",
-        "colors": [
-          "#73A39D",
-          "#84CC4C",
-          "#B5A8A1",
-          "#AB844A",
-          "#6977F0",
-          "#FFFFFF",
-          "#141414",
-          "#FF0000"
-        ],
-  
-        "isDiscount": true,
-        "isFavorite": false,
-        "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
-        "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
-        "sizes": "42-50",
-        "countInBundle": 5,
-        "material": "Полиэстер",
-        "compound": "Полиэстер"
-      },
-      {
-        "id": 102,
-        "src": [
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
-        ],
-        "title": "Летний наряд",
-        "collection": "summer2020",
-        "code": "Платье PL984/dakota",
-        "colors": [
-          "#73A39D",
-          "#84CC4C",
-          "#B5A8A1",
-          "#AB844A",
-          "#6977F0",
-          "#FFFFFF",
-          "#141414",
-          "#FF0000"
-        ],
-  
-        "isDiscount": true,
-        "isFavorite": false,
-        "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
-        "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
-        "sizes": "42-50",
-        "countInBundle": 5,
-        "material": "Полиэстер",
-        "compound": "Полиэстер"
-      },
-      {
-        "id": 103,
-        "src": [
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
-        ],
-        "title": "Летний наряд",
-        "collection": "summer2020",
-        "code": "Платье PL984/dakota",
-        "colors": [
-          "#73A39D",
-          "#84CC4C",
-          "#B5A8A1",
-          "#AB844A",
-          "#6977F0",
-          "#FFFFFF",
-          "#141414",
-          "#FF0000"
-        ],
-  
-        "isDiscount": true,
-        "isFavorite": false,
-        "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
-        "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
-        "sizes": "42-50",
-        "countInBundle": 5,
-        "material": "Полиэстер",
-        "compound": "Полиэстер"
-      },
-      {
-        "id": 104,
-        "src": [
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
-        ],
-        "title": "Летний наряд",
-        "collection": "summer2020",
-        "code": "Платье PL984/dakota",
-        "colors": [
-          "#73A39D",
-          "#84CC4C",
-          "#B5A8A1",
-          "#AB844A",
-          "#6977F0",
-          "#FFFFFF",
-          "#141414",
-          "#FF0000"
-        ],
-  
-        "isDiscount": true,
-        "isFavorite": false,
-        "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
-        "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
-        "sizes": "42-50",
-        "countInBundle": 5,
-        "material": "Полиэстер",
-        "compound": "Полиэстер"
-      },
-      {
-        "id": 105,
-        "src": [
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
-        ],
-        "title": "Летний наряд",
-        "collection": "summer2020",
-        "code": "Платье PL984/dakota",
-        "colors": [
-          "#73A39D",
-          "#84CC4C",
-          "#B5A8A1",
-          "#AB844A",
-          "#6977F0",
-          "#FFFFFF",
-          "#141414",
-          "#FF0000"
-        ],
-  
-        "isDiscount": true,
-        "isFavorite": false,
-        "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
-        "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
-        "sizes": "42-50",
-        "countInBundle": 5,
-        "material": "Полиэстер",
-        "compound": "Полиэстер"
-      },
-      {
-        "id": 106,
-        "src": [
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
-        ],
-        "title": "Летний наряд",
-        "collection": "summer2020",
-        "code": "Платье PL984/dakota",
-        "colors": [
-          "#73A39D",
-          "#84CC4C",
-          "#B5A8A1",
-          "#AB844A",
-          "#6977F0",
-          "#FFFFFF",
-          "#141414",
-          "#FF0000"
-        ],
-  
-        "isDiscount": true,
-        "isFavorite": false,
-        "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
-        "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
-        "sizes": "42-50",
-        "countInBundle": 5,
-        "material": "Полиэстер",
-        "compound": "Полиэстер"
-      },
-      {
-        "id": 107,
-        "src": [
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
-        ],
-        "title": "Летний наряд",
-        "collection": "summer2020",
-        "code": "Платье PL984/dakota",
-        "colors": [
-          "#73A39D",
-          "#84CC4C",
-          "#B5A8A1",
-          "#AB844A",
-          "#6977F0",
-          "#FFFFFF",
-          "#141414",
-          "#FF0000"
-        ],
-  
-        "isDiscount": true,
-        "isFavorite": false,
-        "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
-        "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
-        "sizes": "42-50",
-        "countInBundle": 5,
-        "material": "Полиэстер",
-        "compound": "Полиэстер"
-      },
-      {
-        "id": 108,
-        "src": [
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
-        ],
-        "title": "Летний наряд",
-        "collection": "summer2020",
-        "code": "Платье PL984/dakota",
-        "colors": [
-          "#73A39D",
-          "#84CC4C",
-          "#B5A8A1",
-          "#AB844A",
-          "#6977F0",
-          "#FFFFFF",
-          "#141414",
-          "#FF0000"
-        ],
-  
-        "isDiscount": true,
-        "isFavorite": false,
-        "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
-        "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
-        "sizes": "42-50",
-        "countInBundle": 5,
-        "material": "Полиэстер",
-        "compound": "Полиэстер"
-      },
-      {
-        "id": 109,
-        "src": [
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
-        ],
-        "title": "Летний наряд",
-        "collection": "summer2020",
-        "code": "Платье PL984/dakota",
-        "colors": [
-          "#73A39D",
-          "#84CC4C",
-          "#B5A8A1",
-          "#AB844A",
-          "#6977F0",
-          "#FFFFFF",
-          "#141414",
-          "#FF0000"
-        ],
-  
-        "isDiscount": true,
-        "isFavorite": false,
-        "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
-        "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
-        "sizes": "42-50",
-        "countInBundle": 5,
-        "material": "Полиэстер",
-        "compound": "Полиэстер"
-      },
-      {
-        "id": 110,
-        "src": [
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
-        ],
-        "title": "Летний наряд",
-        "collection": "summer2020",
-        "code": "Платье PL984/dakota",
-        "colors": [
-          "#73A39D",
-          "#84CC4C",
-          "#B5A8A1",
-          "#AB844A",
-          "#6977F0",
-          "#FFFFFF",
-          "#141414",
-          "#FF0000"
-        ],
-  
-        "isDiscount": true,
-        "isFavorite": false,
-        "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
-        "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
-        "sizes": "42-50",
-        "countInBundle": 5,
-        "material": "Полиэстер",
-        "compound": "Полиэстер"
-      },
-      {
-        "id": 111,
-        "src": [
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
-        ],
-        "title": "Летний наряд",
-        "collection": "summer2020",
-        "code": "Платье PL984/dakota",
-        "colors": [
-          "#73A39D",
-          "#84CC4C",
-          "#B5A8A1",
-          "#AB844A",
-          "#6977F0",
-          "#FFFFFF",
-          "#141414",
-          "#FF0000"
-        ],
-  
-        "isDiscount": true,
-        "isFavorite": false,
-        "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
-        "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
-        "sizes": "42-50",
-        "countInBundle": 5,
-        "material": "Полиэстер",
-        "compound": "Полиэстер"
-      },
-      {
-        "id": 112,
-        "src": [
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
-        ],
-        "title": "Летний наряд",
-        "collection": "summer2020",
-        "code": "Платье PL984/dakota",
-        "colors": [
-          "#73A39D",
-          "#84CC4C",
-          "#B5A8A1",
-          "#AB844A",
-          "#6977F0",
-          "#FFFFFF",
-          "#141414",
-          "#FF0000"
-        ],
-  
-        "isDiscount": true,
-        "isFavorite": false,
-        "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
-        "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
-        "sizes": "42-50",
-        "countInBundle": 5,
-        "material": "Полиэстер",
-        "compound": "Полиэстер"
-      },
-      {
-        "id": 113,
-        "src": [
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
-        ],
-        "title": "Летний наряд",
-        "collection": "summer2020",
-        "code": "Платье PL984/dakota",
-        "colors": [
-          "#73A39D",
-          "#84CC4C",
-          "#B5A8A1",
-          "#AB844A",
-          "#6977F0",
-          "#FFFFFF",
-          "#141414",
-          "#FF0000"
-        ],
-  
-        "isDiscount": true,
-        "isFavorite": false,
-        "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
-        "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
-        "sizes": "42-50",
-        "countInBundle": 5,
-        "material": "Полиэстер",
-        "compound": "Полиэстер"
-      },
-      {
-        "id": 114,
-        "src": [
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
-        ],
-        "title": "Летний наряд",
-        "collection": "summer2020",
-        "code": "Платье PL984/dakota",
-        "colors": [
-          "#73A39D",
-          "#84CC4C",
-          "#B5A8A1",
-          "#AB844A",
-          "#6977F0",
-          "#FFFFFF",
-          "#141414",
-          "#FF0000"
-        ],
-  
-        "isDiscount": true,
-        "isFavorite": false,
-        "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
-        "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
-        "sizes": "42-50",
-        "countInBundle": 5,
-        "material": "Полиэстер",
-        "compound": "Полиэстер"
-      },
-      {
-        "id": 115,
-        "src": [
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
-        ],
-        "title": "Летний наряд",
-        "collection": "summer2020",
-        "code": "Платье PL984/dakota",
-        "colors": [
-          "#73A39D",
-          "#84CC4C",
-          "#B5A8A1",
-          "#AB844A",
-          "#6977F0",
-          "#FFFFFF",
-          "#141414",
-          "#FF0000"
-        ],
-  
-        "isDiscount": true,
-        "isFavorite": false,
-        "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
-        "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
-        "sizes": "42-50",
-        "countInBundle": 5,
-        "material": "Полиэстер",
-        "compound": "Полиэстер"
-      },
-      {
-        "id": 116,
-        "src": [
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
-          "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
-        ],
-        "title": "Летний наряд",
-        "collection": "summer2020",
-        "code": "Платье PL984/dakota",
-        "colors": [
-          "#73A39D",
-          "#84CC4C",
-          "#B5A8A1",
-          "#AB844A",
-          "#6977F0",
-          "#FFFFFF",
-          "#141414",
-          "#FF0000"
-        ],
-  
-        "isDiscount": true,
-        "isFavorite": false,
-        "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
-        "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
-        "sizes": "42-50",
-        "countInBundle": 5,
-        "material": "Полиэстер",
-        "compound": "Полиэстер"
-      }
-    ]
-  },
+  "summer2020": [
+    {
+      "id": 100,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
+      ],
+      "title": "Летний наряд",
+      "collection": "summer2020",
+      "collectionTitle": "Коллекция лето 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 101,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
+      ],
+      "title": "Летний наряд",
+      "collection": "summer2020",
+      "collectionTitle": "Коллекция лето 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 102,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
+      ],
+      "title": "Летний наряд",
+      "collection": "summer2020",
+      "collectionTitle": "Коллекция лето 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 103,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
+      ],
+      "title": "Летний наряд",
+      "collection": "summer2020",
+      "collectionTitle": "Коллекция лето 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 104,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
+      ],
+      "title": "Летний наряд",
+      "collection": "summer2020",
+      "collectionTitle": "Коллекция лето 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 105,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
+      ],
+      "title": "Летний наряд",
+      "collection": "summer2020",
+      "collectionTitle": "Коллекция лето 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 106,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
+      ],
+      "title": "Летний наряд",
+      "collection": "summer2020",
+      "collectionTitle": "Коллекция лето 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 107,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
+      ],
+      "title": "Летний наряд",
+      "collection": "summer2020",
+      "collectionTitle": "Коллекция лето 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 108,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
+      ],
+      "title": "Летний наряд",
+      "collection": "summer2020",
+      "collectionTitle": "Коллекция лето 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 109,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
+      ],
+      "title": "Летний наряд",
+      "collection": "summer2020",
+      "collectionTitle": "Коллекция лето 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 110,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
+      ],
+      "title": "Летний наряд",
+      "collection": "summer2020",
+      "collectionTitle": "Коллекция лето 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 111,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
+      ],
+      "title": "Летний наряд",
+      "collection": "summer2020",
+      "collectionTitle": "Коллекция лето 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 112,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
+      ],
+      "title": "Летний наряд",
+      "collection": "summer2020",
+      "collectionTitle": "Коллекция лето 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 113,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
+      ],
+      "title": "Летний наряд",
+      "collection": "summer2020",
+      "collectionTitle": "Коллекция лето 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 114,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
+      ],
+      "title": "Летний наряд",
+      "collection": "summer2020",
+      "collectionTitle": "Коллекция лето 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 115,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
+      ],
+      "title": "Летний наряд",
+      "collection": "summer2020",
+      "collectionTitle": "Коллекция лето 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 116,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226637344778/unknown.png"
+      ],
+      "title": "Летний наряд",
+      "collection": "summer2020",
+      "collectionTitle": "Коллекция лето 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    }
+  ],
+  "spring2020": [
+    {
+      "id": 200,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Весенний наряд",
+      "collection": "spring2020",
+      "collectionTitle": "Коллекция весна 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 201,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Весенний наряд",
+      "collection": "spring2020",
+      "collectionTitle": "Коллекция весна 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 202,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Весенний наряд",
+      "collection": "spring2020",
+      "collectionTitle": "Коллекция весна 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 203,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Весенний наряд",
+      "collection": "spring2020",
+      "collectionTitle": "Коллекция весна 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 204,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Весенний наряд",
+      "collection": "spring2020",
+      "collectionTitle": "Коллекция весна 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 205,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Весенний наряд",
+      "collection": "spring2020",
+      "collectionTitle": "Коллекция весна 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 206,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Весенний наряд",
+      "collection": "spring2020",
+      "collectionTitle": "Коллекция весна 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 207,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Весенний наряд",
+      "collection": "spring2020",
+      "collectionTitle": "Коллекция весна 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 208,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Весенний наряд",
+      "collection": "spring2020",
+      "collectionTitle": "Коллекция весна 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 209,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Весенний наряд",
+      "collection": "spring2020",
+      "collectionTitle": "Коллекция весна 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 210,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Весенний наряд",
+      "collection": "spring2020",
+      "collectionTitle": "Коллекция весна 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 211,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Весенний наряд",
+      "collection": "spring2020",
+      "collectionTitle": "Коллекция весна 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 224,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Весенний наряд",
+      "collection": "spring2020",
+      "collectionTitle": "Коллекция весна 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 213,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Весенний наряд",
+      "collection": "spring2020",
+      "collectionTitle": "Коллекция весна 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 214,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Весенний наряд",
+      "collection": "spring2020",
+      "collectionTitle": "Коллекция весна 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 215,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Весенний наряд",
+      "collection": "spring2020",
+      "collectionTitle": "Коллекция весна 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 216,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Весенний наряд",
+      "collection": "spring2020",
+      "collectionTitle": "Коллекция весна 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 217,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Весенний наряд",
+      "collection": "spring2020",
+      "collectionTitle": "Коллекция весна 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 218,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Весенний наряд",
+      "collection": "spring2020",
+      "collectionTitle": "Коллекция весна 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 219,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Весенний наряд",
+      "collection": "spring2020",
+      "collectionTitle": "Коллекция весна 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 220,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Весенний наряд",
+      "collection": "spring2020",
+      "collectionTitle": "Коллекция весна 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 221,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Весенний наряд",
+      "collection": "spring2020",
+      "collectionTitle": "Коллекция весна 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 222,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Весенний наряд",
+      "collection": "spring2020",
+      "collectionTitle": "Коллекция весна 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 223,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Весенний наряд",
+      "collection": "spring2020",
+      "collectionTitle": "Коллекция весна 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    }
+  ],
+  "winter2020": [
+    {
+      "id": 300,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Зимний наряд",
+      "collection": "winter2020",
+      "collectionTitle": "Коллекция зима 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 301,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Зимний наряд",
+      "collection": "winter2020",
+      "collectionTitle": "Коллекция зима 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 302,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Зимний наряд",
+      "collection": "winter2020",
+      "collectionTitle": "Коллекция зима 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 303,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Зимний наряд",
+      "collection": "winter2020",
+      "collectionTitle": "Коллекция зима 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 304,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Зимний наряд",
+      "collection": "winter2020",
+      "collectionTitle": "Коллекция зима 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 305,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Зимний наряд",
+      "collection": "winter2020",
+      "collectionTitle": "Коллекция зима 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 306,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Зимний наряд",
+      "collection": "winter2020",
+      "collectionTitle": "Коллекция зима 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 307,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Зимний наряд",
+      "collection": "winter2020",
+      "collectionTitle": "Коллекция зима 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 308,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Зимний наряд",
+      "collection": "winter2020",
+      "collectionTitle": "Коллекция зима 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 309,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Зимний наряд",
+      "collection": "winter2020",
+      "collectionTitle": "Коллекция зима 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 310,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Зимний наряд",
+      "collection": "winter2020",
+      "collectionTitle": "Коллекция зима 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 311,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Зимний наряд",
+      "collection": "winter2020",
+      "collectionTitle": "Коллекция зима 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 312,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Зимний наряд",
+      "collection": "winter2020",
+      "collectionTitle": "Коллекция зима 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 313,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Зимний наряд",
+      "collection": "winter2020",
+      "collectionTitle": "Коллекция зима 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 314,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Зимний наряд",
+      "collection": "winter2020",
+      "collectionTitle": "Коллекция зима 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 315,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Зимний наряд",
+      "collection": "winter2020",
+      "collectionTitle": "Коллекция зима 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 316,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Зимний наряд",
+      "collection": "winter2020",
+      "collectionTitle": "Коллекция зима 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 317,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Зимний наряд",
+      "collection": "winter2020",
+      "collectionTitle": "Коллекция зима 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 318,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Зимний наряд",
+      "collection": "winter2020",
+      "collectionTitle": "Коллекция зима 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 319,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Зимний наряд",
+      "collection": "winter2020",
+      "collectionTitle": "Коллекция зима 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 320,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Зимний наряд",
+      "collection": "winter2020",
+      "collectionTitle": "Коллекция зима 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 321,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Зимний наряд",
+      "collection": "winter2020",
+      "collectionTitle": "Коллекция зима 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 322,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Зимний наряд",
+      "collection": "winter2020",
+      "collectionTitle": "Коллекция зима 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 323,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Зимний наряд",
+      "collection": "winter2020",
+      "collectionTitle": "Коллекция зима 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 324,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634227400712203/unknown.png"
+      ],
+      "title": "Зимний наряд",
+      "collection": "winter2020",
+      "collectionTitle": "Коллекция зима 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    }
+  ],
+  "fall2020": [
+    {
+      "id": 400,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Осенний наряд",
+      "collection": "fall2020",
+      "collectionTitle": "Коллекция осень 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 401,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Осенний наряд",
+      "collection": "fall2020",
+      "collectionTitle": "Коллекция осень 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 402,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Осенний наряд",
+      "collection": "fall2020",
+      "collectionTitle": "Коллекция осень 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 403,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Осенний наряд",
+      "collection": "fall2020",
+      "collectionTitle": "Коллекция осень 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 404,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Осенний наряд",
+      "collection": "fall2020",
+      "collectionTitle": "Коллекция осень 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 405,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Осенний наряд",
+      "collection": "fall2020",
+      "collectionTitle": "Коллекция осень 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 406,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Осенний наряд",
+      "collection": "fall2020",
+      "collectionTitle": "Коллекция осень 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 407,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Осенний наряд",
+      "collection": "fall2020",
+      "collectionTitle": "Коллекция осень 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 408,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Осенний наряд",
+      "collection": "fall2020",
+      "collectionTitle": "Коллекция осень 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 409,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Осенний наряд",
+      "collection": "fall2020",
+      "collectionTitle": "Коллекция осень 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 410,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Осенний наряд",
+      "collection": "fall2020",
+      "collectionTitle": "Коллекция осень 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 411,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Осенний наряд",
+      "collection": "fall2020",
+      "collectionTitle": "Коллекция осень 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 412,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Осенний наряд",
+      "collection": "fall2020",
+      "collectionTitle": "Коллекция осень 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 413,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Осенний наряд",
+      "collection": "fall2020",
+      "collectionTitle": "Коллекция осень 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 414,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Осенний наряд",
+      "collection": "fall2020",
+      "collectionTitle": "Коллекция осень 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 415,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Осенний наряд",
+      "collection": "fall2020",
+      "collectionTitle": "Коллекция осень 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 416,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Осенний наряд",
+      "collection": "fall2020",
+      "collectionTitle": "Коллекция осень 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 417,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Осенний наряд",
+      "collection": "fall2020",
+      "collectionTitle": "Коллекция осень 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 418,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Осенний наряд",
+      "collection": "fall2020",
+      "collectionTitle": "Коллекция осень 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 419,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Осенний наряд",
+      "collection": "fall2020",
+      "collectionTitle": "Коллекция осень 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 420,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Осенний наряд",
+      "collection": "fall2020",
+      "collectionTitle": "Коллекция осень 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 421,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Осенний наряд",
+      "collection": "fall2020",
+      "collectionTitle": "Коллекция осень 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 422,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Осенний наряд",
+      "collection": "fall2020",
+      "collectionTitle": "Коллекция осень 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 423,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Осенний наряд",
+      "collection": "fall2020",
+      "collectionTitle": "Коллекция осень 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 424,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Осенний наряд",
+      "collection": "fall2020",
+      "collectionTitle": "Коллекция осень 2020",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": false,
+      "isFavorite": false,
+      "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    }
+  ],
   "collections": [
     {
       "id": 1,
@@ -1659,13 +4047,13 @@
     {
       "id": 3,
       "src": "https://cdn.discordapp.com/attachments/978541129228230710/978634310133366835/image_13.png",
-      "title": "Коллекция осень 2020",
+      "title": "Коллекция зима 2020",
       "goods": "winter2020"
     },
     {
       "id": 4,
       "src": "https://cdn.discordapp.com/attachments/978541129228230710/978634310573764688/image_14.png",
-      "title": "Коллекция зима 2020",
+      "title": "Коллекция осень 2020",
       "goods": "fall2020"
     },
     {

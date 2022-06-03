@@ -135,6 +135,11 @@
   }
 }
 
+.favorite-btn a,
+.cart-btn a {
+  justify-content: flex-start;
+}
+
 .favorite-btn_desktop,
 .cart-btn_desktop {
   display: none;
@@ -227,7 +232,7 @@
   background-color: #7c7c7c0e;
 
   &__content {
-    padding: 1em 0;
+    padding: 1em 5px;
     @media (min-width: 768px) {
       padding: 1em 0.5em 1.5em 0.5em;
     }
@@ -529,12 +534,18 @@
   }
 
   &__description {
+    display: flex;
+    flex-direction: column;
     span {
+      padding-top: 0.5em;
+      font-weight: normal;
+      line-height: 180%;
       color: rgb(146, 146, 146);
     }
   }
   &__title {
     font-size: 1.3em;
+    margin-bottom: 5px;
   }
   &__images {
     display: flex;
@@ -543,8 +554,35 @@
   }
   &__colors {
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     gap: 0.8em;
+    position: relative;
+
+    input:checked + label::before {
+      content: "";
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      transform: translate(-3px, -3px);
+      border: 1px solid #d6d6d6;
+    }
+    input {
+      position: absolute;
+      opacity: 0;
+      overflow: hidden;
+    }
+  }
+
+  &__color-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
   }
 
   &__color {
@@ -563,6 +601,7 @@
 
   &__price {
     font-size: 1.2em;
+    font-weight: bold;
   }
 
   &__info {
@@ -578,18 +617,27 @@
   &__item span,
   &__title,
   &__colors,
+  &__description h3,
   &__code span {
     font-weight: bold;
   }
 
+  &__item span,
+  &__colors h3,
+  &__description h3,
+  &__code span {
+    font-size: 16px;
+  }
+
   &__buttons {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 1em;
+    gap: 0.5em;
   }
   &__button_cart {
     flex: 1 1 80%;
+    height: 40px;
   }
 
   &__button {
@@ -612,5 +660,131 @@
     &_favorite img {
       filter: brightness(0) invert(1);
     }
+  }
+}
+
+.favorites__title,
+.cart__title {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.favorites__count,
+.cart__count {
+  color: #9e9a9a;
+  margin-bottom: 1em;
+}
+
+.cart {
+  &__items {
+    display: flex;
+    flex-direction: column;
+  }
+  &__title {
+    font-size: 1em;
+    font-weight: normal;
+    margin-bottom: 0.5em;
+    margin-top: 0.2em;
+  }
+  &__item {
+    display: flex;
+    position: relative;
+    gap: 1em;
+    padding: 1em;
+  }
+  &__delete {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 2px;
+      right: 0;
+      width: 3px;
+      border-radius: 10px;
+      height: 25px;
+      background-color: black;
+      transform: translateX(-12px) rotate(45deg);
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      top: 2px;
+      left: 0;
+      width: 3px;
+      border-radius: 10px;
+      height: 25px;
+      background-color: black;
+      transform: translateX(5px) rotate(-45deg) ;
+
+    }
+  }
+  &__sizes span,
+  &__color span {
+    color: rgb(146, 146, 146);
+  }
+  &__color {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    .goods__color {
+      position: relative;
+    }
+    .goods__color::before {
+      content: "";
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      transform: translate(-5px, -5px);
+      border: 1px solid #d6d6d6;
+    }
+  }
+  &__img {
+    img {
+      width: 112px;
+      height: 142px;
+      object-fit: cover;
+    }
+  }
+  &__counter {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+  }
+  &__count {
+    font-weight: bold;
+    color: black;
+    margin-top: 13px;
+  }
+  &__button {
+    width: 32px;
+    height: 32px;
+    font-size: 1.5em;
+    background-color: #f8f8f8;
+    border: 1px solid #efefef;
+    border-radius: 5px;
+  }
+  &__text {
+    color: #9e9a9a;
+  }
+  &__increment,
+  &__decrement {
+    font-weight: bold;
+    position: relative;
+  }
+  &__decrement span {
+    position: absolute;
+    top: -8px;
+    left: 9px;
   }
 }

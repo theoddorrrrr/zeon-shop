@@ -20,7 +20,7 @@ import {
   fetchMainInfo,
 } from "../../api/API";
 import Details from "../Details";
-import Collection from "../Collections";
+import Collection from "../Collection";
 
 function App() {
   const dispatch = useDispatch();
@@ -50,7 +50,6 @@ function App() {
               <Route path="/cart" element={<CartPage />} />
               <Route path="/public-offer" element={<PublicOfferPage />} />
               <Route path="/:collection/:id" element={<Details />} />
-              {/* <Route path="/bestSellers/:id" element={<Details />} /> */}
             </Routes>
           </div>
         </div>
