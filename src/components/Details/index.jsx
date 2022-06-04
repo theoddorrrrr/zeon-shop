@@ -39,26 +39,37 @@ const Details = () => {
     dispatch(setUnFavorites(item));
   };
 
+  // Get exact good
   useEffect(() => {
     getData(pathname);
   }, []);
 
+  // console.log(currentColor);
+
   const cartHandler = (item, currentColor) => {
-    item.selectedColor = currentColor;
-    item.count = 1;
-    dispatch(addToCart(item));
+    const newItem = { ...item };
+    newItem.selectedColor = currentColor;
+    newItem.count = 1;
+    console.log(newItem);
+
+    dispatch(addToCart(newItem));
   };
 
+  // Check if it exist in cart
   let isInCart =
     cart &&
     cart.some((i) => data.id == i.id && currentColor == i.selectedColor);
 
-  const setColor = (color) => { 
-    setCurrentColor(color)
-    isInCart = cart.some((i) => data.id === i.id && currentColor == i.selectedColor);
-  }
+  // Set color for good
+  const setColor = (color) => {
+    console.log(color);
+    setCurrentColor(color);
+    isInCart = cart.some(
+      (i) => data.id === i.id && currentColor == i.selectedColor
+    );
+  };
 
-  useEffect(() => {}, [favorites, isInCart, cart, data, setColor]);
+  // useEffect(() => {}, [favorites, isInCart, cart, data, setColor]);
 
   return (
     <div>
@@ -89,7 +100,6 @@ const Details = () => {
                   <div
                     className="details__color details__color-item"
                     onClick={(color) => setColor(color.target.id)}
-                    // onClick={(color) => setCurrentColor(color.target.id)}
                     style={
                       color === "#FFFFFF"
                         ? {

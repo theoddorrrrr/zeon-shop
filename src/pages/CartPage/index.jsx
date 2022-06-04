@@ -1,12 +1,16 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { addToCart, removeFromCart } from "../../store/reducers/cartSlice";
+import {
+  addToCart,
+  decrementCart,
+  incrementCart,
+  removeFromCart,
+} from "../../store/reducers/cartSlice";
 
 const CartPage = () => {
   const dispatch = useDispatch();
   const cartGoods = useSelector((state) => state.cart);
-
   let navigate = useNavigate();
 
   const array = [];
@@ -14,28 +18,24 @@ const CartPage = () => {
     ? JSON.parse(localStorage.getItem("cart"))
     : localStorage.setItem("cart", JSON.stringify(array));
 
-  console.log(cart);
-
-  // const addHandler = (e, item) => {
-  //   e.stopPropagation();
-  //   console.log("ZDAROVA");
-  //   dispatch(addToCart(item));
-  // };
-
-  const deleteAllGoods = (item) => {
-    // console.log(item)
-    dispatch(removeFromCart(item))
-  }
+  const removeHandler = (item) => {
+    dispatch(removeFromCart(item));
+  };
 
   const itemIncrement = (item) => {
-    console.log('Increment');
+    dispatch(incrementCart(item));
   };
 
   const itemDecrement = (item) => {
-    console.log('decrement');
+    dispatch(decrementCart(item));
   };
 
-  // itemIncrement
+  console.log(cart);
+  const totalPrice = cart.reduce((prev, curr) => {
+    return prev + curr?.price?.price * curr?.count;
+  }, 0);
+
+  console.log(totalPrice);
 
   return (
     <div className="cart-wrapper">
@@ -105,12 +105,19 @@ const CartPage = () => {
                       >
                         +
                       </button>
-                      <button onClick={() => deleteAllGoods(item)} className="cart__delete"></button>
+                      <button
+                        onClick={() => removeHandler(item)}
+                        className="cart__delete"
+                      ></button>
                     </div>
                   </div>
                 </div>
               );
             })}
+          </div>
+          <div className="cart__details">
+            <h3>Общая цена: </h3>
+            {totalPrice}
           </div>
         </>
       )}

@@ -40,8 +40,10 @@ body.fixed {
   touch-action: none;
 }
 
-.app {
-  font-size: 13px;
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 a {
@@ -53,7 +55,7 @@ a:visited {
   color: inherit;
 }
 
-.with-goods{
+.with-goods {
   position: relative;
   &::after {
     content: "";

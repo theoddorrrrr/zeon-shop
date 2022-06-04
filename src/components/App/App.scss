@@ -229,6 +229,7 @@
 }
 
 .main {
+  flex: 1 0 auto;
   background-color: #7c7c7c0e;
 
   &__content {
@@ -680,6 +681,7 @@
   &__items {
     display: flex;
     flex-direction: column;
+    flex: 1 0 auto;
   }
   &__title {
     font-size: 1em;
@@ -721,8 +723,7 @@
       border-radius: 10px;
       height: 25px;
       background-color: black;
-      transform: translateX(5px) rotate(-45deg) ;
-
+      transform: translateX(5px) rotate(-45deg);
     }
   }
   &__sizes span,
@@ -786,5 +787,15 @@
     position: absolute;
     top: -8px;
     left: 9px;
+  }
+
+  &-wrapper {
+    display: flex;
+    gap: 1em;
+  }
+
+  &__details {
+    padding: 1em;
+    background-color: #d1d1d1;
   }
 }
