@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import {
@@ -11,7 +11,7 @@ import {
 const CartPage = () => {
   const dispatch = useDispatch();
   const cartGoods = useSelector((state) => state.cart);
-  let navigate = useNavigate();
+  const [isShow, setIsShow] = useState(false);
 
   const array = [];
   const cart = localStorage.getItem("cart")
@@ -30,12 +30,34 @@ const CartPage = () => {
     dispatch(decrementCart(item));
   };
 
-  console.log(cart);
-  const totalPrice = cart.reduce((prev, curr) => {
-    return prev + curr?.price?.price * curr?.count;
+  const totalGoods = cart.reduce((prev, curr) => {
+    return prev + curr?.count * curr?.countInBundle;
   }, 0);
 
-  console.log(totalPrice);
+  const totalLines = cart.reduce((prev, curr) => {
+    return prev + curr?.count;
+  }, 0);
+
+  const totalPrice = cart.reduce((prev, curr) => {
+    return (
+      prev +
+      (curr?.price?.oldPrice
+        ? curr?.price?.oldPrice * curr?.count
+        : curr?.price?.price * curr?.count)
+    );
+  }, 0);
+
+  const discount = cart.reduce((prev, curr) => {
+    return (
+      prev +
+      (curr?.price?.discount &&
+        (curr.price.oldPrice - curr.price.price) * curr?.count)
+    );
+  }, 0);
+
+  const price = totalPrice - discount;
+
+  console.log(isShow);
 
   return (
     <div className="cart-wrapper">
@@ -78,11 +100,11 @@ const CartPage = () => {
                     <div className="goods__prices">
                       {item.isDiscount ? (
                         <>
-                          <span className="goods__price">
-                            {item.price.price} р
+                          <span className="goods__price cart__price">
+                            {item.price.price.toLocaleString()} р
                           </span>
                           <span className="goods__old-price">
-                            {item.price?.oldPrice} р
+                            {item.price?.oldPrice.toLocaleString()} р
                           </span>
                         </>
                       ) : (
@@ -116,8 +138,51 @@ const CartPage = () => {
             })}
           </div>
           <div className="cart__details">
-            <h3>Общая цена: </h3>
-            {totalPrice}
+            {!isShow && (
+              <div className="cart__details-price">
+                <h2>Сумма заказа</h2>
+                <div className="cart__details-item">
+                  <h3>Количество линеек: </h3>
+                  <span>{totalLines} шт</span>
+                </div>
+                <div className="cart__details-item">
+                  <h3>Количество товаров: </h3>
+                  <span>{totalGoods} шт</span>
+                </div>
+                <div className="cart__details-item">
+                  <h3>Общая цена: </h3>
+                  <span>{totalPrice.toLocaleString()} рублей</span>
+                </div>
+                <div className="cart__details-item">
+                  <h3>Скидка: </h3>
+                  <span>{discount.toLocaleString()} рублей</span>
+                </div>
+                <hr />
+              </div>
+            )}
+            <div className="cart__details-conclusion">
+              <h3>Итого к оплате</h3>
+              <span>{price.toLocaleString()} рублей</span>
+            </div>
+            {isShow ? (
+              <button
+                className="btn button cart__details-show"
+                onClick={() => setIsShow(false)}
+              >
+                Информация о заказе
+              </button>
+            ) : (
+              <button
+                className="btn button cart__details-show"
+                onClick={() => setIsShow(true)}
+              >
+                Скрыть
+              </button>
+            )}
+
+            <button className="btn button cart__details-button">
+              Оформить заказ
+            </button>
           </div>
         </>
       )}

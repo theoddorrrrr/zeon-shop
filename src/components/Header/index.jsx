@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { setIsNavbarAction } from "../../store/reducers/navbarSlice";
 import favoriteImg from "../../assets/icons/heart.png";
 import cartImg from "../../assets/icons/cart.png";
-import { Link as LinkRouter } from "react-router-dom";
+import { Link as LinkRouter, useLocation, useParams } from "react-router-dom";
 
 const Header = () => {
   const dispatch = useDispatch();
@@ -92,11 +92,15 @@ const FavoriteButton = ({ toggleNavbar, desktop }) => {
     }
   };
 
-  const isFavorite = useSelector(state => state.favorites.length)
+  const isFavorite = useSelector((state) => state.favorites.length);
 
   return (
     <div className={desktop ? "favorite-btn_desktop" : "favorite-btn mobile"}>
-      <LinkRouter className={isFavorite ? "button with-goods" : "button"} to="/favorite" onClick={handleNavbar}>
+      <LinkRouter
+        className={isFavorite ? "button with-goods" : "button"}
+        to="/favorite"
+        onClick={handleNavbar}
+      >
         <img src={favoriteImg} alt="Favorite" />
         <button className="btn favorite">Избранное</button>
       </LinkRouter>
@@ -111,10 +115,14 @@ const CartButton = ({ toggleNavbar, desktop }) => {
     }
   };
 
-  const isCart = useSelector(state => state.cart.length)
+  const isCart = useSelector((state) => state.cart.length);
   return (
     <div className={desktop ? "cart-btn_desktop" : "cart-btn mobile"}>
-      <LinkRouter className={isCart ? "button with-goods" : "button"} to="/cart" onClick={handleNavbar}>
+      <LinkRouter
+        className={isCart ? "button with-goods" : "button"}
+        to="/cart"
+        onClick={handleNavbar}
+      >
         <img src={cartImg} alt="Cart" />
         <button className="btn cart">Корзина</button>
       </LinkRouter>
@@ -122,22 +130,51 @@ const CartButton = ({ toggleNavbar, desktop }) => {
   );
 };
 const HeaderBreadCrumbs = () => {
+  const paths = [
+    // { title: "", path: "Корзина" },
+    { title: "cart", path: "Корзина" },
+    { title: "favorite", path: "Изнбранные" },
+    { title: "about-us", path: "О нас" },
+    { title: "hot", path: "Новинки" },
+    { title: "bestSellers", path: "Хит продаж" },
+    { title: "news", path: "Новости" },
+    { title: "help", path: "Помощь" },
+    { title: "public-offer", path: "Публичная офферта" },
+    { title: "collections", path: "Коллекции" },
+    { title: "search", path: "Результаты поиска" },
+  ];
+  let { pathname } = useLocation();
+  pathname = pathname.split("/")[1];
+  let currentPath = paths.find((item) => pathname == item.title);
+
+  console.log(currentPath);
+  console.log(pathname);
+
+  // if ((pathname = " ")) {
+  //   console.log("AAAA");
+  //   return <></>;
+  // }
+  // if (currentPath == undefined)
+  // pathname == " " && <></>;
+  //  : currentPath?.path = "Коллекция";
+
+  console.log("YYYO");
+
   return (
-    <div className="header-breadcrumbs container">
-      <Breadcrumbs aria-label="breadcrumb">
-        <Link underline="hover" color="inherit" href="/">
-          MUI
-        </Link>
-        <Link
-          underline="hover"
-          color="inherit"
-          href="/material-ui/getting-started/installation/"
-        >
-          Core
-        </Link>
-        <Typography color="text.primary">Breadcrumbs</Typography>
-      </Breadcrumbs>
-    </div>
+    <>
+      {currentPath !== undefined ? (
+        <div className="header-breadcrumbs container">
+          <Breadcrumbs aria-label="breadcrumb">
+            <Link underline="hover" color="black" href="/">
+              Главная
+            </Link>
+            <Link color="#d1d1d1">{currentPath?.path}</Link>
+          </Breadcrumbs>
+        </div>
+      ) : (
+        <></>
+      )}
+    </>
   );
 };
 

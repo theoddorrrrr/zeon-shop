@@ -42,16 +42,7 @@ export const cartSlice = (state = defaultState, action) => {
 
     case DECREMENT_CART:
       if (action.payload.count <= 1) {
-        const index = state.findIndex(
-          (good) =>
-            good.id == action.payload.id &&
-            good.selectedColor == action.payload.selectedColor
-        );
-        const cloneCardGoods = [...state];
-        cloneCardGoods.splice(index, 1);
-
-        localStorage.setItem("cart", JSON.stringify([...cloneCardGoods]));
-        return [...cloneCardGoods];
+        return state;
       } else {
         const newDecrementState = state.map((good) => {
           const newGood = { ...good };

@@ -72,8 +72,8 @@ const MainPage = () => {
     : localStorage.setItem("123", []);
 
   const cart = localStorage.getItem("cart")
-  ? JSON.parse(localStorage.getItem("cart"))
-  : localStorage.setItem("cart", []);
+    ? JSON.parse(localStorage.getItem("cart"))
+    : localStorage.setItem("cart", []);
 
   return (
     <>
@@ -141,15 +141,15 @@ const MainPage = () => {
                         {item.isDiscount ? (
                           <>
                             <span className="goods__price">
-                              {item.price.price} р
+                              {item.price.price.toLocaleString()} р
                             </span>
                             <span className="goods__old-price">
-                              {item.price?.oldPrice} р
+                              {item.price?.oldPrice.toLocaleString()} р
                             </span>
                           </>
                         ) : (
                           <span className="goods__price">
-                            {item.price.price} р
+                            {item.price.price.toLocaleString()} р
                           </span>
                         )}
                       </div>
@@ -238,15 +238,15 @@ const MainPage = () => {
                         {item.isDiscount ? (
                           <>
                             <span className="goods__price">
-                              {item.price.price} р
+                              {item.price.price.toLocaleString()} р
                             </span>
                             <span className="goods__old-price">
-                              {item.price?.oldPrice} р
+                              {item.price?.oldPrice.toLocaleString()} р
                             </span>
                           </>
                         ) : (
                           <span className="goods__price">
-                            {item.price.price} р
+                            {item.price.price.toLocaleString()} р
                           </span>
                         )}
                       </div>

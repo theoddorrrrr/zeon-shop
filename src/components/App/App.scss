@@ -1,6 +1,6 @@
 .header__logo {
-  height: 43px;
-  width: 95px;
+  height: 50px;
+  width: 113px;
 }
 
 .header-breadcrumbs {
@@ -12,11 +12,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5em 1em;
+  padding: 0 1em;
   height: 64px;
   gap: 3em;
   @media (min-width: 768px) {
-    min-height: 153px;
+    min-height: 90px;
     padding: 0.5em 1em;
     .nav-mobile {
       display: none;
@@ -65,7 +65,7 @@
   }
 
   &__title {
-    font-size: 16px;
+    font-size: 1.2rem;
     margin-bottom: 1em;
   }
 
@@ -111,7 +111,7 @@
   &__body {
     display: flex;
     flex-wrap: wrap;
-    padding: 1em;
+    padding: 1.5em 1em;
   }
 
   .nav__list_desktop {
@@ -226,6 +226,7 @@
 .header__divider {
   display: flex;
   align-items: center;
+  opacity: 0.5;
 }
 
 .main {
@@ -233,7 +234,7 @@
   background-color: #7c7c7c0e;
 
   &__content {
-    padding: 1em 5px;
+    padding: 2em 0 1em;
     @media (min-width: 768px) {
       padding: 1em 0.5em 1.5em 0.5em;
     }
@@ -299,6 +300,9 @@
     text-align: center;
     margin: 1em 0 1em 0;
   }
+  &__wrapper {
+    padding: 0 1em;
+  }
   &__items {
     display: grid;
     gap: 15px;
@@ -322,6 +326,7 @@
     display: flex;
     flex-direction: column;
     gap: 0.3em;
+    margin-right: 1.5em;
   }
 
   &__title {
@@ -394,6 +399,7 @@
 .advantages {
   margin-top: 2em;
   text-align: center;
+  padding: 0 1em;
   &__items {
     display: grid;
     gap: 15px;
@@ -416,6 +422,9 @@
     margin-top: 1em;
     color: #7c7c7c;
   }
+  &__text {
+    font-weight: bold;
+  }
   &__img {
     padding: 1em;
   }
@@ -433,6 +442,7 @@
     gap: 10px;
     grid-template-columns: repeat(1, minmax(150px, 2fr));
     text-align: center;
+    padding: 0 1em;
 
     @media (min-width: 460px) {
       grid-template-columns: repeat(2, minmax(150px, 2fr));
@@ -686,7 +696,7 @@
   &__title {
     font-size: 1em;
     font-weight: normal;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.6em;
     margin-top: 0.2em;
   }
   &__item {
@@ -730,10 +740,14 @@
   &__color span {
     color: rgb(146, 146, 146);
   }
+  &__sizes {
+    font-size: 1rem;
+  }
   &__color {
     display: flex;
     align-items: center;
     gap: 1em;
+    font-size: 1rem;
     .goods__color {
       position: relative;
     }
@@ -760,7 +774,7 @@
   &__counter {
     display: flex;
     align-items: center;
-    gap: 1em;
+    gap: 1.5em;
   }
   &__count {
     font-weight: bold;
@@ -794,8 +808,92 @@
     gap: 1em;
   }
 
+  &__price {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
   &__details {
+    padding: 1.5em;
+    background-color: white;
+    align-self: start;
+    &-price {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+    }
+    &-item {
+      display: flex;
+      // flex-direction: column;
+      justify-content: space-between;
+      gap: 5em;
+    }
+    &-conclusion {
+      display: flex;
+      // flex-direction: column;
+      justify-content: space-between;
+      margin-top: 1em;
+    }
+    hr {
+      border-bottom: 2px dashed #d1d1d18f;
+      border-style: none none dashed;
+    }
+    span {
+      font-weight: 100;
+    }
+    h2 {
+      font-size: 16px;
+      font-weight: 100;
+    }
+    h3 {
+      color: #bbb8b8;
+      font-weight: normal;
+    }
+    h3,
+    span,
+    button {
+      font-size: 13px;
+    }
+
+    &-show {
+      display: none;
+    }
+
+    &-button {
+      display: block;
+      width: 100%;
+      padding: 1em;
+      margin: 0 auto;
+      background-color: rgb(231, 9, 9);
+      color: white;
+      margin-top: 1em;
+    }
+  }
+}
+
+// Cart
+@media (max-width: 768px) {
+  .cart-wrapper {
+    flex-direction: row;
+    flex-direction: column;
+    position: relative;
+  }
+  .cart__details {
+    align-self: stretch;
+    position: sticky;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+  .cart__details-show {
+    display: block;
+    width: 100%;
     padding: 1em;
-    background-color: #d1d1d1;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    font-weight: 100;
+    margin-top: 1em;
+    border: 1px solid #d1d1d170;
   }
 }
