@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useLocation } from "react-router-dom";
-import { fetchCollection, instance } from "../../api/API";
+import { useLocation, useParams } from "react-router-dom";
+import { fetchCollection } from "../../api/API";
 
 import favorite from "../../assets/icons/heart-good.png";
 import favoriteActive from "../../assets/icons/heart-good-filled.png";
@@ -13,11 +13,12 @@ import { useNavigate } from "react-router-dom";
 import arrow from "../../assets/icons/up.png";
 
 const Collection = () => {
-  let { pathname } = useLocation();
+  const pathname = useParams();
   const dispatch = useDispatch();
   let navigate = useNavigate();
-  const favorites = useSelector((state) => state.favorites);
 
+  const collection = useSelector((state) => state.oneCollection);
+  console.log(collection);
   // Favorite Functions
   const favoriteHandler = (e, item) => {
     e.stopPropagation();
@@ -33,25 +34,27 @@ const Collection = () => {
   const fav = localStorage.getItem("123")
     ? JSON.parse(localStorage.getItem("123"))
     : localStorage.setItem("123", []);
+
   useEffect(() => {
-    dispatch(fetchCollection(pathname));
+    dispatch(fetchCollection(pathname.collection));
   }, []);
 
-  const collection = useSelector((state) => state.oneCollection);
   return (
     <div className="goods__wrapper">
       {collection.loading ? (
         <div>Loading</div>
       ) : (
         <>
-          <h2 className="goods-title">Хит продаж</h2>
+          <h2 className="goods-title">{collection.data[0].collectionTitle}</h2>
           <div className="goods__items">
             {collection.data.map((item) => {
               const isFavorite = fav && fav.some((i) => i.id === item.id);
               return (
                 <div
                   className="goods__item"
-                  onClick={() => navigate(`/${item.collection}/${item.id}`)}
+                  onClick={() =>
+                    navigate(`/collections/${item.collection}/${item.id}`)
+                  }
                   key={item.id}
                 >
                   <div className="goods__images">

@@ -4,21 +4,18 @@ import { useNavigate } from "react-router-dom";
 
 import favoriteActive from "../../assets/icons/heart-good-filled.png";
 
-import {
-  setUnFavorites,
-} from "../../store/reducers/favoritesSlice";
+import { setUnFavorites } from "../../store/reducers/favoritesSlice";
 
 const FavirotePage = () => {
   const dispatch = useDispatch();
-  const favorites = useSelector(state => state.favorites)
+  const favorites = useSelector((state) => state.favorites);
 
   let navigate = useNavigate();
 
-
-  const array = []
+  const array = [];
   const fav = localStorage.getItem("123")
     ? JSON.parse(localStorage.getItem("123"))
-    : localStorage.setItem("123", JSON.stringify(array))
+    : localStorage.setItem("123", JSON.stringify(array));
 
   const unFavoriteHandler = (e, item) => {
     e.stopPropagation();
@@ -27,16 +24,24 @@ const FavirotePage = () => {
 
   return (
     <div className="favorites-wrapper">
-      <div className='favorites__title'>Избранное</div>
+      <div className="favorites__title">Избранное</div>
       {!fav || fav.length < 1 ? (
         <div className="favorites__count">У вас пока нет избранных товаров</div>
       ) : (
         <>
-          <div className="favorites__count">Товаров в избранном: {fav?.length}</div>
+          <div className="favorites__count">
+            Товаров в избранном: {fav?.length}
+          </div>
           <div className="goods__items">
             {fav.map((item) => {
               return (
-                <div onClick={()=> navigate(`/${item.collection}/${item.id}`)} key={item.id} className="goods__item">
+                <div
+                  onClick={() =>
+                    navigate(`/collections/${item.collection}/${item.id}`)
+                  }
+                  key={item.id}
+                  className="goods__item"
+                >
                   <div className="goods__images">
                     {item.price?.discount && (
                       <div className="goods__discount">

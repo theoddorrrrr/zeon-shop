@@ -11,7 +11,7 @@ import FavirotePage from "../../pages/FavoritesPage";
 import CartPage from "../../pages/CartPage";
 import HelpPage from "../../pages/HelpPage";
 import PublicOfferPage from "../../pages/PublicOfferPage";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { useEffect } from "react";
 import {
   fetchBestSellers,
@@ -21,6 +21,7 @@ import {
 } from "../../api/API";
 import Details from "../Details";
 import Collection from "../Collection";
+import ScrollToTop from "../ScrollToTop";
 
 function App() {
   const dispatch = useDispatch();
@@ -39,17 +40,22 @@ function App() {
       <main className="main">
         <div className="main__container container">
           <div className="main__content">
+            <ScrollToTop />
+
             <Routes>
               <Route path="/" element={<MainPage />} />
               <Route path="/about-us" element={<AboutUsPage />} />
               <Route path="/collections" element={<CollectionsPage />} />
-              <Route path="/:collection" element={<Collection />} />
+              <Route path="/collections/:collection" element={<Collection />} />
               <Route path="/news" element={<NewsPage />} />
               <Route path="/help" element={<HelpPage />} />
               <Route path="/favorite" element={<FavirotePage />} />
               <Route path="/cart" element={<CartPage />} />
               <Route path="/public-offer" element={<PublicOfferPage />} />
-              <Route path="/:collection/:id" element={<Details />} />
+              <Route
+                path="/collections/:collection/:id"
+                element={<Details />}
+              />
             </Routes>
           </div>
         </div>

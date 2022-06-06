@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useLocation, useNavigate, useParams } from "react-router-dom";
 import { instance } from "../../api/API";
 import cartImg from "../../assets/icons/cart.png";
 
@@ -16,15 +16,15 @@ import { addToCart } from "../../store/reducers/cartSlice";
 const Details = () => {
   const [data, setData] = useState([]);
   const [currentColor, setCurrentColor] = useState("#73A39D");
-  let { pathname } = useLocation();
+  let { collection, id } = useParams();
   const dispatch = useDispatch();
   let navigate = useNavigate();
 
   const favorites = useSelector((state) => state.favorites);
   const isFavorite = favorites.some((i) => i.id == data.id);
 
-  const getData = async (pathname) => {
-    const { data } = await instance.get(`${pathname}`);
+  const getData = async (collection) => {
+    const { data } = await instance.get(`${collection}/${id}`);
     setData(data);
   };
 
@@ -41,7 +41,7 @@ const Details = () => {
 
   // Get exact good
   useEffect(() => {
-    getData(pathname);
+    getData(collection);
   }, []);
 
   // console.log(currentColor);
