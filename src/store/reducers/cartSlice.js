@@ -24,7 +24,7 @@ export const cartSlice = (state = defaultState, action) => {
 
       localStorage.setItem("cart", JSON.stringify([...cloneCardGoods]));
       return [...cloneCardGoods];
-
+        
     case INCREMENT_CART:
       const newIncrementState = state.map((good) => {
         const newGood = { ...good };

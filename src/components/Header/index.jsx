@@ -147,8 +147,8 @@ const HeaderBreadCrumbs = () => {
   pathname = pathname.split("/")[1];
   let currentPath = paths.find((item) => pathname == item.title);
 
-  console.log(currentPath);
-  console.log(pathname);
+  // console.log(currentPath);
+  // console.log(pathname);
 
   // if ((pathname = " ")) {
   //   console.log("AAAA");
@@ -158,7 +158,7 @@ const HeaderBreadCrumbs = () => {
   // pathname == " " && <></>;
   //  : currentPath?.path = "Коллекция";
 
-  console.log("YYYO");
+  // console.log("YYYO");
 
   return (
     <>
@@ -168,7 +168,7 @@ const HeaderBreadCrumbs = () => {
             <Link underline="hover" color="black" href="/">
               Главная
             </Link>
-            <Link color="#d1d1d1">{currentPath?.path}</Link>
+            <Link underline="none" color="#d1d1d1">{currentPath?.path}</Link>
           </Breadcrumbs>
         </div>
       ) : (

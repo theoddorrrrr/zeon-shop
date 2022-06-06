@@ -50,22 +50,20 @@ const CartPage = () => {
   const discount = cart.reduce((prev, curr) => {
     return (
       prev +
-      (curr?.price?.discount &&
-        (curr.price.oldPrice - curr.price.price) * curr?.count)
+      (curr?.price?.discount ?
+        (curr.price.oldPrice - curr.price.price) * curr?.count : 0)
     );
   }, 0);
 
   const price = totalPrice - discount;
 
-  console.log(isShow);
-
   return (
     <div className="cart-wrapper">
       {!cart || cart.length < 1 ? (
-        <>
+        <div>
           <div className="cart__title">Корзина</div>
           <div className="cart__text">У вас пока нет товаров в корзине</div>
-        </>
+        </div>
       ) : (
         <>
           <div className="goods__items cart__items">
@@ -108,7 +106,7 @@ const CartPage = () => {
                           </span>
                         </>
                       ) : (
-                        <span className="goods__price">
+                        <span className="goods__price cart__price">
                           {item.price.price} р
                         </span>
                       )}

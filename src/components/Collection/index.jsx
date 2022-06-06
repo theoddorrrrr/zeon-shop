@@ -17,6 +17,7 @@ const Collection = () => {
   const dispatch = useDispatch();
   let navigate = useNavigate();
   const favorites = useSelector((state) => state.favorites);
+  console.log(pathname);
 
   // Favorite Functions
   const favoriteHandler = (e, item) => {
@@ -33,6 +34,7 @@ const Collection = () => {
   const fav = localStorage.getItem("123")
     ? JSON.parse(localStorage.getItem("123"))
     : localStorage.setItem("123", []);
+
   useEffect(() => {
     dispatch(fetchCollection(pathname));
   }, []);
