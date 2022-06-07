@@ -15,6 +15,7 @@ import {
   GetMoreCollections,
 } from "../store/reducers/collectionsSlice";
 import { GetOneCollectionsAction } from "../store/reducers/oneCollection";
+import { GetAllDataAction } from "../store/reducers/searchSlice";
 
 export const instance = axios.create({
   baseURL: "http://localhost:3000/",
@@ -109,6 +110,25 @@ export const fetchCollection = (pathname) => {
       .then((json) => dispatch(GetOneCollectionsAction(json.data)));
   };
 };
+
+// All goods for search
+
+const hot = instance.get('hot').then(json => json.data)
+const bestSellers = instance.get('bestSellers').then(json => json.data)
+const summer2020 = instance.get('summer2020').then(json => json.data)
+const spring2020 = instance.get('spring2020').then(json => json.data)
+const winter2020 = instance.get('winter2020').then(json => json.data)
+const fall2020 = instance.get('fall2020') .then(json => json.data)
+
+export const fetchAllGoods = () => {
+  return function (dispatch) {
+    axios.all([hot, bestSellers, summer2020, spring2020, winter2020, fall2020])
+    .then(json => dispatch(GetAllDataAction(json)))
+  }
+}
+
+
+// Trash
 
 // export const getAboutUs = async () => {
 //     const response = await instance.get('aboutUs')

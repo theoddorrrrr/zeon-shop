@@ -1,6 +1,5 @@
 import { fetchInfo } from "../../api/API";
 import { useEffect } from "react";
-import search from "../../assets/icons/search.png";
 import { Breadcrumbs, Divider, Link, Typography } from "@mui/material";
 import closeBtn from "../../assets/icons/close.svg";
 import { useDispatch, useSelector } from "react-redux";
@@ -8,6 +7,7 @@ import { setIsNavbarAction } from "../../store/reducers/navbarSlice";
 import favoriteImg from "../../assets/icons/heart.png";
 import cartImg from "../../assets/icons/cart.png";
 import { Link as LinkRouter, useLocation, useParams } from "react-router-dom";
+import Search from "../Search";
 
 const Header = () => {
   const dispatch = useDispatch();
@@ -144,6 +144,7 @@ const HeaderBreadCrumbs = () => {
     { title: "search", path: "Результаты поиска" },
   ];
   let { pathname } = useLocation();
+  
   pathname = pathname.split("/")[1];
   let currentPath = paths.find((item) => pathname == item.title);
 
@@ -275,20 +276,6 @@ const Burger = () => {
   );
 };
 
-const Search = () => {
-  const toggleHandler = () => {
-    console.log(111);
-  };
-  return (
-    <div className="search">
-      <label>
-        <input placeholder="Поиск"></input>
-        <div>
-          <img src={search} onClick={toggleHandler} />
-        </div>
-      </label>
-    </div>
-  );
-};
+<Search />
 
 export default Header;

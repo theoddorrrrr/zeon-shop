@@ -68,6 +68,7 @@ const CartPage = () => {
         <>
           <div className="goods__items cart__items">
             {cart.map((item) => {
+              console.log(item.selectedColor)
               return (
                 <div
                   key={item.id + item.selectedColor}
