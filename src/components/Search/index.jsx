@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { fetchAllGoods } from "../../api/API";
@@ -8,72 +8,84 @@ const Search = () => {
   const dispatch = useDispatch();
   let navigate = useNavigate();
 
+  const [filteredData, setFilteredData] = useState([]);
+  const [data, setData] = useState("");
+
   const goods = useSelector((state) => state.allGoods);
-  console.log(goods);
   const newGoods = goods.data.reduce((acc, val) => acc.concat(val), []);
 
   const [isSearch, setIsSearch] = useState(false);
   const [isShow, setIsShow] = useState(false);
 
-  const [filteredData, setFilteredData] = useState([])
+  const ref = useRef();
 
   const searchHandler = () => {
     setIsSearch(true);
-    setIsShow(false);
+    setIsShow(true);
     dispatch(fetchAllGoods());
   };
 
-  const toggleHandler = () => {
-    console.log(111);
+  const handleFilter = (e) => {
+    setData(e.target.value);
+    const newData = newGoods.filter((value) => {
+      return value.title.toLowerCase().includes(data.toLowerCase());
+    });
+
+    data === "" || data === " "
+      ? setFilteredData([])
+      : setFilteredData(newData);
   };
 
-  const handleFilter = (e) => {
-    const data = e.target.value
-    console.log(data);
-    const newData = newGoods.filter(value => {
-        return value.title.includes(data)
-    })
-    setFilteredData(newData)
-  }
+  const navigateHandler = (e) => {
+    e.preventDefault();
+
+    if (ref.current.value !== "") {
+      navigate(`/search-page`, { state: { filteredData, data } });
+      ref.current.value = "";
+      setIsShow(false);
+    }
+  };
 
   console.log(filteredData);
 
-
-//   console.log(isShow);
+  const itemHandler = (good) => {
+    setIsShow(false);
+    navigate(`/collections/${good.collection}/${good.id}`);
+  };
 
   return (
     <>
-      <div
-        onClick={!isSearch ? searchHandler : () => setIsShow(!isShow)}
-        className="search"
-      >
-        <label onClick={() => setIsShow(!isShow)}>
-          <input placeholder="Поиск" onChange={handleFilter}></input>
-          <div className="search__img">
-            <img src={search} onClick={toggleHandler} />
+      <div onClick={!isSearch ? searchHandler : undefined} className="search">
+        <label>
+          <input
+            placeholder="Поиск"
+            onChange={handleFilter}
+            onBlur={() => setTimeout(() => setIsShow(false), 300)}
+            ref={ref}
+            onClick={() => setIsShow(true)}
+          ></input>
+          <div className="search__img" onClick={navigateHandler}>
+            <img src={search} />
           </div>
         </label>
         <>
           {goods.loading ? (
             <></>
           ) : (
-            !isShow && filteredData.length !== 0 && (
+            filteredData.length > 1 &&
+            isShow && (
               <div className="search-result">
                 <div className="search__items">
                   {filteredData.map((good) => {
                     return (
-                        <a
-                          onClick={() =>
-                            navigate(
-                              `/collections/${good.collection}/${good.id}`
-                            )
-                          }
-                          className="search__item"
-                          key={good.id}
-                        >
-                          {good.title}
-                        </a>
-                      );
+                      <div
+                        onClick={(good) => itemHandler(good)}
+                        className="search__item"
+                        key={good.id}
+                      >
+                        {good.title}
+                      </div>
+                    );
                   })}
                 </div>
               </div>

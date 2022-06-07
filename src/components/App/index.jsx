@@ -22,6 +22,7 @@ import {
 import Details from "../Details";
 import Collection from "../Collection";
 import ScrollToTop from "../ScrollToTop";
+import SearchPage from "../../pages/SearchPage";
 
 function App() {
   const dispatch = useDispatch();
@@ -47,15 +48,16 @@ function App() {
               <Route path="/about-us" element={<AboutUsPage />} />
               <Route path="/collections" element={<CollectionsPage />} />
               <Route path="/collections/:collection" element={<Collection />} />
+              <Route
+                path="/collections/:collection/:id"
+                element={<Details />}
+              />
               <Route path="/news" element={<NewsPage />} />
               <Route path="/help" element={<HelpPage />} />
               <Route path="/favorite" element={<FavirotePage />} />
               <Route path="/cart" element={<CartPage />} />
               <Route path="/public-offer" element={<PublicOfferPage />} />
-              <Route
-                path="/collections/:collection/:id"
-                element={<Details />}
-              />
+              <Route path="/search-page" element={<SearchPage />} />
             </Routes>
           </div>
         </div>
