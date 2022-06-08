@@ -16,6 +16,9 @@ import {
 } from "../store/reducers/collectionsSlice";
 import { GetOneCollectionsAction } from "../store/reducers/oneCollection";
 import { GetAllDataAction } from "../store/reducers/searchSlice";
+import { GetAboutUsActuion } from "../store/reducers/aboutUsSlice";
+import { GetHelpAction } from "../store/reducers/helpSlice";
+import { GetNewsAction } from "../store/reducers/newsSlice";
 
 export const instance = axios.create({
   baseURL: "http://localhost:3000/",
@@ -127,11 +130,40 @@ export const fetchAllGoods = () => {
   }
 }
 
+// About Us
 
-// Trash
+export const fetchAboutUs = () => {
+  return function (dispatch) {
+    instance
+      .get(`aboutUs`)
+      .then((json) => dispatch(GetAboutUsActuion(json.data)));
+  };
+};
 
-// export const getAboutUs = async () => {
-//     const response = await instance.get('aboutUs')
+// Help
 
-//     return response
-// }
+export const fetchHelp = () => {
+  return function (dispatch) {
+    instance
+      .get(`help`)
+      .then((json) => dispatch(GetHelpAction(json.data)));
+  };
+};
+
+// News
+
+export const fetchNews = (limit = 5, page=1) => {
+  return function (dispatch) {
+    instance
+      .get(`news?_limit=${limit}&_page=${page}`)
+      .then((json) => dispatch(GetNewsAction(json.data)));
+  };
+}
+
+// export const fetchMoreNews = (limit = 5, page=1) => {
+//   return function (dispatch) {
+//     instance
+//       .get(`news?_limit=${limit}&_page=${page}`)
+//       .then((json) => dispatch(GetNewsAction(json.data)));
+//   };
+// };

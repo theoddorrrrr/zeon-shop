@@ -276,6 +276,4 @@ const Burger = () => {
   );
 };
 
-<Search />
-
 export default Header;

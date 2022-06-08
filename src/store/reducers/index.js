@@ -10,6 +10,9 @@ import { collectionsSlice } from './collectionsSlice'
 import { oneCollectionSlice } from './oneCollection'
 import { cartSlice } from './cartSlice'
 import { searchSlice } from './searchSlice'
+import { aboutUsSlice } from './aboutUsSlice'
+import { helpSlice } from './helpSlice'
+import { newsSlice } from './newsSlice'
 
 
 export const rootReducer = combineReducers({
@@ -23,5 +26,8 @@ export const rootReducer = combineReducers({
     collections: collectionsSlice,
     oneCollection: oneCollectionSlice,
     cart: cartSlice,
-    allGoods: searchSlice
+    allGoods: searchSlice,
+    aboutUs: aboutUsSlice,
+    help: helpSlice,
+    news: newsSlice
 })

@@ -10,10 +10,10 @@ import {
   setUnFavorites,
 } from "../../store/reducers/favoritesSlice";
 import { useNavigate } from "react-router-dom";
-import arrow from "../../assets/icons/up.png";
 
 const Collection = () => {
   const pathname = useParams();
+  console.log(pathname);
   const dispatch = useDispatch();
   let navigate = useNavigate();
 

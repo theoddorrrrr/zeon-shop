@@ -50,6 +50,7 @@ const Search = () => {
 
   const itemHandler = (good) => {
     setIsShow(false);
+    console.log(good)
     navigate(`/collections/${good.collection}/${good.id}`);
   };
 
@@ -79,7 +80,7 @@ const Search = () => {
                   {filteredData.map((good) => {
                     return (
                       <div
-                        onClick={(good) => itemHandler(good)}
+                        onClick={() => itemHandler(good)}
                         className="search__item"
                         key={good.id}
                       >
