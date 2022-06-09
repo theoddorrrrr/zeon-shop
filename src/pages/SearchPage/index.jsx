@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import {
@@ -33,6 +33,25 @@ const SearchPage = () => {
     : localStorage.setItem("123", []);
 
   const favorites = useSelector((state) => state.favorites);
+
+  const [page, setPage] = useState(1);
+  const [limit, setLimit] = useState(4)
+  const paginatedGoods = fav.slice((page - 1) * limit, page * limit);
+
+  const changePage = (data) => {
+    setPage(data);
+  };
+
+  useEffect(()=>{
+    if(window.innerWidth >= 768) setLimit(12)
+    else setLimit(4)
+  }, [])
+
+  window.addEventListener('resize', () => {
+    if(window.innerWidth >= 768) setLimit(12)
+    else setLimit(4)
+  })
+
 
   return (
     <>

@@ -1117,6 +1117,12 @@
       "title": "Lorem ipsum dolor sit amet",
       "descriptions": "Sit ullamcorper at gravida quis feugiat. Laoreet leo dolor, dui eget sit viverra justo, malesuada. Viverra pharetra, augue neque felis enim dui id cum. At pellentesque diam nulla ac amet quisque quis. Est consectetur ullamcorper curabitur quis viverra hac molestie. Elit pulvinar congue ut amet adipiscing felis tincidunt. Amet quis varius aliquam hendrerit tempus. Sed sit diam quis scelerisque congu econgu econgu econguecongu econguecon guecon guecon guecong ueconguecong uec ongue. Sit ullamcorper at gravida quis feugiat. Laoreet leo dolor, dui eget sit viverra justo, malesuada. Viverra pharetra, augue neque  Sit ullamcorper at gravida quis feugiat. Laoreet leo dolor, dui eget sit viverra justo, malesuada. Viverra pharetra, augue neque felis enim dui id cum. At pellentesque diam nulla ac amet quisque quis. Est consectetur ullamcorper curabitur quis viverra hac molestie. Elit pulvinar congue ut amet adipiscing felis tincidunt. Amet quis varius aliquam hendrerit tempus. Sed sit diam quis ",
       "src": "https://cdn.discordapp.com/attachments/978541129228230710/978634000291754024/5.png"
+    },
+    {
+      "id": 21,
+      "title": "Lorem ipsum dolor sit amet",
+      "descriptions": "Sit ullamcorper at gravida quis feugiat. Laoreet leo dolor, dui eget sit viverra justo, malesuada. Viverra pharetra, augue neque felis enim dui id cum. At pellentesque diam nulla ac amet quisque quis. Est consectetur ullamcorper curabitur quis viverra hac molestie. Elit pulvinar congue ut amet adipiscing felis tincidunt. Amet quis varius aliquam hendrerit tempus. Sed sit diam quis scelerisque congu econgu econgu econguecongu econguecon guecon guecon guecong ueconguecong uec ongue. Sit ullamcorper at gravida quis feugiat. Laoreet leo dolor, dui eget sit viverra justo, malesuada. Viverra pharetra, augue neque  Sit ullamcorper at gravida quis feugiat. Laoreet leo dolor, dui eget sit viverra justo, malesuada. Viverra pharetra, augue neque felis enim dui id cum. At pellentesque diam nulla ac amet quisque quis. Est consectetur ullamcorper curabitur quis viverra hac molestie. Elit pulvinar congue ut amet adipiscing felis tincidunt. Amet quis varius aliquam hendrerit tempus. Sed sit diam quis ",
+      "src": "https://cdn.discordapp.com/attachments/978541129228230710/978634000291754024/5.png"
     }
   ],
   "help": {
@@ -1734,7 +1740,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -1766,7 +1772,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -1798,7 +1804,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -1830,7 +1836,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -1862,7 +1868,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -1894,7 +1900,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -1926,7 +1932,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -1958,7 +1964,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -1990,7 +1996,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2022,7 +2028,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2054,7 +2060,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2086,7 +2092,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2118,7 +2124,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2150,7 +2156,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2182,7 +2188,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2214,7 +2220,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2246,7 +2252,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2278,7 +2284,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2310,7 +2316,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2342,7 +2348,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2374,7 +2380,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2406,7 +2412,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2438,7 +2444,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2470,7 +2476,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2504,7 +2510,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2536,7 +2542,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2568,7 +2574,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2600,7 +2606,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2632,7 +2638,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2664,7 +2670,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2696,7 +2702,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2728,7 +2734,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2760,7 +2766,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2792,7 +2798,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2824,7 +2830,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2856,7 +2862,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2888,7 +2894,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2920,7 +2926,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2952,7 +2958,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -2984,7 +2990,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3016,7 +3022,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3048,7 +3054,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3080,7 +3086,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3112,7 +3118,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3144,7 +3150,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3176,7 +3182,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3208,7 +3214,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3240,7 +3246,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3272,7 +3278,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3306,7 +3312,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3338,7 +3344,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3370,7 +3376,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3402,7 +3408,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3434,7 +3440,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3466,7 +3472,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3498,7 +3504,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3530,7 +3536,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3562,7 +3568,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3594,7 +3600,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3626,7 +3632,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3658,7 +3664,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3690,7 +3696,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3722,7 +3728,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3754,7 +3760,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3786,7 +3792,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3818,7 +3824,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3850,7 +3856,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3882,7 +3888,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3914,7 +3920,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3946,7 +3952,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -3978,7 +3984,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -4010,7 +4016,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -4042,7 +4048,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -4074,7 +4080,7 @@
         "#FF0000"
       ],
 
-      "isDiscount": false,
+      "isDiscount": true,
       "isFavorite": false,
       "price": { "price": 1500, "discount": 50, "oldPrice": 750 },
       "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
@@ -4084,6 +4090,1802 @@
       "compound": "Полиэстер"
     }
   ],
+  "forNature": [
+    {
+      "id": 500,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Наряд для природы",
+      "collection": "forNature",
+      "collectionTitle": "Коллекция для природы",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 501,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Наряд для природы",
+      "collection": "forNature",
+      "collectionTitle": "Коллекция для природы",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 502,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Наряд для природы",
+      "collection": "forNature",
+      "collectionTitle": "Коллекция для природы",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 503,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Наряд для природы",
+      "collection": "forNature",
+      "collectionTitle": "Коллекция для природы",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 504,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Наряд для природы",
+      "collection": "forNature",
+      "collectionTitle": "Коллекция для природы",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 505,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Наряд для природы",
+      "collection": "forNature",
+      "collectionTitle": "Коллекция для природы",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 506,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Наряд для природы",
+      "collection": "forNature",
+      "collectionTitle": "Коллекция для природы",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 507,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Наряд для природы",
+      "collection": "forNature",
+      "collectionTitle": "Коллекция для природы",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 508,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Наряд для природы",
+      "collection": "forNature",
+      "collectionTitle": "Коллекция для природы",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 509,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Наряд для природы",
+      "collection": "forNature",
+      "collectionTitle": "Коллекция для природы",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 510,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Наряд для природы",
+      "collection": "forNature",
+      "collectionTitle": "Коллекция для природы",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 511,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Наряд для природы",
+      "collection": "forNature",
+      "collectionTitle": "Коллекция для природы",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 512,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Наряд для природы",
+      "collection": "forNature",
+      "collectionTitle": "Коллекция для природы",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 513,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Наряд для природы",
+      "collection": "forNature",
+      "collectionTitle": "Коллекция для природы",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    }
+  ],
+  "dresses": [
+    {
+      "id": 600,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Платье",
+      "collection": "dresses",
+      "collectionTitle": "Коллекция платья",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 601,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Платье",
+      "collection": "dresses",
+      "collectionTitle": "Коллекция платья",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 602,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Платье",
+      "collection": "dresses",
+      "collectionTitle": "Коллекция платья",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 603,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Платье",
+      "collection": "dresses",
+      "collectionTitle": "Коллекция платья",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 604,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Платье",
+      "collection": "dresses",
+      "collectionTitle": "Коллекция платья",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 605,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Платье",
+      "collection": "dresses",
+      "collectionTitle": "Коллекция платья",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 606,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Платье",
+      "collection": "dresses",
+      "collectionTitle": "Коллекция платья",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 607,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Платье",
+      "collection": "dresses",
+      "collectionTitle": "Коллекция платья",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 608,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Платье",
+      "collection": "dresses",
+      "collectionTitle": "Коллекция платья",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 609,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Платье",
+      "collection": "dresses",
+      "collectionTitle": "Коллекция платья",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 610,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Платье",
+      "collection": "dresses",
+      "collectionTitle": "Коллекция платья",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 611,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Платье",
+      "collection": "dresses",
+      "collectionTitle": "Коллекция платья",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 612,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Платье",
+      "collection": "dresses",
+      "collectionTitle": "Коллекция платья",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    },
+    {
+      "id": 613,
+      "src": [
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+        "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+      ],
+      "title": "Платье",
+      "collection": "dresses",
+      "collectionTitle": "Коллекция платья",
+      "code": "Платье PL984/dakota",
+      "colors": [
+        "#73A39D",
+        "#84CC4C",
+        "#B5A8A1",
+        "#AB844A",
+        "#6977F0",
+        "#FFFFFF",
+        "#141414",
+        "#FF0000"
+      ],
+
+      "isDiscount": true,
+      "isFavorite": false,
+      "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+      "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+      "sizes": "42-50",
+      "countInBundle": 5,
+      "material": "Полиэстер",
+      "compound": "Полиэстер"
+    }
+  ],
+  "skirts": [{
+    "id": 700,
+    "src": [
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+    ],
+    "title": "Юбки",
+    "collection": "skirts",
+    "collectionTitle": "Коллекция юбки",
+    "code": "Платье PL984/dakota",
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+
+    "isDiscount": true,
+    "isFavorite": false,
+    "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+    "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+    "sizes": "42-50",
+    "countInBundle": 5,
+    "material": "Полиэстер",
+    "compound": "Полиэстер"
+  },
+  {
+    "id": 701,
+    "src": [
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+    ],
+    "title": "Юбки",
+    "collection": "skirts",
+    "collectionTitle": "Коллекция юбки",
+    "code": "Платье PL984/dakota",
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+
+    "isDiscount": true,
+    "isFavorite": false,
+    "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+    "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+    "sizes": "42-50",
+    "countInBundle": 5,
+    "material": "Полиэстер",
+    "compound": "Полиэстер"
+  },
+  {
+    "id": 702,
+    "src": [
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+    ],
+    "title": "Юбки",
+    "collection": "skirts",
+    "collectionTitle": "Коллекция юбки",
+    "code": "Платье PL984/dakota",
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+
+    "isDiscount": true,
+    "isFavorite": false,
+    "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+    "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+    "sizes": "42-50",
+    "countInBundle": 5,
+    "material": "Полиэстер",
+    "compound": "Полиэстер"
+  },
+  {
+    "id": 703,
+    "src": [
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+    ],
+    "title": "Юбки",
+    "collection": "skirts",
+    "collectionTitle": "Коллекция юбки",
+    "code": "Платье PL984/dakota",
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+
+    "isDiscount": true,
+    "isFavorite": false,
+    "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+    "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+    "sizes": "42-50",
+    "countInBundle": 5,
+    "material": "Полиэстер",
+    "compound": "Полиэстер"
+  },
+  {
+    "id": 704,
+    "src": [
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+    ],
+    "title": "Юбки",
+    "collection": "skirts",
+    "collectionTitle": "Коллекция юбки",
+    "code": "Платье PL984/dakota",
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+
+    "isDiscount": true,
+    "isFavorite": false,
+    "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+    "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+    "sizes": "42-50",
+    "countInBundle": 5,
+    "material": "Полиэстер",
+    "compound": "Полиэстер"
+  },
+  {
+    "id": 705,
+    "src": [
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+    ],
+    "title": "Юбки",
+    "collection": "skirts",
+    "collectionTitle": "Коллекция юбки",
+    "code": "Платье PL984/dakota",
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+
+    "isDiscount": true,
+    "isFavorite": false,
+    "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+    "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+    "sizes": "42-50",
+    "countInBundle": 5,
+    "material": "Полиэстер",
+    "compound": "Полиэстер"
+  },
+  {
+    "id": 706,
+    "src": [
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+    ],
+    "title": "Юбки",
+    "collection": "skirts",
+    "collectionTitle": "Коллекция юбки",
+    "code": "Платье PL984/dakota",
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+
+    "isDiscount": true,
+    "isFavorite": false,
+    "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+    "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+    "sizes": "42-50",
+    "countInBundle": 5,
+    "material": "Полиэстер",
+    "compound": "Полиэстер"
+  },
+  {
+    "id": 707,
+    "src": [
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+    ],
+    "title": "Юбки",
+    "collection": "skirts",
+    "collectionTitle": "Коллекция юбки",
+    "code": "Платье PL984/dakota",
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+
+    "isDiscount": true,
+    "isFavorite": false,
+    "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+    "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+    "sizes": "42-50",
+    "countInBundle": 5,
+    "material": "Полиэстер",
+    "compound": "Полиэстер"
+  },
+  {
+    "id": 708,
+    "src": [
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+    ],
+    "title": "Юбки",
+    "collection": "skirts",
+    "collectionTitle": "Коллекция юбки",
+    "code": "Платье PL984/dakota",
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+
+    "isDiscount": true,
+    "isFavorite": false,
+    "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+    "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+    "sizes": "42-50",
+    "countInBundle": 5,
+    "material": "Полиэстер",
+    "compound": "Полиэстер"
+  },
+  {
+    "id": 709,
+    "src": [
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+    ],
+    "title": "Юбки",
+    "collection": "skirts",
+    "collectionTitle": "Коллекция юбки",
+    "code": "Платье PL984/dakota",
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+
+    "isDiscount": true,
+    "isFavorite": false,
+    "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+    "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+    "sizes": "42-50",
+    "countInBundle": 5,
+    "material": "Полиэстер",
+    "compound": "Полиэстер"
+  },
+  {
+    "id": 710,
+    "src": [
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+    ],
+    "title": "Юбки",
+    "collection": "skirts",
+    "collectionTitle": "Коллекция юбки",
+    "code": "Платье PL984/dakota",
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+
+    "isDiscount": true,
+    "isFavorite": false,
+    "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+    "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+    "sizes": "42-50",
+    "countInBundle": 5,
+    "material": "Полиэстер",
+    "compound": "Полиэстер"
+  },
+  {
+    "id": 711,
+    "src": [
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+    ],
+    "title": "Юбки",
+    "collection": "skirts",
+    "collectionTitle": "Коллекция юбки",
+    "code": "Платье PL984/dakota",
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+
+    "isDiscount": true,
+    "isFavorite": false,
+    "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+    "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+    "sizes": "42-50",
+    "countInBundle": 5,
+    "material": "Полиэстер",
+    "compound": "Полиэстер"
+  },
+  {
+    "id": 712,
+    "src": [
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+    ],
+    "title": "Юбки",
+    "collection": "skirts",
+    "collectionTitle": "Коллекция юбки",
+    "code": "Платье PL984/dakota",
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+
+    "isDiscount": true,
+    "isFavorite": false,
+    "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+    "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+    "sizes": "42-50",
+    "countInBundle": 5,
+    "material": "Полиэстер",
+    "compound": "Полиэстер"
+  },
+  {
+    "id": 713,
+    "src": [
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+    ],
+    "title": "Юбки",
+    "collection": "skirts",
+    "collectionTitle": "Коллекция юбки",
+    "code": "Платье PL984/dakota",
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+
+    "isDiscount": true,
+    "isFavorite": false,
+    "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+    "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+    "sizes": "42-50",
+    "countInBundle": 5,
+    "material": "Полиэстер",
+    "compound": "Полиэстер"
+  }],
+  "clothes": [{
+    "id": 800,
+    "src": [
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+    ],
+    "title": "Наряды",
+    "collection": "clothes",
+    "collectionTitle": "Коллекция наряды",
+    "code": "Платье PL984/dakota",
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+
+    "isDiscount": true,
+    "isFavorite": false,
+    "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+    "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+    "sizes": "42-50",
+    "countInBundle": 5,
+    "material": "Полиэстер",
+    "compound": "Полиэстер"
+  },
+  {
+    "id": 802,
+    "src": [
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+    ],
+    "title": "Наряды",
+    "collection": "clothes",
+    "collectionTitle": "Коллекция наряды",
+    "code": "Платье PL984/dakota",
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+
+    "isDiscount": true,
+    "isFavorite": false,
+    "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+    "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+    "sizes": "42-50",
+    "countInBundle": 5,
+    "material": "Полиэстер",
+    "compound": "Полиэстер"
+  },
+  {
+    "id": 803,
+    "src": [
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+    ],
+    "title": "Наряды",
+    "collection": "clothes",
+    "collectionTitle": "Коллекция наряды",
+    "code": "Платье PL984/dakota",
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+
+    "isDiscount": true,
+    "isFavorite": false,
+    "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+    "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+    "sizes": "42-50",
+    "countInBundle": 5,
+    "material": "Полиэстер",
+    "compound": "Полиэстер"
+  },
+  {
+    "id": 804,
+    "src": [
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+    ],
+    "title": "Наряды",
+    "collection": "clothes",
+    "collectionTitle": "Коллекция наряды",
+    "code": "Платье PL984/dakota",
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+
+    "isDiscount": true,
+    "isFavorite": false,
+    "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+    "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+    "sizes": "42-50",
+    "countInBundle": 5,
+    "material": "Полиэстер",
+    "compound": "Полиэстер"
+  },
+  {
+    "id": 805,
+    "src": [
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+    ],
+    "title": "Наряды",
+    "collection": "clothes",
+    "collectionTitle": "Коллекция наряды",
+    "code": "Платье PL984/dakota",
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+
+    "isDiscount": true,
+    "isFavorite": false,
+    "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+    "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+    "sizes": "42-50",
+    "countInBundle": 5,
+    "material": "Полиэстер",
+    "compound": "Полиэстер"
+  },
+  {
+    "id": 806,
+    "src": [
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+    ],
+    "title": "Наряды",
+    "collection": "clothes",
+    "collectionTitle": "Коллекция наряды",
+    "code": "Платье PL984/dakota",
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+
+    "isDiscount": true,
+    "isFavorite": false,
+    "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+    "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+    "sizes": "42-50",
+    "countInBundle": 5,
+    "material": "Полиэстер",
+    "compound": "Полиэстер"
+  },
+  {
+    "id": 807,
+    "src": [
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+    ],
+    "title": "Наряды",
+    "collection": "clothes",
+    "collectionTitle": "Коллекция наряды",
+    "code": "Платье PL984/dakota",
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+
+    "isDiscount": true,
+    "isFavorite": false,
+    "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+    "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+    "sizes": "42-50",
+    "countInBundle": 5,
+    "material": "Полиэстер",
+    "compound": "Полиэстер"
+  },
+  {
+    "id": 808,
+    "src": [
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+    ],
+    "title": "Наряды",
+    "collection": "clothes",
+    "collectionTitle": "Коллекция наряды",
+    "code": "Платье PL984/dakota",
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+
+    "isDiscount": true,
+    "isFavorite": false,
+    "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+    "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+    "sizes": "42-50",
+    "countInBundle": 5,
+    "material": "Полиэстер",
+    "compound": "Полиэстер"
+  },
+  {
+    "id": 809,
+    "src": [
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+    ],
+    "title": "Наряды",
+    "collection": "clothes",
+    "collectionTitle": "Коллекция наряды",
+    "code": "Платье PL984/dakota",
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+
+    "isDiscount": true,
+    "isFavorite": false,
+    "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+    "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+    "sizes": "42-50",
+    "countInBundle": 5,
+    "material": "Полиэстер",
+    "compound": "Полиэстер"
+  },
+  {
+    "id": 810,
+    "src": [
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+    ],
+    "title": "Наряды",
+    "collection": "clothes",
+    "collectionTitle": "Коллекция наряды",
+    "code": "Платье PL984/dakota",
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+
+    "isDiscount": true,
+    "isFavorite": false,
+    "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+    "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+    "sizes": "42-50",
+    "countInBundle": 5,
+    "material": "Полиэстер",
+    "compound": "Полиэстер"
+  },
+  {
+    "id": 811,
+    "src": [
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+    ],
+    "title": "Наряды",
+    "collection": "clothes",
+    "collectionTitle": "Коллекция наряды",
+    "code": "Платье PL984/dakota",
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+
+    "isDiscount": true,
+    "isFavorite": false,
+    "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+    "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+    "sizes": "42-50",
+    "countInBundle": 5,
+    "material": "Полиэстер",
+    "compound": "Полиэстер"
+  },
+  {
+    "id": 812,
+    "src": [
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+    ],
+    "title": "Наряды",
+    "collection": "clothes",
+    "collectionTitle": "Коллекция наряды",
+    "code": "Платье PL984/dakota",
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+
+    "isDiscount": true,
+    "isFavorite": false,
+    "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+    "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+    "sizes": "42-50",
+    "countInBundle": 5,
+    "material": "Полиэстер",
+    "compound": "Полиэстер"
+  },
+  {
+    "id": 813,
+    "src": [
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+    ],
+    "title": "Наряды",
+    "collection": "clothes",
+    "collectionTitle": "Коллекция наряды",
+    "code": "Платье PL984/dakota",
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+
+    "isDiscount": true,
+    "isFavorite": false,
+    "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+    "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+    "sizes": "42-50",
+    "countInBundle": 5,
+    "material": "Полиэстер",
+    "compound": "Полиэстер"
+  },
+  {
+    "id": 814,
+    "src": [
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+      "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+    ],
+    "title": "Наряды",
+    "collection": "clothes",
+    "collectionTitle": "Коллекция наряды",
+    "code": "Платье PL984/dakota",
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+
+    "isDiscount": true,
+    "isFavorite": false,
+    "price": { "price": 2000, "discount": 50, "oldPrice": 1000 },
+    "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+    "sizes": "42-50",
+    "countInBundle": 5,
+    "material": "Полиэстер",
+    "compound": "Полиэстер"
+  }],
   "collections": [
     {
       "id": 1,

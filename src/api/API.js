@@ -11,6 +11,7 @@ import {
   GetMoreBestSellersGoodsAction,
 } from "../store/reducers/bestSellersSlice";
 import {
+  GetAllCollections,
   GetCollectionsAction,
   GetMoreCollections,
 } from "../store/reducers/collectionsSlice";
@@ -18,7 +19,7 @@ import { GetOneCollectionsAction } from "../store/reducers/oneCollection";
 import { GetAllDataAction } from "../store/reducers/searchSlice";
 import { GetAboutUsActuion } from "../store/reducers/aboutUsSlice";
 import { GetHelpAction } from "../store/reducers/helpSlice";
-import { GetNewsAction } from "../store/reducers/newsSlice";
+import { GetMoreNewsAction, GetNewsAction } from "../store/reducers/newsSlice";
 
 export const instance = axios.create({
   baseURL: "http://localhost:3000/",
@@ -104,6 +105,14 @@ export const fetchMoreColletions = () => {
   };
 };
 
+export const fetchAllCollections = () => {
+  return function (dispatch) {
+    instance
+      .get("collections")
+      .then((json) => dispatch(GetAllCollections(json.data)));
+  };
+};
+
 // One Collection
 
 export const fetchCollection = (pathname) => {
@@ -152,7 +161,7 @@ export const fetchHelp = () => {
 
 // News
 
-export const fetchNews = (limit = 5, page=1) => {
+export const fetchNews = (limit = 4, page = 1) => {
   return function (dispatch) {
     instance
       .get(`news?_limit=${limit}&_page=${page}`)
@@ -160,10 +169,10 @@ export const fetchNews = (limit = 5, page=1) => {
   };
 }
 
-// export const fetchMoreNews = (limit = 5, page=1) => {
-//   return function (dispatch) {
-//     instance
-//       .get(`news?_limit=${limit}&_page=${page}`)
-//       .then((json) => dispatch(GetNewsAction(json.data)));
-//   };
-// };
+export const fetchMoreNews = (limit = 4, page = 1) => {
+  return function (dispatch) {
+    instance
+      .get(`news?_limit=${limit}&_page=${page}`)
+      .then((json) => dispatch(GetMoreNewsAction(json.data)));
+  };
+};

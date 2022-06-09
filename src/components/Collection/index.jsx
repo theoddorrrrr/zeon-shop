@@ -13,7 +13,7 @@ import { useNavigate } from "react-router-dom";
 
 const Collection = () => {
   const pathname = useParams();
-  console.log(pathname);
+  const favorites = useSelector(state => state.favorites)
   const dispatch = useDispatch();
   let navigate = useNavigate();
 

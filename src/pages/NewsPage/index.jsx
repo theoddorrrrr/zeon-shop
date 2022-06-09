@@ -1,31 +1,36 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchNews } from "../../api/API";
-import { useObserver } from "../../hooks/useObserver";
+import { fetchMoreNews, fetchNews } from "../../api/API";
 
 const NewsPage = () => {
   const dispatch = useDispatch();
   const news = useSelector((state) => state.news);
-
-  const [totalPages, setTotalPages] = useState(0);
-  const [limit, setLimit] = useState(5);
-  const [page, setPage] = useState(1);
-  const lastElement = useRef();
-
-  console.log(page);
+  const [page, setPage] = useState(2);
+  const ref = useRef();
 
   useEffect(() => {
     dispatch(fetchNews());
   }, []);
 
-  useObserver(lastElement, page < totalPages, !news.isLoading, () => {
-    setPage(page + 1);
-  });
+  useEffect(() => {
+    dispatch(fetchMoreNews(4, page))
+  }, [page]);
+
+  const increasePage = () => {
+    console.log("HELLO");
+    setPage((prev) => prev + 1)
+  }
 
   useEffect(() => {
-    console.log('PAGE CHANGED');
-    dispatch(fetchNews(limit, page));
-  }, [page, limit]);
+    setTimeout(() => {
+      const observer = new IntersectionObserver((entries) => {
+        const entry = entries[0];
+        entry.isIntersecting && increasePage()
+    });    
+
+   observer.observe(ref.current);
+    }, 200)
+  }, []);
 
   return (
     <>
@@ -51,7 +56,7 @@ const NewsPage = () => {
               );
             })}
           </div>
-          <div ref={lastElement} style={{ height: 20, background: "red" }} />
+          <div ref={ref} style={{ height: 20 }} />
           {news.loading && (
             <div
               style={{

@@ -1,8 +1,10 @@
-import React, { useEffect } from "react";
+import { Pagination, PaginationItem } from "@mui/material";
+import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 
 import favoriteActive from "../../assets/icons/heart-good-filled.png";
+import PaginationCustom from "../../components/PaginationCustom";
 
 import { setUnFavorites } from "../../store/reducers/favoritesSlice";
 
@@ -22,6 +24,23 @@ const FavirotePage = () => {
     dispatch(setUnFavorites(item));
   };
 
+  const [page, setPage] = useState(1);
+  const [limit, setLimit] = useState(4)
+  const paginatedGoods = fav.slice((page - 1) * limit, page * limit);
+
+  const changePage = (data) => {
+    setPage(data);
+  };
+
+  useEffect(()=>{
+    if(window.innerWidth >= 768) setLimit(12)
+  }, [])
+
+  window.addEventListener('resize', () => {
+    if(window.innerWidth >= 768) setLimit(12)
+    else setLimit(4)
+  })
+
   return (
     <div className="favorites-wrapper">
       <div className="favorites__title">Избранное</div>
@@ -33,7 +52,7 @@ const FavirotePage = () => {
             Товаров в избранном: {fav?.length}
           </div>
           <div className="goods__items">
-            {fav.map((item) => {
+            {paginatedGoods.map((item) => {
               return (
                 <div
                   onClick={() =>
@@ -104,6 +123,7 @@ const FavirotePage = () => {
               );
             })}
           </div>
+          <PaginationCustom limit={limit} count={fav} func={changePage} />
         </>
       )}
     </div>

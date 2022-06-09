@@ -43,7 +43,7 @@ const HeaderTop = () => {
                 <LinkRouter to="about-us">О нас</LinkRouter>
               </li>
               <li>
-                <LinkRouter to="collections">Коллекция</LinkRouter>
+                <LinkRouter to="collections">Коллекции</LinkRouter>
               </li>
               <li>
                 <LinkRouter to="news">Новости</LinkRouter>
@@ -157,7 +157,7 @@ const HeaderBreadCrumbs = () => {
   // }
   // if (currentPath == undefined)
   // pathname == " " && <></>;
-  //  : currentPath?.path = "Коллекция";
+  //  : currentPath?.path = "Коллекции";
 
   // console.log("YYYO");
 
@@ -201,7 +201,7 @@ const Navbar = () => {
           </li>
           <li>
             <LinkRouter to="collections" onClick={toggleNavbar}>
-              Коллекция
+              Коллекции
             </LinkRouter>
           </li>
           <li>

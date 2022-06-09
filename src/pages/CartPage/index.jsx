@@ -68,7 +68,6 @@ const CartPage = () => {
         <>
           <div className="goods__items cart__items">
             {cart.map((item) => {
-              console.log(item.selectedColor)
               return (
                 <div
                   key={item.id + item.selectedColor}
@@ -78,7 +77,7 @@ const CartPage = () => {
                     <img src={item.src[0]} alt={item.title} />
                   </div>
                   <div className="goods__body">
-                    <div className="goods__title cart__title">{item.title}</div>
+                    <div className="goods__title cart-title">{item.title}</div>
                     <div className="goods__sizes cart__sizes">
                       <span>Размер: </span> {item.sizes}
                     </div>
@@ -108,7 +107,7 @@ const CartPage = () => {
                         </>
                       ) : (
                         <span className="goods__price cart__price">
-                          {item.price.price} р
+                          {item.price.price.toLocaleString()} р
                         </span>
                       )}
                     </div>
