@@ -1,4 +1,3 @@
-import { Pagination, PaginationItem } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
@@ -24,12 +23,16 @@ const FavirotePage = () => {
     dispatch(setUnFavorites(item));
   };
 
+  // Pagination
+
   const [page, setPage] = useState(1);
   const [limit, setLimit] = useState(4)
   const paginatedGoods = fav.slice((page - 1) * limit, page * limit);
 
   const changePage = (data) => {
-    setPage(data);
+    if(data >= 1 && data <= Math.ceil(fav.length / limit) ) {
+      setPage(data);
+    }  
   };
 
   useEffect(()=>{

@@ -78,7 +78,7 @@ const Hot = () => {
                       ) : (
                         <div
                           onClick={(e) => favoriteHandler(e, item)}
-                          className="goods__favorite"
+                          className="goods__favorite favorite"
                         >
                           <img src={favorite} alt="Favorite" />
                         </div>

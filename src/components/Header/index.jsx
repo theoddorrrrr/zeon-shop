@@ -102,7 +102,7 @@ const FavoriteButton = ({ toggleNavbar, desktop }) => {
         onClick={handleNavbar}
       >
         <img src={favoriteImg} alt="Favorite" />
-        <button className="btn favorite">Избранное</button>
+        <button className="btn favorites"><span>Избранное</span></button>
       </LinkRouter>
     </div>
   );
@@ -133,7 +133,7 @@ const HeaderBreadCrumbs = () => {
   const paths = [
     // { title: "", path: "Корзина" },
     { title: "cart", path: "Корзина" },
-    { title: "favorite", path: "Изнбранные" },
+    { title: "favorite", path: "Избранные" },
     { title: "about-us", path: "О нас" },
     { title: "hot", path: "Новинки" },
     { title: "bestSellers", path: "Хит продаж" },

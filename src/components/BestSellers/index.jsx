@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import {
@@ -38,6 +38,19 @@ const BestSellers = () => {
 
   const favorites = useSelector((state) => state.favorites);
 
+  const mouseHandler = (e) => {
+    console.log(e);
+  };
+
+  const mouseMoveHandler = (e) => {
+    console.log(ref.current);
+
+    // Style positions of DIV REF by mouse E, make a link between
+    console.log(e);
+  };
+
+  const ref = useRef()
+
   return (
     <>
       <div className="goods__wrapper">
@@ -74,17 +87,23 @@ const BestSellers = () => {
                       ) : (
                         <div
                           onClick={(e) => favoriteHandler(e, item)}
-                          className="goods__favorite"
+                          className="goods__favorite favorite"
                         >
                           <img src={favorite} alt="Favorite" />
                         </div>
                       )}
 
-                      <img
-                        className="goods__img"
-                        src={item.src[0]}
-                        alt={item.title}
-                      />
+                      <div className="goods__images">
+                        <img
+                          // onMouseOver={(e)=> mouseHandler(e)}
+                          onMouseMove={(e) => mouseMoveHandler(e)}
+                          className="goods__img"
+                          src={item.src[0]}
+                          alt={item.title}
+                        />
+
+                        <div ref={ref} className="hover"></div>
+                      </div>
                     </div>
                     <div className="goods__body">
                       <div className="goods__title">{item.title}</div>

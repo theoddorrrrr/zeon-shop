@@ -6,8 +6,8 @@ import { useNavigate } from "react-router-dom";
 const Slider = () => {
   const settings = {
     dots: true,
-    // infinite: true,
-    // autoplay: true,
+    infinite: true,
+    autoplay: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,

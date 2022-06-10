@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useLocation, useParams } from "react-router-dom";
-import { fetchCollection } from "../../api/API";
+import { fetchCollection, fetchPaginatedOneCollection } from "../../api/API";
 
 import favorite from "../../assets/icons/heart-good.png";
 import favoriteActive from "../../assets/icons/heart-good-filled.png";
@@ -11,13 +11,29 @@ import {
 } from "../../store/reducers/favoritesSlice";
 import { useNavigate } from "react-router-dom";
 
+import PaginationCustom from "../../components/PaginationCustom";
+
 const Collection = () => {
   const pathname = useParams();
-  const favorites = useSelector(state => state.favorites)
+  const [limit, setLimit] = useState(8);
+  const favorites = useSelector((state) => state.favorites);
   const dispatch = useDispatch();
   let navigate = useNavigate();
 
   const collection = useSelector((state) => state.oneCollection);
+  const paginated = useSelector((state) => state.oneCollection.paginated);
+
+  useEffect(() => {
+    if (window.innerWidth < 768) {
+      setLimit(4);
+    }
+  }, []);
+
+  window.addEventListener("resize", () => {
+    if (window.innerWidth >= 768) setLimit(8);
+    else setLimit(4);
+  });
+
   // Favorite Functions
   const favoriteHandler = (e, item) => {
     e.stopPropagation();
@@ -36,7 +52,16 @@ const Collection = () => {
 
   useEffect(() => {
     dispatch(fetchCollection(pathname.collection));
+    dispatch(fetchPaginatedOneCollection(limit, 1, pathname.collection));
   }, []);
+
+  const changePage = (data) => {
+    if (data >= 1 && data <= Math.ceil(collection.data.length / limit)) {
+      dispatch(fetchPaginatedOneCollection(limit, data, pathname.collection));
+    }
+  };
+
+
 
   return (
     <div className="goods__wrapper">
@@ -46,7 +71,7 @@ const Collection = () => {
         <>
           <h2 className="goods-title">{collection.data[0].collectionTitle}</h2>
           <div className="goods__items">
-            {collection.data.map((item) => {
+            {paginated.map((item) => {
               const isFavorite = fav && fav.some((i) => i.id === item.id);
               return (
                 <div
@@ -73,7 +98,7 @@ const Collection = () => {
                     ) : (
                       <div
                         onClick={(e) => favoriteHandler(e, item)}
-                        className="goods__favorite"
+                        className="goods__favorite favorite"
                       >
                         <img src={favorite} alt="Favorite" />
                       </div>
@@ -127,6 +152,11 @@ const Collection = () => {
               );
             })}
           </div>
+          <PaginationCustom
+            limit={limit}
+            count={collection.data}
+            func={changePage}
+          />
         </>
       )}
     </div>

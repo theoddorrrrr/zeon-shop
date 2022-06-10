@@ -14,8 +14,9 @@ import {
   GetAllCollections,
   GetCollectionsAction,
   GetMoreCollections,
+  GetPaginatedCollectionsAction,
 } from "../store/reducers/collectionsSlice";
-import { GetOneCollectionsAction } from "../store/reducers/oneCollection";
+import { GetOneCollectionsAction, GetPaginatedOneCollectionAction } from "../store/reducers/oneCollection";
 import { GetAllDataAction } from "../store/reducers/searchSlice";
 import { GetAboutUsActuion } from "../store/reducers/aboutUsSlice";
 import { GetHelpAction } from "../store/reducers/helpSlice";
@@ -100,7 +101,7 @@ export const fetchColletions = () => {
 export const fetchMoreColletions = () => {
   return function (dispatch) {
     instance
-      .get("collections?_start=4&_end=12")
+      .get("collections?_start=4&_end=8")
       .then((json) => dispatch(GetMoreCollections(json.data)));
   };
 };
@@ -113,6 +114,14 @@ export const fetchAllCollections = () => {
   };
 };
 
+export const fetchPaginatedCollection = (limit = 4, page = 1) => {
+  return function (dispatch) {
+    instance
+      .get(`collections?_limit=${limit}&_page=${page}`)
+      .then((json) => dispatch(GetPaginatedCollectionsAction(json)));
+  };
+};
+
 // One Collection
 
 export const fetchCollection = (pathname) => {
@@ -120,6 +129,14 @@ export const fetchCollection = (pathname) => {
     instance
       .get(`${pathname}`)
       .then((json) => dispatch(GetOneCollectionsAction(json.data)));
+  };
+};
+
+export const fetchPaginatedOneCollection = (limit = 4, page = 1, pathname) => {
+  return function (dispatch) {
+    instance
+      .get(`${pathname}?_limit=${limit}&_page=${page}`)
+      .then((json) => dispatch(GetPaginatedOneCollectionAction(json.data)));
   };
 };
 

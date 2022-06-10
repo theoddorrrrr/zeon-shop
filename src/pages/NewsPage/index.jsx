@@ -17,20 +17,24 @@ const NewsPage = () => {
   }, [page]);
 
   const increasePage = () => {
-    console.log("HELLO");
     setPage((prev) => prev + 1)
   }
 
   useEffect(() => {
-    setTimeout(() => {
       const observer = new IntersectionObserver((entries) => {
         const entry = entries[0];
         entry.isIntersecting && increasePage()
     });    
 
-   observer.observe(ref.current);
-    }, 200)
-  }, []);
+    if (!news.loading) {
+      observer.observe(ref.current);
+    }
+
+   return () => {
+     console.log(observer);
+   }
+
+  }, [news.loading]);
 
   return (
     <>
@@ -57,17 +61,6 @@ const NewsPage = () => {
             })}
           </div>
           <div ref={ref} style={{ height: 20 }} />
-          {news.loading && (
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                marginTop: 50,
-              }}
-            >
-              <div>Loading</div>
-            </div>
-          )}
         </>
       )}
     </>

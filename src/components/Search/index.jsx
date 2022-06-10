@@ -27,18 +27,24 @@ const Search = () => {
 
   const handleFilter = (e) => {
     setData(e.target.value);
+    setIsShow(true)
+
     const newData = newGoods.filter((value) => {
-      return value.title.toLowerCase().includes(data.toLowerCase());
+      return value.title.toLowerCase().trim().includes(data.toLowerCase().trim());
     });
 
-    data === "" || data === " "
-      ? setFilteredData([])
+    data === "" || data.length <= 1
+      ? setFilteredData([]) && setIsShow(false)
       : setFilteredData(newData);
   };
 
-  const navigateHandler = (e) => {
-    e.preventDefault();
+  const handleKeyPress = (event) => {
+    if(event.key === 'Enter'){
+      navigateHandler()
+    }
+  }
 
+  const navigateHandler = () => {
     if (ref.current.value !== "") {
       navigate(`/search-page`, { state: { filteredData, data } });
       ref.current.value = "";
@@ -46,11 +52,8 @@ const Search = () => {
     }
   };
 
-  console.log(filteredData);
-
   const itemHandler = (good) => {
     setIsShow(false);
-    console.log(good)
     navigate(`/collections/${good.collection}/${good.id}`);
   };
 
@@ -64,6 +67,8 @@ const Search = () => {
             onBlur={() => setTimeout(() => setIsShow(false), 300)}
             ref={ref}
             onClick={() => setIsShow(true)}
+            onKeyDown={e => handleKeyPress(e)}
+            tabIndex="0"
           ></input>
           <div className="search__img" onClick={navigateHandler}>
             <img src={search} />

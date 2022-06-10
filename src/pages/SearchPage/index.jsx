@@ -10,6 +10,9 @@ import favorite from "../../assets/icons/heart-good.png";
 import favoriteActive from "../../assets/icons/heart-good-filled.png";
 import { useLocation } from "react-router-dom";
 
+
+import PaginationCustom from "../../components/PaginationCustom";
+
 const SearchPage = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -34,14 +37,6 @@ const SearchPage = () => {
 
   const favorites = useSelector((state) => state.favorites);
 
-  const [page, setPage] = useState(1);
-  const [limit, setLimit] = useState(4)
-  const paginatedGoods = fav.slice((page - 1) * limit, page * limit);
-
-  const changePage = (data) => {
-    setPage(data);
-  };
-
   useEffect(()=>{
     if(window.innerWidth >= 768) setLimit(12)
     else setLimit(4)
@@ -52,6 +47,26 @@ const SearchPage = () => {
     else setLimit(4)
   })
 
+  // Pagination
+
+  const [page, setPage] = useState(1);
+  const [limit, setLimit] = useState(4)
+  const paginatedGoods = state.filteredData.slice((page - 1) * limit, page * limit);
+
+  const changePage = (data) => {
+    if(data >= 1 && data <= Math.ceil(fav.length / limit) ) {
+      setPage(data);
+    }  
+  };
+
+  useEffect(()=>{
+    if(window.innerWidth >= 768) setLimit(12)
+  }, [])
+
+  window.addEventListener('resize', () => {
+    if(window.innerWidth >= 768) setLimit(12)
+    else setLimit(4)
+  })
 
   return (
     <>
@@ -59,12 +74,12 @@ const SearchPage = () => {
         <div className="goods__result">
           Результаты поиска по запросу: {state.data}
         </div>
-        {state.length <= 0 ? (
-          <div></div>
+        {state.filteredData.length <= 0 ? (
+          <div>По вашему запросу ничего не найдено</div>
         ) : (
           <>
             <div className="goods__items">
-              {state.filteredData.map((item) => {
+              {paginatedGoods.map((item) => {
                 const isFavorite = fav && fav.some((i) => i.id === item.id);
                 return (
                   <div
@@ -91,7 +106,7 @@ const SearchPage = () => {
                       ) : (
                         <div
                           onClick={(e) => favoriteHandler(e, item)}
-                          className="goods__favorite"
+                          className="goods__favorite favorite"
                         >
                           <img src={favorite} alt="Favorite" />
                         </div>
@@ -145,6 +160,7 @@ const SearchPage = () => {
                 );
               })}
             </div>
+            <PaginationCustom limit={limit} count={favorites} func={changePage} />
           </>
         )}
       </div>

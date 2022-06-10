@@ -4,9 +4,26 @@ import { List } from '@mui/material';
 import more from '../../assets/icons/next.png'
 
 export default function Pagination({limit, count, func}) {
+
+  const goods = Math.ceil(count.length / limit)
   const { items } = usePagination({
-    count: Math.ceil(count.length / limit),
+    count: goods,
   });
+
+
+  // if(items[0].page === 0){
+  //   console.log('NULl');
+  //   items[0].page = 1
+  // }
+
+  // if(items[items.length - 1].page === goods) {
+  //   console.log('LAST');
+  //   items[items.length - 1].page = goods - 1
+  // }
+
+  // console.log(items);
+  // console.log(goods);
+  // console.log(goods);
 
   return (
     <nav className='pagination'>
@@ -38,6 +55,7 @@ export default function Pagination({limit, count, func}) {
               </button>
             );
           }
+          
 
           return <li onClick={() => func(page)} key={index}>{children}</li>;
         })}

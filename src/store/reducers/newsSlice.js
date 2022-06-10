@@ -13,7 +13,6 @@ export const newsSlice = (state = defaultState, action) => {
 
     case GET_MORE_NEWS:
       const data = [...state.data, ...action.payload];
-
       return { ...state, data: data, loading: false };
 
     default:
