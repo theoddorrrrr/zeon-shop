@@ -10,7 +10,6 @@ import favorite from "../../assets/icons/heart-good.png";
 import favoriteActive from "../../assets/icons/heart-good-filled.png";
 import { useLocation } from "react-router-dom";
 
-
 import PaginationCustom from "../../components/PaginationCustom";
 
 const SearchPage = () => {
@@ -37,44 +36,33 @@ const SearchPage = () => {
 
   const favorites = useSelector((state) => state.favorites);
 
-  useEffect(()=>{
-    if(window.innerWidth >= 768) setLimit(12)
-    else setLimit(4)
-  }, [])
-
-  window.addEventListener('resize', () => {
-    if(window.innerWidth >= 768) setLimit(12)
-    else setLimit(4)
-  })
-
   // Pagination
 
   const [page, setPage] = useState(1);
-  const [limit, setLimit] = useState(4)
-  const paginatedGoods = state.filteredData.slice((page - 1) * limit, page * limit);
+  const [limit, setLimit] = useState(window.innerWidth >= 768 ? 8 : 4);
+  const paginatedGoods = state?.filteredData.slice(
+    (page - 1) * limit,
+    page * limit
+  );
 
   const changePage = (data) => {
-    if(data >= 1 && data <= Math.ceil(fav.length / limit) ) {
+    if (data >= 1 && data <= Math.ceil(state?.filteredData.length / limit)) {
       setPage(data);
-    }  
+    }
   };
 
-  useEffect(()=>{
-    if(window.innerWidth >= 768) setLimit(12)
-  }, [])
-
-  window.addEventListener('resize', () => {
-    if(window.innerWidth >= 768) setLimit(12)
-    else setLimit(4)
-  })
+  window.addEventListener("resize", () => {
+    if (window.innerWidth >= 768) setLimit(12);
+    else setLimit(4);
+  });
 
   return (
     <>
       <div className="goods__wrapper">
         <div className="goods__result">
-          Результаты поиска по запросу: {state.data}
+          Результаты поиска по запросу: {state?.data || ""}
         </div>
-        {state.filteredData.length <= 0 ? (
+        {!state || state?.filteredData.length <= 0 ? (
           <div>По вашему запросу ничего не найдено</div>
         ) : (
           <>
@@ -160,7 +148,11 @@ const SearchPage = () => {
                 );
               })}
             </div>
-            <PaginationCustom limit={limit} count={favorites} func={changePage} />
+            <PaginationCustom
+              limit={limit}
+              count={state?.filteredData}
+              func={changePage}
+            />
           </>
         )}
       </div>

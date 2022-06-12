@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import {
@@ -12,6 +12,7 @@ import { fetchMoreBestSellers } from "../../api/API";
 
 const BestSellers = () => {
   const bestSellers = useSelector((state) => state.bestSellersGoods);
+  const [hover] = useState(!window.matchMedia("(hover: none)").matches);
 
   let navigate = useNavigate();
   const dispatch = useDispatch();
@@ -45,11 +46,11 @@ const BestSellers = () => {
   const mouseMoveHandler = (e) => {
     console.log(ref.current);
 
-    // Style positions of DIV REF by mouse E, make a link between
     console.log(e);
   };
+  console.log(hover);
 
-  const ref = useRef()
+  const ref = useRef();
 
   return (
     <>
@@ -93,17 +94,15 @@ const BestSellers = () => {
                         </div>
                       )}
 
-                      <div className="goods__images">
-                        <img
-                          // onMouseOver={(e)=> mouseHandler(e)}
-                          onMouseMove={(e) => mouseMoveHandler(e)}
-                          className="goods__img"
-                          src={item.src[0]}
-                          alt={item.title}
-                        />
+                      <img
+                        // onMouseOver={(e)=> mouseHandler(e)}
+                        onMouseMove={(e) => mouseMoveHandler(e)}
+                        className="goods__img"
+                        src={item.src[0]}
+                        alt={item.title}
+                      />
 
-                        <div ref={ref} className="hover"></div>
-                      </div>
+                      <div ref={ref} className="hover"></div>
                     </div>
                     <div className="goods__body">
                       <div className="goods__title">{item.title}</div>

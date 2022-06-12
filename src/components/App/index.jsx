@@ -23,6 +23,7 @@ import Details from "../Details";
 import Collection from "../Collection";
 import ScrollToTop from "../ScrollToTop";
 import SearchPage from "../../pages/SearchPage";
+import MediaButton from "../MediaButton";
 
 function App() {
   const dispatch = useDispatch();
@@ -42,6 +43,7 @@ function App() {
         <div className="main__container container">
           <div className="main__content">
             <ScrollToTop />
+            <MediaButton />
 
             <Routes>
               <Route path="/" element={<MainPage />} />

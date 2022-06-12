@@ -15,19 +15,13 @@ import PaginationCustom from "../../components/PaginationCustom";
 
 const Collection = () => {
   const pathname = useParams();
-  const [limit, setLimit] = useState(8);
+  const [limit, setLimit] = useState(window.innerWidth >= 768 ? 8 : 4);
   const favorites = useSelector((state) => state.favorites);
   const dispatch = useDispatch();
   let navigate = useNavigate();
 
   const collection = useSelector((state) => state.oneCollection);
   const paginated = useSelector((state) => state.oneCollection.paginated);
-
-  useEffect(() => {
-    if (window.innerWidth < 768) {
-      setLimit(4);
-    }
-  }, []);
 
   window.addEventListener("resize", () => {
     if (window.innerWidth >= 768) setLimit(8);
@@ -55,13 +49,15 @@ const Collection = () => {
     dispatch(fetchPaginatedOneCollection(limit, 1, pathname.collection));
   }, []);
 
+  useEffect(() => {
+    dispatch(fetchPaginatedOneCollection(limit, 1, pathname.collection));
+  }, [limit]);
+
   const changePage = (data) => {
     if (data >= 1 && data <= Math.ceil(collection.data.length / limit)) {
       dispatch(fetchPaginatedOneCollection(limit, data, pathname.collection));
     }
   };
-
-
 
   return (
     <div className="goods__wrapper">

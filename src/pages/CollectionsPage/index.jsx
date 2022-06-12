@@ -11,18 +11,14 @@ const CollectionsPage = () => {
   const navigate = useNavigate();
   const collections = useSelector((state) => state.collections.all);
   const paginated = useSelector((state) => state.collections.paginated);
-  
-  const [limit, setLimit] = useState(4);
+
+  const [limit, setLimit] = useState(window.innerWidth >= 768 ? 8 : 4);
 
   const changePage = (data) => {
-    if(data >= 1 && data <= Math.ceil(collections?.length / limit) ) {
-       dispatch(fetchPaginatedCollection(limit, data))
-    }  
+    if (data >= 1 && data <= Math.ceil(collections?.length / limit)) {
+      dispatch(fetchPaginatedCollection(limit, data));
+    }
   };
-
-  useEffect(() => {
-    if (window.innerWidth >= 768) setLimit(8);
-  }, []);
 
   window.addEventListener("resize", () => {
     if (window.innerWidth >= 768) setLimit(8);
@@ -34,6 +30,9 @@ const CollectionsPage = () => {
     dispatch(fetchPaginatedCollection(limit));
   }, []);
 
+  useEffect(() => {
+    dispatch(fetchPaginatedCollection(limit));
+  }, [limit]);
 
   return (
     <>
@@ -66,11 +65,11 @@ const CollectionsPage = () => {
             })}
           </div>
 
-            <PaginationCustom
-              limit={limit}
-              count={collections}
-              func={changePage}
-            />
+          <PaginationCustom
+            limit={limit}
+            count={collections}
+            func={changePage}
+          />
         </div>
       )}
     </>

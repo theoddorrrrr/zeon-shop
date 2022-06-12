@@ -135,7 +135,7 @@ const Hot = () => {
           </>
         )}
       </div>
-      ;
+
       {hotGoods.data.length <= 4 && (
         <button onClick={buttonHandler} className="button btn button-load">
           Еще
