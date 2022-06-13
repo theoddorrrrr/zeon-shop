@@ -5,6 +5,9 @@
   li {
     text-decoration: none;
     list-style: none;
+    a {
+      display: flex;
+    }
   }
 
   li + li {
@@ -65,7 +68,7 @@
     }
   }
 
-  @media (min-width: 1005px) {
+  @media (min-width: 1110px) {
     &__top {
       display: flex;
       justify-content: space-between;

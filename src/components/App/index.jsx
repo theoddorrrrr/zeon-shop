@@ -42,9 +42,8 @@ function App() {
       <main className="main">
         <div className="main__container container">
           <div className="main__content">
-            <ScrollToTop />
             <MediaButton />
-
+            <ScrollToTop />
             <Routes>
               <Route path="/" element={<MainPage />} />
               <Route path="/about-us" element={<AboutUsPage />} />

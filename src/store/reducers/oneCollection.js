@@ -10,11 +10,9 @@ const defaultState = {
   export const oneCollectionSlice = (state = defaultState, action) => {
     switch (action.type) {
       case GET_COLLECTION:
-        console.log(action.payload);
         return { ...state, data: action.payload, loading: false };
 
         case GET_PAGINATED_ONE_COLLECTIONS:
-          console.log(action.payload);
           state.paginated = []
           return { ...state, paginated: action.payload };
   

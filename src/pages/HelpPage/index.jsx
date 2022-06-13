@@ -6,7 +6,7 @@ import HelpItem from "../../components/HelpItem";
 const HelpPage = () => {
   const dispatch = useDispatch();
   const help = useSelector((state) => state.help);
-  console.log(help);
+  // console.log(help);
 
   useEffect(() => {
     dispatch(fetchHelp());

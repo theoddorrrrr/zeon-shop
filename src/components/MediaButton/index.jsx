@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import close from "../../assets/icons/cart.png";
+import close from "../../assets/icons/close-btn.png";
 import up from "../../assets/icons/up.png";
 import callBack from "../../assets/icons/call-back.png";
 

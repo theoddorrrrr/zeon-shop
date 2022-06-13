@@ -240,7 +240,14 @@
   flex: 1 0 auto;
   background-color: #7c7c7c0e;
 
+  &__container {
+    position: relative;
+    // margin-top: -75px;
+  }
+
   &__content {
+    display: flex;
+    flex-direction: column;
     position: relative;
     padding: 11px 0 1em;
     @media (min-width: 768px) {
@@ -271,7 +278,7 @@
     margin: 1em 0 1em 0;
   }
   &__wrapper {
-    padding: 0 1em;
+    padding: 0 0.5em;
     @media (min-width: 768px) {
       padding: 0;
     }
@@ -458,7 +465,7 @@
 .advantages {
   margin-top: 2em;
   text-align: center;
-  padding: 0 1em;
+  padding: 0;
   &__items {
     display: grid;
     gap: 15px;
@@ -496,7 +503,7 @@
     gap: 10px;
     grid-template-columns: repeat(1, minmax(150px, 2fr));
     text-align: center;
-    padding: 0 1em 0.5em 0;
+    padding: 0 0 0.5em 0;
 
     @media (min-width: 460px) {
       grid-template-columns: repeat(2, minmax(150px, 2fr));
@@ -525,7 +532,7 @@
   &__text {
     font-weight: bold;
     margin: 1em 0 1em 0;
-    padding: 0 1em;
+    padding: 0;
     font-size: 1.2rem;
   }
 
@@ -1098,7 +1105,6 @@
     font-weight: 700;
     opacity: 0.8;
     font-size: 1.5rem;
-    margin-bottom: 10px;
   }
   &__description {
     opacity: 0.7;
@@ -1171,7 +1177,8 @@
     font-size: 1.2rem;
     font-weight: 600;
     opacity: 0.9;
-    margin-bottom: 1em;
+    margin: 1em 0 10px 0;
+    padding: 0;
   }
 
   &__descriptions {
@@ -1291,16 +1298,33 @@
 .media-buttons {
   position: sticky;
   top: 50vh;
-  transform: translateX(calc(100% - 45px));
+  justify-self: flex-end;
+  align-items: flex-end;
+  // padding-left: 10px;
+  // padding-bottom: 20px;
+  // float: left;
+  margin-bottom: -90px;
+  // padding-bottom: 96px;
+  // transform: translateX(calc(100% - 45px));
+
+  // display: inline-block;
+  // display: inline-flex;
+  // justify-content: flex-end;
+  // align-items: center;
+  // flex-direction: column;
+
   z-index: 10;
-  margin-bottom: -96px;
+  // left: inherit;
+  // right: 0;
+  // left: 50%;
+  // top: 0%;
+  // transform: translateX(-50%);
 
-  display: inline-flex;
-  justify-content: flex-end;
-  align-items: center;
-  flex-direction: column;
-
-  float: right;
+  // position: fixed;
+  padding: 2em;
+  // right: 10%;
+  // top: 0%;
+  // transform: translateX(-50%);
 
   font-size: 0;
 

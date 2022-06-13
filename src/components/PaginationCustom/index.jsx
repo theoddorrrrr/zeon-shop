@@ -10,21 +10,6 @@ export default function Pagination({limit, count, func}) {
     count: goods,
   });
 
-
-  // if(items[0].page === 0){
-  //   console.log('NULl');
-  //   items[0].page = 1
-  // }
-
-  // if(items[items.length - 1].page === goods) {
-  //   console.log('LAST');
-  //   items[items.length - 1].page = goods - 1
-  // }
-
-  // console.log(items);
-  // console.log(goods);
-  // console.log(goods);
-
   return (
     <nav className='pagination'>
       <List>

@@ -40,15 +40,15 @@ const BestSellers = () => {
   const favorites = useSelector((state) => state.favorites);
 
   const mouseHandler = (e) => {
-    console.log(e);
+    // console.log(e);
   };
 
   const mouseMoveHandler = (e) => {
-    console.log(ref.current);
+    // console.log(ref.current);
 
-    console.log(e);
+    // console.log(e);
   };
-  console.log(hover);
+  // console.log(hover);
 
   const ref = useRef();
 

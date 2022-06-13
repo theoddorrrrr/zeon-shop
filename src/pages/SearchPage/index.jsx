@@ -11,6 +11,7 @@ import favoriteActive from "../../assets/icons/heart-good-filled.png";
 import { useLocation } from "react-router-dom";
 
 import PaginationCustom from "../../components/PaginationCustom";
+import { useRef } from "react";
 
 const SearchPage = () => {
   const dispatch = useDispatch();
@@ -55,6 +56,19 @@ const SearchPage = () => {
     if (window.innerWidth >= 768) setLimit(12);
     else setLimit(4);
   });
+
+  const mouseHandler = (e) => {
+    // console.log(e);
+  };
+
+  const mouseMoveHandler = (e) => {
+    // console.log(ref.current);
+
+    // console.log(e);
+  };
+  // console.log(hover);
+
+  const ref = useRef();
 
   return (
     <>
@@ -101,10 +115,14 @@ const SearchPage = () => {
                       )}
 
                       <img
+                        // onMouseOver={(e)=> mouseHandler(e)}
+                        onMouseMove={(e) => mouseMoveHandler(e)}
                         className="goods__img"
                         src={item.src[0]}
                         alt={item.title}
                       />
+
+                      <div ref={ref} className="hover"></div>
                     </div>
                     <div className="goods__body">
                       <div className="goods__title">{item.title}</div>
