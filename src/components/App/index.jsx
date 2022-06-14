@@ -24,13 +24,12 @@ import Collection from "../Collection";
 import ScrollToTop from "../ScrollToTop";
 import SearchPage from "../../pages/SearchPage";
 import MediaButton from "../MediaButton";
-import Call from "../../forms/Call"
+import Call from "../../forms/Call";
 
 function App() {
   const dispatch = useDispatch();
   const { pathname } = useLocation();
-  const {modal} = useSelector(state => state)
-  console.log(modal);
+  const { modal } = useSelector((state) => state);
 
   useEffect(() => {
     dispatch(fetchMainInfo());
@@ -40,7 +39,7 @@ function App() {
   }, []);
 
   return (
-    <div className={modal.isModal ? "App hidden" : "hidden"}>
+    <div className={modal.isModal ? "App hidden" : "App"}>
       <Header />
 
       <main className="main">
