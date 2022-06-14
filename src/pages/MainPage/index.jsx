@@ -12,6 +12,7 @@ import Advantages from "../../components/Advantages";
 const MainPage = () => {
   return (
     <>
+
       <Slider />
       <BestSellers />
       <Hot />

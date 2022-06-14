@@ -36,9 +36,6 @@ const Footer = () => {
                   <li>
                     <LinkRouter to="/help">Помощь</LinkRouter>
                   </li>
-                  <li>
-                    <LinkRouter className="footer__link_offer" to="/public-offer">Публичная оферта</LinkRouter>
-                  </li>
                 </ul>
               </div>
               <div className="footer-contacts">

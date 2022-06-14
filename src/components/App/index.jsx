@@ -2,7 +2,7 @@ import Footer from "../Footer";
 import Header from "../Header";
 import "./App.scss";
 
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import MainPage from "../../pages/MainPage";
 import AboutUsPage from "../../pages/AboutUsPage";
 import CollectionsPage from "../../pages/CollectionsPage";
@@ -11,7 +11,7 @@ import FavirotePage from "../../pages/FavoritesPage";
 import CartPage from "../../pages/CartPage";
 import HelpPage from "../../pages/HelpPage";
 import PublicOfferPage from "../../pages/PublicOfferPage";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import {
   fetchBestSellers,
@@ -24,9 +24,13 @@ import Collection from "../Collection";
 import ScrollToTop from "../ScrollToTop";
 import SearchPage from "../../pages/SearchPage";
 import MediaButton from "../MediaButton";
+import Call from "../../forms/Call"
 
 function App() {
   const dispatch = useDispatch();
+  const { pathname } = useLocation();
+  const {modal} = useSelector(state => state)
+  console.log(modal);
 
   useEffect(() => {
     dispatch(fetchMainInfo());
@@ -36,13 +40,13 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <div className={modal.isModal ? "App hidden" : "hidden"}>
       <Header />
 
       <main className="main">
         <div className="main__container container">
           <div className="main__content">
-            <MediaButton />
+            {pathname == "/cart" || <MediaButton />}
             <ScrollToTop />
             <Routes>
               <Route path="/" element={<MainPage />} />
@@ -63,6 +67,8 @@ function App() {
           </div>
         </div>
       </main>
+
+      {modal.isModal && <Call />}
 
       <Footer />
     </div>
