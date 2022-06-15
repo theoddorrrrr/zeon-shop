@@ -8,6 +8,7 @@ import favoriteImg from "../../assets/icons/heart.png";
 import cartImg from "../../assets/icons/cart.png";
 import { Link as LinkRouter, useLocation, useParams } from "react-router-dom";
 import Search from "../Search";
+import { setModalAction } from "../../store/reducers/modalSlice";
 
 const Header = () => {
   const dispatch = useDispatch();
@@ -102,7 +103,9 @@ const FavoriteButton = ({ toggleNavbar, desktop }) => {
         onClick={handleNavbar}
       >
         <img src={favoriteImg} alt="Favorite" />
-        <button className="btn favorites"><span>Избранное</span></button>
+        <button className="btn favorites">
+          <span>Избранное</span>
+        </button>
       </LinkRouter>
     </div>
   );
@@ -144,7 +147,7 @@ const HeaderBreadCrumbs = () => {
     { title: "search", path: "Результаты поиска" },
   ];
   let { pathname } = useLocation();
-  
+
   pathname = pathname.split("/")[1];
   let currentPath = paths.find((item) => pathname == item.title);
 
@@ -169,7 +172,9 @@ const HeaderBreadCrumbs = () => {
             <Link underline="hover" color="black" href="/">
               Главная
             </Link>
-            <Link underline="none" color="#d1d1d1">{currentPath?.path}</Link>
+            <Link underline="none" color="#d1d1d1">
+              {currentPath?.path}
+            </Link>
           </Breadcrumbs>
         </div>
       ) : (
@@ -221,15 +226,34 @@ const Navbar = () => {
             {info.loading ? (
               <div>Loading</div>
             ) : (
-              info.data.mobileSocialMedia.map((item) => {
-                return (
-                  <div key={item.id}>
-                    <a target="_blank" href={item.data}>
-                      <img src={item.src} alt={item.title} />
-                    </a>
-                  </div>
-                );
-              })
+              <>
+                <div>
+                  <a target="_blank" href={info.data.mobileSocialMedia[0].data}>
+                    <img
+                      src={info.data.mobileSocialMedia[0].src}
+                      alt={info.data.mobileSocialMedia[0].title}
+                    />
+                  </a>
+                </div>
+                <div>
+                  <a target="_blank" href={info.data.mobileSocialMedia[1].data}>
+                    <img
+                      src={info.data.mobileSocialMedia[1].src}
+                      alt={info.data.mobileSocialMedia[1].title}
+                    />
+                  </a>
+                </div>
+                <div
+                  onClick={() => {
+                    dispatch(setModalAction());
+                  }}
+                >
+                  <img
+                    src={info.data.mobileSocialMedia[2].src}
+                    alt={info.data.mobileSocialMedia[2].title}
+                  />
+                </div>
+              </>
             )}
           </div>
         </div>

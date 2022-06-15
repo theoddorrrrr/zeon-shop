@@ -30,9 +30,9 @@ const NewsPage = () => {
       observer.observe(ref.current);
     }
 
-   return () => {
-     console.log(observer);
-   }
+  //  return () => {
+  //    console.log(observer);
+  //  }
 
   }, [news.loading]);
 

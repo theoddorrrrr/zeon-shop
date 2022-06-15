@@ -24,7 +24,9 @@ import Collection from "../Collection";
 import ScrollToTop from "../ScrollToTop";
 import SearchPage from "../../pages/SearchPage";
 import MediaButton from "../MediaButton";
-import Call from "../../forms/Call";
+import CallForm from "../../forms/CallForm";
+import SuccessForm from "../../forms/SuccessForm";
+import CartForm from "../../forms/CartForm";
 
 function App() {
   const dispatch = useDispatch();
@@ -39,7 +41,7 @@ function App() {
   }, []);
 
   return (
-    <div className={modal.isModal ? "App hidden" : "App"}>
+    <div className="App">
       <Header />
 
       <main className="main">
@@ -67,7 +69,9 @@ function App() {
         </div>
       </main>
 
-      {modal.isModal && <Call />}
+      {modal.isModal && <CallForm />}
+      {modal.isSuccess && <SuccessForm />}
+      {modal.isCart && <CartForm />}
 
       <Footer />
     </div>

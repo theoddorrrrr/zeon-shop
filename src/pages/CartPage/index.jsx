@@ -7,6 +7,7 @@ import {
   incrementCart,
   removeFromCart,
 } from "../../store/reducers/cartSlice";
+import { setCartAction } from "../../store/reducers/modalSlice";
 
 const CartPage = () => {
   const dispatch = useDispatch();
@@ -178,7 +179,7 @@ const CartPage = () => {
               </button>
             )}
 
-            <button className="btn button cart__details-button">
+            <button className="btn button cart__details-button" onClick={() => dispatch(setCartAction())}>
               Оформить заказ
             </button>
           </div>
