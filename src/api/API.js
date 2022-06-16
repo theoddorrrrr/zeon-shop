@@ -1,7 +1,7 @@
 import axios from "axios";
 import { GetInfoAction } from "../store/reducers/infoSlice";
 import { GetPublicOfferAction } from "../store/reducers/publicOfferSlice";
-import { GetMainInfoAction } from "../store/reducers/mainInfoSlice";
+import { GetInterestedGoods, GetMainInfoAction } from "../store/reducers/mainInfoSlice";
 import {
   GetHotGoodsAction,
   GetMoreHotGoodsAction,
@@ -24,6 +24,9 @@ import { GetMoreNewsAction, GetNewsAction } from "../store/reducers/newsSlice";
 
 export const instance = axios.create({
   baseURL: "http://localhost:3000/",
+  headers: {
+    "Content-Type": "application/json"
+  }
 });
 
 // Base Info
@@ -193,3 +196,20 @@ export const fetchMoreNews = (limit = 4, page = 1) => {
       .then((json) => dispatch(GetMoreNewsAction(json.data)));
   };
 };
+
+// Interest
+
+export const fetchInterested = () => {
+  return function (dispatch) {
+    instance
+      .get(`hot?_limit=5`)
+      .then((json) => dispatch(GetInterestedGoods(json.data)));
+  };
+};
+
+
+// Cart
+
+export const postCart = (data) => {
+  instance.post(`orders`, data)
+}

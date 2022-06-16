@@ -17,6 +17,7 @@ import {
   fetchBestSellers,
   fetchColletions,
   fetchHotGoods,
+  fetchInterested,
   fetchMainInfo,
 } from "../../api/API";
 import Details from "../Details";
@@ -35,6 +36,7 @@ function App() {
 
   useEffect(() => {
     dispatch(fetchMainInfo());
+    dispatch(fetchInterested())
     dispatch(fetchHotGoods());
     dispatch(fetchBestSellers());
     dispatch(fetchColletions());

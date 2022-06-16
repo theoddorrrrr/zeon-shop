@@ -15,6 +15,9 @@
   padding: 0 1em;
   height: 64px;
   gap: 3em;
+  .burger {
+    cursor: pointer;
+  }
   @media (min-width: 768px) {
     min-height: 90px;
     padding: 0.5em 1em;
@@ -771,7 +774,7 @@
   margin-bottom: 1em;
 }
 
-.cart {
+.cart { 
   &__items {
     display: flex;
     flex-direction: column;
@@ -890,6 +893,7 @@
   &-wrapper {
     display: flex;
     gap: 1em;
+    padding: 0 5px;
   }
 
   &__price {
@@ -1459,12 +1463,14 @@
       margin-bottom: 1em;
     }
     margin-top: 5em;
+    margin-bottom: 1em;
 
     .form__inputs {
       gap: 1.2em;
       div {
         span {
           color: black;
+          margin-bottom: 5px;
           opacity: 0.8;
         }
       }
@@ -1488,11 +1494,58 @@
       justify-content: center;
       align-items: center;
       gap: 1em;
-      margin-bottom: 1.2em;
       font-weight: bold;
-      span, a{
+      span,
+      a {
         opacity: 0.8;
       }
     }
+  }
+
+  .PhoneInput {
+    position: relative;
+
+    .PhoneInputCountrySelect {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 10px;
+      z-index: 2;
+      width: 80px;
+      opacity: 0;
+      cursor: pointer;
+    }
+
+    .PhoneInputCountryIcon.PhoneInputCountryIcon--border,
+    .PhoneInputCountryIcon {
+      display: flex;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 10px;
+      max-width: 80px;
+    }
+    .PhoneInputInput {
+      padding-left: 60px;
+    }
+    img,
+    svg {
+      width: 30px;
+    }
+  }
+}
+
+.interested {
+  &__goods {
+    grid-template-columns: repeat(5, minmax(170px, 1fr));
+
+    @media (max-width: 768px) {
+      overflow-y: auto;
+    }
+  }
+
+  &__title {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
   }
 }

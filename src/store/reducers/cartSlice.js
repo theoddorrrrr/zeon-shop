@@ -6,6 +6,7 @@ const ADD_TO_CART = "ADD_TO_CART";
 const REMOVE_FROM_CART = "REMOVE_FROM_CART";
 const INCREMENT_CART = "INCREMENT_CART";
 const DECREMENT_CART = "DECREMENT_CART";
+const RESET_CART = "RESET_CART";
 
 export const cartSlice = (state = defaultState, action) => {
   switch (action.type) {
@@ -24,7 +25,7 @@ export const cartSlice = (state = defaultState, action) => {
 
       localStorage.setItem("cart", JSON.stringify([...cloneCardGoods]));
       return [...cloneCardGoods];
-        
+
     case INCREMENT_CART:
       const newIncrementState = state.map((good) => {
         const newGood = { ...good };
@@ -59,6 +60,10 @@ export const cartSlice = (state = defaultState, action) => {
         return newDecrementState;
       }
 
+    case RESET_CART:
+      localStorage.setItem("cart", JSON.stringify([]));
+      return { state: [] };
+
     default:
       return state;
   }
@@ -71,3 +76,4 @@ export const removeFromCart = (payload) => ({
 });
 export const incrementCart = (payload) => ({ type: INCREMENT_CART, payload });
 export const decrementCart = (payload) => ({ type: DECREMENT_CART, payload });
+export const resetCart = () => ({ type: RESET_CART });
