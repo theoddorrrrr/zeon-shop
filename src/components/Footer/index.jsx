@@ -16,9 +16,7 @@ const Footer = () => {
               {info.loading ? (
                 <span>Loading</span>
               ) : (
-                <LinkRouter to="/">
                   <img className="footer__img" src={info.data.logo.src} />
-                </LinkRouter>
               )}
             </div>
             <div className="footer__content">

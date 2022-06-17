@@ -39,9 +39,9 @@ const CollectionsPage = () => {
       {collections?.loading ? (
         <div>Loading</div>
       ) : (
-        <div className="collections">
+        <div className="collections collections-wrapper">
           <div className="collections__text text">Коллекции</div>
-          <div className="collections__items">
+          <div className="collections__items collections__page">
             {paginated?.map((item) => {
               return (
                 <div

@@ -31,8 +31,6 @@ export default function App() {
     }
   }, [])
 
-  console.log(errorsCall);
-
   return (
     <form key={1} onSubmit={handleSubmitCall(onSubmitCall)} className="form" name="callForm">
       <div className="form__body">

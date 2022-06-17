@@ -23,7 +23,6 @@ const CartForm = () => {
   const {cart} = useSelector(state => state)
   const navigate = useNavigate()
 
-
   const onSubmitCart = (data) => {
     dispatch(setCartAction());
     dispatch(setSuccessAction());

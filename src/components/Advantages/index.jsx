@@ -11,7 +11,7 @@ const Advantages = () => {
         <div className="advantages container">
           <h2 className="advantages__title title">Наши преимущества</h2>
           <div className="advantages__items">
-            {mainInfo.data.advantages.map((item) => {
+            {mainInfo?.data?.advantages?.map((item) => {
               return (
                 <div className="advantages__item" key={item.id}>
                   <div className="advantages__img">

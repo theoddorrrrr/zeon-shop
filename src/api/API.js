@@ -202,11 +202,10 @@ export const fetchMoreNews = (limit = 4, page = 1) => {
 export const fetchInterested = () => {
   return function (dispatch) {
     instance
-      .get(`hot?_limit=5`)
+      .get(`bestSellers?_limit=5`)
       .then((json) => dispatch(GetInterestedGoods(json.data)));
   };
 };
-
 
 // Cart
 

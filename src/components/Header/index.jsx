@@ -9,6 +9,7 @@ import cartImg from "../../assets/icons/cart.png";
 import { Link as LinkRouter, useLocation, useParams } from "react-router-dom";
 import Search from "../Search";
 import { setModalAction } from "../../store/reducers/modalSlice";
+import SearchMobile from "../SearchMobile";
 
 const Header = () => {
   const dispatch = useDispatch();
@@ -78,6 +79,7 @@ const HeaderBody = () => {
         )}
 
         <Search />
+        <SearchMobile />
 
         <FavoriteButton desktop={true} />
         <CartButton desktop={true} />

@@ -68,6 +68,16 @@
     }
   }
 
+  @media (min-width: 800px) {
+    &__content {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 4em;
+      flex-grow: 1;
+    }
+  }
+
   @media (min-width: 1110px) {
     &__top {
       display: flex;
@@ -78,6 +88,7 @@
 
     &__content {
       gap: 6em;
+      justify-content: center;
     }
 
     &__logo {

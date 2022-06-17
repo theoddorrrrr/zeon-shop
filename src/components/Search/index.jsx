@@ -62,7 +62,7 @@ const Search = () => {
 
   return (
     <>
-      <div onClick={!isSearch ? searchHandler : undefined} className="search">
+      <div onClick={!isSearch ? searchHandler : undefined} className="search search-desktop">
         <label>
           <input
             placeholder="Поиск"

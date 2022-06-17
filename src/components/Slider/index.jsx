@@ -15,6 +15,7 @@ const Slider = () => {
     easing: true,
   };
 
+  
   const mainInfo = useSelector((state) => state.mainInfo);
   let navigate = useNavigate();
   
@@ -24,7 +25,7 @@ const Slider = () => {
         {mainInfo.loading ? (
           <span>Loading</span>
         ) : (
-          mainInfo.data.sliderImages.map((item) => {
+          mainInfo?.data?.sliderImages?.map((item) => {
             return (
               <div className="slider__item" onClick={() => navigate(`/collections/winter2020`)} key={item.src}>
                 <img className="slider__img" src={item.src} alt={item.title} />
