@@ -7,9 +7,9 @@ import {
 } from "../store/reducers/modalSlice";
 import { useForm, Controller } from "react-hook-form";
 import closeBtn from "../assets/icons/close-btn.png";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
-import PhoneInput, { isValidPhoneNumber } from "react-phone-number-input";
+import PhoneInput from "react-phone-number-input";
 import { postCart } from "../api/API";
 import { resetCart } from "../store/reducers/cartSlice";
 
@@ -18,22 +18,23 @@ const CartForm = () => {
     register: registerCart,
     handleSubmit: handleSubmitCart,
     formState: { errors: errorsCart, isValid },
+    control
   } = useForm({ mode: "all" });
 
-  const {cart} = useSelector(state => state)
+  const { cart } = useSelector(state => state)
   const navigate = useNavigate()
 
   const onSubmitCart = (data) => {
     dispatch(setCartAction());
     dispatch(setSuccessAction());
 
-    data = {...data, goods: cart, id: Date.now()}
+    data = { ...data, goods: cart, id: Date.now() }
     postCart(data)
     console.log(data);
 
     dispatch(resetCart())
     navigate('/')
-    
+
   };
 
   const dispatch = useDispatch();
@@ -61,19 +62,21 @@ const CartForm = () => {
 
         <div className="form__inputs">
           <div>
-            <span>Ваше имя</span>
+            <span style={errorsCart.name && { color: 'red' }}>Ваше имя</span>
             {/* {errorsCart.name && <span>Введите Ваше имя</span>} */}
             <input
               placeholder="Например Иван"
+              style={errorsCart.name && { border: '1px solid red', borderRadius: '5px' }}
               {...registerCart("name", { required: true, minLength: 2 })}
             />
           </div>
 
           <div>
-            <span>Ваше фамилия</span>
+            <span style={errorsCart.surname && { color: 'red' }}>Ваше фамилия</span>
             {/* {errorsCart.number && <span>Введите Ваш номер</span>} */}
             <input
               placeholder="Например Иван"
+              style={errorsCart.surname && { border: '1px solid red', borderRadius: '5px' }}
               {...registerCart("surname", {
                 required: true,
                 minLength: 2,
@@ -82,10 +85,11 @@ const CartForm = () => {
           </div>
 
           <div>
-            <span>Электронная почта</span>
+            <span style={errorsCart.mail && { color: 'red' }}>Электронная почта</span>
             {/* {errorsCart.number && <span>Введите Ваш номер</span>} */}
             <input
               placeholder="example@mail.com"
+              style={errorsCart.mail && { border: '1px solid red', borderRadius: '5px' }}
               {...registerCart("mail", {
                 required: true,
                 pattern:
@@ -95,27 +99,39 @@ const CartForm = () => {
           </div>
 
           <div>
-            <span>Ваш номер телефона</span>
-            {errorsCart.number && <span>Введите Ваш номер</span>}
 
-            <PhoneInput
-              defaultCountry="KG"
-              placeholder="Введите номер телефона"
-              international
-              id="number"
+            <span style={errorsCart.number && { color: 'red' }}>Ваш номер телефона</span>
 
-              {...registerCart("number", {
-                required: true,
-                minLength: 6,
-              })}
+            <Controller
+              name="number"
+              control={control}
+              render={({ field: { onChange, value } }) => (
+                <PhoneInput
+                  value={value}
+                  international
+                  onChange={onChange}
+                  placeholder="Введите номер телефона"
+                  defaultCountry="KG"
+                  id="number"
+                  name="number"
+                  tabIndex='-1'
+                  
+                  style={errorsCart.number && {border: '1px solid red', borderRadius: '5px'}}
+                  {...registerCart("number", {
+                    required: true,
+                    minLength: 6,
+                  })}
+                />
+              )}
             />
           </div>
 
           <div>
-            <span>Страна</span>
+            <span style={errorsCart.country && { color: 'red' }}>Страна</span>
             {/* {errorsCart.number && <span>Введите Ваш номер</span>} */}
             <input
               placeholder="Введите страну"
+              style={errorsCart.country && { border: '1px solid red', borderRadius: '5px' }}
               {...registerCart("country", {
                 required: true,
                 minLength: 2,
@@ -124,10 +140,11 @@ const CartForm = () => {
           </div>
 
           <div>
-            <span>Город</span>
+            <span style={errorsCart.city && { color: 'red' }}>Город</span>
             {/* {errorsCart.number && <span>Введите Ваш номер</span>} */}
             <input
               placeholder="Введите город"
+              style={errorsCart.city && { border: '1px solid red', borderRadius: '5px' }}
               {...registerCart("city", {
                 required: true,
                 minLength: 2,
@@ -138,6 +155,7 @@ const CartForm = () => {
           <label>
             <input
               type="checkbox"
+              style={errorsCart.checkbox && { boxShadow: '0 0 5px 1px red' }}
               {...registerCart("checkbox", { required: true })}
             />
             <span>

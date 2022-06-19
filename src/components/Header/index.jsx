@@ -119,7 +119,6 @@ const CartButton = ({ toggleNavbar, desktop }) => {
       toggleNavbar();
     }
   };
-
   const isCart = useSelector((state) => state.cart.length);
   return (
     <div className={desktop ? "cart-btn_desktop" : "cart-btn mobile"}>
@@ -134,11 +133,12 @@ const CartButton = ({ toggleNavbar, desktop }) => {
     </div>
   );
 };
+
 const HeaderBreadCrumbs = () => {
   const paths = [
     // { title: "", path: "Корзина" },
     { title: "cart", path: "Корзина" },
-    { title: "favorite", path: "Избранные" },
+    { title: "favorite", path: "Избранное" },
     { title: "about-us", path: "О нас" },
     { title: "hot", path: "Новинки" },
     { title: "bestSellers", path: "Хит продаж" },

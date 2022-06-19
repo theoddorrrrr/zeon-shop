@@ -80,7 +80,7 @@ const CartPage = () => {
   return (
     <div className="cart-wrapper">
       {!cart || cart.length < 1 ? (
-        <div>
+        <div style={{width: "100%"}}>
           <div className="cart__title">Корзина</div>
           <div className="cart__text">У вас пока нет товаров в корзине</div>
 
