@@ -1,16 +1,22 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchHelp } from "../../api/API";
-import HelpItem from "../../components/HelpItem";
+import HelpItem from "../../components/HelpItem/index.";
 
 const HelpPage = () => {
   const dispatch = useDispatch();
   const help = useSelector((state) => state.help);
-  // console.log(help);
 
   useEffect(() => {
     dispatch(fetchHelp());
   }, []);
+
+  const [expanded, setExpanded] = useState(false);
+
+  const handleChange = (panel) => (event, isExpanded) => {
+    setExpanded(isExpanded ? panel : false);
+  };
+
   return (
     <>
       {help.loading ? (
@@ -27,8 +33,9 @@ const HelpPage = () => {
             <div className=" help__items">
               {help.data.qna.map((item) => {
                 return (
-                  <HelpItem key={item.id} item={item} />
+                  <HelpItem key={item.id} item={item} expanded={expanded} handleChange={handleChange} />
                 );
+
               })}
             </div>
           </div>

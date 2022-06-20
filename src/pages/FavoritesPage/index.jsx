@@ -49,7 +49,7 @@ const FavirotePage = () => {
             Возможно Вас заинтересует
           </div>
 
-          <div className="goods__items interested__goods">
+          <div className="interested__goods">
             {interestedGoods.map((item) => {
               const isFavorite = fav && fav.some((i) => i.id === item.id);
 

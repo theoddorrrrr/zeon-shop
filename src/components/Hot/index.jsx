@@ -32,7 +32,7 @@ const Hot = () => {
         ) : (
           <>
             <h2 className="goods-title">Новинки</h2>
-            <div className="goods__items">
+            <div className="goods__items hot__items">
               {hotGoods.data.map((item) => {
                 const isFavorite = fav && fav.some((i) => i.id === item.id);
 

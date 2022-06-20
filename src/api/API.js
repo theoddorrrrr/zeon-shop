@@ -152,9 +152,18 @@ const spring2020 = instance.get('spring2020').then(json => json.data)
 const winter2020 = instance.get('winter2020').then(json => json.data)
 const fall2020 = instance.get('fall2020') .then(json => json.data)
 
+const forNature = instance.get('forNature') .then(json => json.data)
+const dresses = instance.get('dresses') .then(json => json.data)
+const clothes = instance.get('clothes') .then(json => json.data)
+const skirts = instance.get('skirts') .then(json => json.data)
+
+
+
+
+
 export const fetchAllGoods = () => {
   return function (dispatch) {
-    axios.all([hot, bestSellers, summer2020, spring2020, winter2020, fall2020])
+    axios.all([hot, bestSellers, summer2020, spring2020, winter2020, fall2020, forNature, dresses, clothes, skirts])
     .then(json => dispatch(GetAllDataAction(json)))
   }
 }

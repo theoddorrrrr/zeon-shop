@@ -19,6 +19,10 @@ const PublicOfferPage = () => {
         <div>
           <div className="title">{publicOffer.data.title}</div>
           <div className="content">{publicOffer.data.description}</div>
+          <div className="content">{publicOffer.data.description}</div>
+          <div className="content">{publicOffer.data.description}</div>
+          <div className="content">{publicOffer.data.description}</div>
+          <div className="content">{publicOffer.data.description}</div>
         </div>
       )}
     </div>

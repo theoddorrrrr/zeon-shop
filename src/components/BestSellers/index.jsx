@@ -27,7 +27,7 @@ const BestSellers = () => {
         ) : (
           <>
             <h2 className="goods-title">Хит продаж</h2>
-            <div className="goods__items">
+            <div className="goods__items bestSellers__items">
               {bestSellers.data.map((item) => {
                 const isFavorite = fav && fav.some((i) => i.id === item.id);
 

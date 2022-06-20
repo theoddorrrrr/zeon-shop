@@ -10,6 +10,13 @@ export default function Pagination({limit, count, func}) {
     count: goods,
   });
 
+  const clickHandler = (page) => {
+    window.scrollTo({ top: 0, behavior: "smooth" })
+    setTimeout(() => {
+      func(page) 
+    },500)
+  }
+
   return (
     <nav className='pagination'>
       <List>
@@ -42,7 +49,7 @@ export default function Pagination({limit, count, func}) {
           }
           
 
-          return <li onClick={() => func(page)} key={index}>{children}</li>;
+          return <li onClick={() => clickHandler(page)} key={index}>{children}</li>;
         })}
       </List>
     </nav>

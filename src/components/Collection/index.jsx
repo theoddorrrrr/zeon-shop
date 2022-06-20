@@ -41,9 +41,8 @@ const Collection = () => {
     }
   };
 
-  const ref = useRef();
   return (
-    <div className="goods__wrapper">
+    <div className="goods__wrapper collection-wrapper">
       {collection.loading ? (
         <div>Loading</div>
       ) : (

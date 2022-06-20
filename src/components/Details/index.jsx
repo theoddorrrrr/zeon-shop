@@ -50,13 +50,13 @@ const Details = () => {
   // Get exact good
   useEffect(() => {
     getData(collection);
-    getSimilarGoods(collection);
+    setTimeout(() => getSimilarGoods(collection), 100)
   }, []);
 
   // If id changed, reload page for search
   useEffect(() => {
     getData(collection);
-    getSimilarGoods(collection);
+    setTimeout(() => getSimilarGoods(collection), 100)
   }, [id]);
 
   const cartHandler = (item, currentColor) => {

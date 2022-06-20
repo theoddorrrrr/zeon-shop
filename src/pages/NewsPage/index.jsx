@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchMoreNews, fetchNews } from "../../api/API";
+import NewsItem from "../../components/NewsItem";
 
 const NewsPage = () => {
   const dispatch = useDispatch();
@@ -44,19 +45,9 @@ const NewsPage = () => {
         <>
           <div className="news__title">Новости</div>
           <div className="news__items">
-            {news.data.map((item) => {
+            {news.data.map((item, index) => {
               return (
-                <div className="news__item" key={item.id}>
-                  <div className="news__image">
-                    <img src={item.src} alt="" />
-                  </div>
-                  <div className="news__body">
-                    <div className="news__title">{item.title}</div>
-                    <div className="news__descriptions">
-                      {item.descriptions}
-                    </div>
-                  </div>
-                </div>
+                <NewsItem item={item} key={index} />
               );
             })}
           </div>
