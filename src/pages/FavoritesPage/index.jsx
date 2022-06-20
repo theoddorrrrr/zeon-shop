@@ -70,7 +70,11 @@ const FavirotePage = () => {
             })}
           </div>
           {favorites.length >= 12 && (
-            <PaginationCustom limit={limit} count={fav} func={changePage} />
+            <PaginationCustom
+              limit={limit}
+              count={fav}
+              func={changePage}
+            />
           )}
         </>
       )}

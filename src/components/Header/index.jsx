@@ -180,7 +180,7 @@ const HeaderBreadCrumbs = () => {
     }
     if (
       pathname.split("/")[1] === "collections" &&
-      pathname.split("/").length > 3
+      pathname.split("/").length == 4
     ) {
       getOneGood(pathname.split("/")[2], pathname.split("/")[3]);
     }
@@ -195,7 +195,7 @@ const HeaderBreadCrumbs = () => {
     }
     if (
       pathname.split("/")[1] === "collections" &&
-      pathname.split("/").length > 3
+      pathname.split("/").length == 4
     ) {
       getOneGood(pathname.split("/")[2], pathname.split("/")[3]);
     }
@@ -236,30 +236,32 @@ const HeaderBreadCrumbs = () => {
               </Link>
             )}
 
-            {pathname.split("/").length == 3 &&
-            pathname.split("/")[1] === "collections" ? (
-              <Link
-                underline="none"
-                style={{ cursor: "default" }}
-                color="#d1d1d1"
-              >
-                {data[0]?.collectionTitle}
-              </Link>
-            ) : (
-              <Link
-                underline="hover"
-                color="black"
-                style={{ cursor: "pointer" }}
-                onClick={() =>
-                  navigate(`/collections/${pathname.split("/")[2]}`)
-                }
-              >
-                {data[0]?.collectionTitle}
-              </Link>
-            )}
-
+            {pathname.split("/")[1] === "collections" &&
+              pathname.split("/").length == 3 && (
+                <Link
+                  underline="none"
+                  style={{ cursor: "default" }}
+                  color="#d1d1d1"
+                >
+                  {data[0]?.collectionTitle}
+                </Link>
+              )}
             {pathname.split("/")[1] === "collections" &&
               pathname.split("/").length > 3 && (
+                <Link
+                  underline="hover"
+                  color="black"
+                  style={{ cursor: "pointer" }}
+                  onClick={() =>
+                    navigate(`/collections/${pathname.split("/")[2]}`)
+                  }
+                >
+                  {data[0]?.collectionTitle}
+                </Link>
+              )}
+
+            {pathname.split("/")[1] === "collections" &&
+              pathname.split("/").length == 4 && (
                 <Link
                   underline="none"
                   style={{ cursor: "default" }}

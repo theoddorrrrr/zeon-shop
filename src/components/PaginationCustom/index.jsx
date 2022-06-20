@@ -2,12 +2,17 @@ import * as React from 'react';
 import usePagination from '@mui/material/usePagination';
 import { List } from '@mui/material';
 import more from '../../assets/icons/next.png'
+import { useState } from 'react';
 
 export default function Pagination({limit, count, func}) {
 
+  const [siblingCount, setSiblingCount] = useState(window.innerWidth >= 768 ? 1 : 0);
+
   const goods = Math.ceil(count.length / limit)
+
   const { items } = usePagination({
     count: goods,
+    siblingCount: siblingCount,
   });
 
   const clickHandler = (page) => {
@@ -16,6 +21,11 @@ export default function Pagination({limit, count, func}) {
       func(page) 
     },500)
   }
+
+  window.addEventListener("resize", () => {
+    if (window.innerWidth >= 768) setSiblingCount(1);
+    else setSiblingCount(0);
+  });
 
   return (
     <nav className='pagination'>

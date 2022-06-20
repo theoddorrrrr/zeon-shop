@@ -47,6 +47,9 @@ const SearchPage = () => {
     else setLimit(4);
   });
 
+  console.log(state);
+  console.log(state?.filteredData.length);
+
 
   return (
     <>

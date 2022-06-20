@@ -23,12 +23,14 @@ const CartForm = () => {
 
   const { cart } = useSelector(state => state)
   const navigate = useNavigate()
-
+  
+  const cartDetails = useSelector(state => state.modal.cart) 
+  
   const onSubmitCart = (data) => {
     dispatch(setCartAction());
     dispatch(setSuccessAction());
 
-    data = { ...data, goods: cart, id: Date.now() }
+    data = { id: Date.now(), goods: cart, cartDetails: cartDetails, ...data, }
     postCart(data)
     console.log(data);
 

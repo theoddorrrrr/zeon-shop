@@ -27,12 +27,12 @@ const CartPage = () => {
 
   const array = [];
 
-   // Takes goods from local storage
-   const fav = localStorage.getItem("123")
-   ? JSON.parse(localStorage.getItem("123"))
-   : localStorage.setItem("123", []);
+  // Takes goods from local storage
+  const fav = localStorage.getItem("123")
+    ? JSON.parse(localStorage.getItem("123"))
+    : localStorage.setItem("123", []);
 
- const favorites = useSelector((state) => state.favorites);
+  const favorites = useSelector((state) => state.favorites);
   const cart = localStorage.getItem("cart")
     ? JSON.parse(localStorage.getItem("cart"))
     : localStorage.setItem("cart", JSON.stringify(array));
@@ -80,21 +80,23 @@ const CartPage = () => {
   return (
     <div className="cart-wrapper">
       {!cart || cart.length < 1 ? (
-        <div style={{width: "100%"}}>
+        <div style={{ width: "100%" }}>
           <div className="cart__title">Корзина</div>
           <div className="cart__text">У вас пока нет товаров в корзине</div>
 
-          <div className="cart__title interested__title">Возможно Вас заинтересует</div>
+          <div className="cart__title interested__title">
+            Возможно Вас заинтересует
+          </div>
 
           <div className="goods__items interested__goods">
-              {interestedGoods.map((item) => {
-                const isFavorite = fav && fav.some((i) => i.id === item.id);
+            {interestedGoods.map((item) => {
+              const isFavorite = fav && fav.some((i) => i.id === item.id);
 
-                return (
-                  <Interested item={item} isFavorite={isFavorite} key={item.id} />
-                );
-              })}
-            </div>
+              return (
+                <Interested item={item} isFavorite={isFavorite} key={item.id} />
+              );
+            })}
+          </div>
         </div>
       ) : (
         <>
@@ -212,7 +214,17 @@ const CartPage = () => {
 
             <button
               className="btn button cart__details-button"
-              onClick={() => dispatch(setCartAction())}
+              onClick={() =>
+                dispatch(
+                  setCartAction({
+                    "Всего товаров": totalGoods,
+                    "Всего линеек": totalLines,
+                    "Цена до скидки": totalPrice,
+                    "Скидка": discount,
+                    "Итого": price,
+                  })
+                )
+              }
             >
               Оформить заказ
             </button>

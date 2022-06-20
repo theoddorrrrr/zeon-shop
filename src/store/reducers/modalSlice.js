@@ -1,7 +1,8 @@
 const defaultState = {
     isModal: false,
     isSuccess: false,
-    isCart: false
+    isCart: false,
+    cart: {}
   };
   
   const SET_MODAL = "SET_MODAL";
@@ -15,7 +16,8 @@ const defaultState = {
       case SET_SUCCESS:
         return {...state, isSuccess: !state.isSuccess};
       case SET_CART:
-        return {...state, isCart: !state.isCart};
+        // console.log(action.payload);
+        return {...state, isCart: !state.isCart, cart: action.payload};
   
       default:
         return state;
