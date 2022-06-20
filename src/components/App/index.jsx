@@ -28,6 +28,7 @@ import MediaButton from "../MediaButton";
 import CallForm from "../../forms/CallForm";
 import SuccessForm from "../../forms/SuccessForm";
 import CartForm from "../../forms/CartForm";
+import "../../firebase"
 
 function App() {
   const dispatch = useDispatch();

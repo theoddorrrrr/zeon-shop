@@ -14,6 +14,7 @@ import { aboutUsSlice } from './aboutUsSlice'
 import { helpSlice } from './helpSlice'
 import { newsSlice } from './newsSlice'
 import { modalSlice } from './modalSlice'
+import { userSlice } from './userSlice'
 
 
 export const rootReducer = combineReducers({
@@ -31,5 +32,6 @@ export const rootReducer = combineReducers({
     aboutUs: aboutUsSlice,
     help: helpSlice,
     news: newsSlice,
-    modal: modalSlice
+    modal: modalSlice,
+    user: userSlice
 })
