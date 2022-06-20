@@ -1,12 +1,17 @@
-import { fetchInfo } from "../../api/API";
-import { useEffect } from "react";
+import { fetchInfo, instance } from "../../api/API";
+import { useEffect, useState } from "react";
 import { Breadcrumbs, Divider, Link, Typography } from "@mui/material";
 import closeBtn from "../../assets/icons/close.svg";
 import { useDispatch, useSelector } from "react-redux";
 import { setIsNavbarAction } from "../../store/reducers/navbarSlice";
 import favoriteImg from "../../assets/icons/heart.png";
 import cartImg from "../../assets/icons/cart.png";
-import { Link as LinkRouter, useLocation, useParams } from "react-router-dom";
+import {
+  Link as LinkRouter,
+  useLocation,
+  useNavigate,
+  useParams,
+} from "react-router-dom";
 import Search from "../Search";
 import { setModalAction } from "../../store/reducers/modalSlice";
 import SearchMobile from "../SearchMobile";
@@ -134,9 +139,9 @@ const CartButton = ({ toggleNavbar, desktop }) => {
     </div>
   );
 };
+
 const HeaderBreadCrumbs = () => {
   const paths = [
-    // { title: "", path: "Корзина" },
     { title: "cart", path: "Корзина" },
     { title: "favorite", path: "Избранные" },
     { title: "about-us", path: "О нас" },
@@ -148,35 +153,122 @@ const HeaderBreadCrumbs = () => {
     { title: "collections", path: "Коллекции" },
     { title: "search", path: "Результаты поиска" },
   ];
+
+  const [data, setData] = useState([]);
+  const [good, setGood] = useState({});
+
+  const getData = async (collection) => {
+    const { data } = await instance.get(`${collection}`);
+    setData(data);
+  };
+
+  const getOneGood = async (collection, id) => {
+    const { data } = await instance.get(`${collection}/${id}`);
+    setGood(data);
+  };
+
   let { pathname } = useLocation();
 
-  pathname = pathname.split("/")[1];
-  let currentPath = paths.find((item) => pathname == item.title);
+  const newPath = pathname.split("/")[1];
+  let currentPath = paths.find((item) => newPath == item.title);
 
-  // console.log(currentPath);
-  // console.log(pathname);
+  useEffect(() => {
+    if (
+      pathname.split("/")[1] === "collections" &&
+      pathname.split("/").length > 2
+    ) {
+      getData(pathname.split("/")[2]);
+    }
+    if (
+      pathname.split("/")[1] === "collections" &&
+      pathname.split("/").length > 3
+    ) {
+      getOneGood(pathname.split("/")[2], pathname.split("/")[3]);
+    }
+  }, []);
 
-  // if ((pathname = " ")) {
-  //   console.log("AAAA");
-  //   return <></>;
-  // }
-  // if (currentPath == undefined)
-  // pathname == " " && <></>;
-  //  : currentPath?.path = "Коллекции";
+  useEffect(() => {
+    if (
+      pathname.split("/")[1] === "collections" &&
+      pathname.split("/").length > 2
+    ) {
+      getData(pathname.split("/")[2]);
+    }
+    if (
+      pathname.split("/")[1] === "collections" &&
+      pathname.split("/").length > 3
+    ) {
+      getOneGood(pathname.split("/")[2], pathname.split("/")[3]);
+    }
+  }, [pathname]);
 
-  // console.log("YYYO");
+  const navigate = useNavigate();
 
   return (
     <>
       {currentPath !== undefined ? (
         <div className="header-breadcrumbs container">
           <Breadcrumbs aria-label="breadcrumb">
-            <Link underline="hover" color="black" href="/">
+            <Link
+              underline="hover"
+              color="black"
+              style={{ cursor: "pointer" }}
+              onClick={() => navigate("/")}
+            >
               Главная
             </Link>
-            <Link underline="none" color="#d1d1d1">
-              {currentPath?.path}
-            </Link>
+
+            {pathname.split("/").length == 2 ? (
+              <Link
+                underline="none"
+                style={{ cursor: "default" }}
+                color="#d1d1d1"
+              >
+                {currentPath?.path}
+              </Link>
+            ) : (
+              <Link
+                underline="hover"
+                color="black"
+                style={{ cursor: "pointer" }}
+                onClick={() => navigate(`/${currentPath?.title}`)}
+              >
+                {currentPath?.path}
+              </Link>
+            )}
+
+            {pathname.split("/").length == 3 &&
+            pathname.split("/")[1] === "collections" ? (
+              <Link
+                underline="none"
+                style={{ cursor: "default" }}
+                color="#d1d1d1"
+              >
+                {data[0]?.collectionTitle}
+              </Link>
+            ) : (
+              <Link
+                underline="hover"
+                color="black"
+                style={{ cursor: "pointer" }}
+                onClick={() =>
+                  navigate(`/collections/${pathname.split("/")[2]}`)
+                }
+              >
+                {data[0]?.collectionTitle}
+              </Link>
+            )}
+
+            {pathname.split("/")[1] === "collections" &&
+              pathname.split("/").length > 3 && (
+                <Link
+                  underline="none"
+                  style={{ cursor: "default" }}
+                  color="#d1d1d1"
+                >
+                  {good?.title}
+                </Link>
+              )}
           </Breadcrumbs>
         </div>
       ) : (

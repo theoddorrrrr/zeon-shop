@@ -12,6 +12,8 @@ import { useLocation } from "react-router-dom";
 
 import PaginationCustom from "../../components/PaginationCustom";
 import { useRef } from "react";
+import Interested from "../../components/Interested";
+import Good from "../../components/Good";
 
 const SearchPage = () => {
   const interestedGoods = useSelector((state) => state.mainInfo.interested);
@@ -58,22 +60,14 @@ const SearchPage = () => {
     else setLimit(4);
   });
 
-  const mouseHandler = (e) => {
-    // console.log(e);
-  };
-
-  const mouseMoveHandler = (e) => {
-    // console.log(ref.current);
-    // console.log(e);
-  };
-  // console.log(hover);
-
   const ref = useRef();
+
+  console.log(state);
 
 
   return (
     <>
-      <div className="goods__wrapper">
+      <div className="favorites-wrapper">
         <div className="goods__result">
           Результаты поиска по запросу: {state?.data || ""}
         </div>
@@ -89,83 +83,7 @@ const SearchPage = () => {
                 const isFavorite = fav && fav.some((i) => i.id === item.id);
 
                 return (
-                  <div
-                    className="goods__item"
-                    onClick={() => navigate(`/collections/hot/${item.id}`)}
-                    key={item.id}
-                  >
-                    <div className="goods__images">
-                      {item.price?.discount && (
-                        <div className="goods__discount">
-                          <span>{item.price.discount}%</span>
-                        </div>
-                      )}
-
-                      {isFavorite ? (
-                        <div
-                          onClick={(e) => unFavoriteHandler(e, item)}
-                          className="goods__favorite"
-                        >
-                          <img src={favoriteActive} alt="Favorite" />
-                        </div>
-                      ) : (
-                        <div
-                          onClick={(e) => favoriteHandler(e, item)}
-                          className="goods__favorite favorite"
-                        >
-                          <img src={favorite} alt="Favorite" />
-                        </div>
-                      )}
-
-                      <img
-                        // onMouseOver={(e)=> mouseHandler(e)}
-                        onMouseMove={(e) => mouseMoveHandler(e)}
-                        className="goods__img"
-                        src={item.src[0]}
-                        alt={item.title}
-                      />
-
-                      <div ref={ref} className="hover"></div>
-                    </div>
-                    <div className="goods__body">
-                      <div className="goods__title">{item.title}</div>
-                      <div className="goods__prices">
-                        {item.isDiscount ? (
-                          <>
-                            <span className="goods__price">
-                              {item.price.price.toLocaleString()} р
-                            </span>
-                            <span className="goods__old-price">
-                              {item.price?.oldPrice.toLocaleString()} р
-                            </span>
-                          </>
-                        ) : (
-                          <span className="goods__price">
-                            {item.price.price.toLocaleString()} р
-                          </span>
-                        )}
-                      </div>
-                      <div className="goods__sizes">Размер: {item.sizes}</div>
-                      <div className="goods__colors">
-                        {item.colors.map((color) => {
-                          return (
-                            <div
-                              key={color}
-                              className="goods__color"
-                              style={
-                                color === "#FFFFFF"
-                                  ? {
-                                      backgroundColor: color,
-                                      border: "1px solid #D1D1D1",
-                                    }
-                                  : { backgroundColor: color }
-                              }
-                            ></div>
-                          );
-                        })}
-                      </div>
-                    </div>
-                  </div>
+                  <Interested item={item} isFavorite={isFavorite} key={item.id} />
                 );
               })}
             </div>
@@ -176,85 +94,7 @@ const SearchPage = () => {
               {paginatedGoods.map((item) => {
                 const isFavorite = fav && fav.some((i) => i.id === item.id);
                 return (
-                  <div
-                    className="goods__item"
-                    onClick={() =>
-                      navigate(`/collections/${item.collection}/${item.id}`)
-                    }
-                    key={item.id}
-                  >
-                    <div className="goods__images">
-                      {item.price?.discount && (
-                        <div className="goods__discount">
-                          <span>{item.price.discount}%</span>
-                        </div>
-                      )}
-
-                      {isFavorite ? (
-                        <div
-                          onClick={(e) => unFavoriteHandler(e, item)}
-                          className="goods__favorite"
-                        >
-                          <img src={favoriteActive} alt="Favorite" />
-                        </div>
-                      ) : (
-                        <div
-                          onClick={(e) => favoriteHandler(e, item)}
-                          className="goods__favorite favorite"
-                        >
-                          <img src={favorite} alt="Favorite" />
-                        </div>
-                      )}
-
-                      <img
-                        // onMouseOver={(e)=> mouseHandler(e)}
-                        onMouseMove={(e) => mouseMoveHandler(e)}
-                        className="goods__img"
-                        src={item.src[0]}
-                        alt={item.title}
-                      />
-
-                      <div ref={ref} className="hover"></div>
-                    </div>
-                    <div className="goods__body">
-                      <div className="goods__title">{item.title}</div>
-                      <div className="goods__prices">
-                        {item.isDiscount ? (
-                          <>
-                            <span className="goods__price">
-                              {item.price.price.toLocaleString()} р
-                            </span>
-                            <span className="goods__old-price">
-                              {item.price?.oldPrice.toLocaleString()} р
-                            </span>
-                          </>
-                        ) : (
-                          <span className="goods__price">
-                            {item.price.price.toLocaleString()} р
-                          </span>
-                        )}
-                      </div>
-                      <div className="goods__sizes">Размер: {item.sizes}</div>
-                      <div className="goods__colors">
-                        {item.colors.map((color) => {
-                          return (
-                            <div
-                              key={color}
-                              className="goods__color"
-                              style={
-                                color === "#FFFFFF"
-                                  ? {
-                                      backgroundColor: color,
-                                      border: "1px solid #D1D1D1",
-                                    }
-                                  : { backgroundColor: color }
-                              }
-                            ></div>
-                          );
-                        })}
-                      </div>
-                    </div>
-                  </div>
+                  <Good item={item} isFavorite={isFavorite} key={item.id} />
                 );
               })}
             </div>
