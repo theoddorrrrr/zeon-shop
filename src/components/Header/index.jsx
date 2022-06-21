@@ -1,6 +1,6 @@
 import { fetchInfo, instance } from "../../api/API";
 import { useEffect, useState } from "react";
-import { Breadcrumbs, Divider, Link, Typography } from "@mui/material";
+import { Breadcrumbs, Divider, Link } from "@mui/material";
 import closeBtn from "../../assets/icons/close.svg";
 import { useDispatch, useSelector } from "react-redux";
 import { setIsNavbarAction } from "../../store/reducers/navbarSlice";
@@ -13,8 +13,14 @@ import {
   useParams,
 } from "react-router-dom";
 import Search from "../Search";
-import { setModalAction } from "../../store/reducers/modalSlice";
+import {
+  setLoginAction,
+  setModalAction,
+} from "../../store/reducers/modalSlice";
 import SearchMobile from "../SearchMobile";
+import { useAuth } from "../../hooks/use-auth";
+
+import { removeUserAction} from "../../store/reducers/userSlice"
 
 const Header = () => {
   const dispatch = useDispatch();
@@ -40,6 +46,8 @@ const Header = () => {
 };
 
 const HeaderTop = () => {
+  const { isAuth, email } = useAuth();
+
   return (
     <div className="header-top">
       <div>
@@ -57,13 +65,39 @@ const HeaderTop = () => {
               </li>
             </ul>
 
-            <ContactWithUs />
+            <div className="header-top__right">
+              <ContactWithUs />
+              {isAuth ? <Logout email={email} /> : <Login />}
+            </div>
           </div>
         </div>
 
         <Divider style={{ flex: "0 0 100%" }} />
       </div>
     </div>
+  );
+};
+
+const Login = () => {
+  const dispatch = useDispatch();
+
+  return (
+    <div className="header__login" onClick={() => dispatch(setLoginAction())}>
+      Login
+    </div>
+  );
+};
+
+const Logout = ({ email }) => {
+  const dispatch = useDispatch();
+
+  return (
+    <>
+      <div style={{marginLeft: "20px"}}>{email}</div>
+      <div className="header__login" onClick={() => dispatch(removeUserAction())}>
+        Logout
+      </div>
+    </>
   );
 };
 
@@ -363,19 +397,19 @@ const ContactWithUs = () => {
   const info = useSelector((state) => state.info);
 
   return (
-    <div>
+    <>
       <div className="nav-contacts__contact">
         {info.loading ? (
           <span>Loading</span>
         ) : (
-          <div>
+          <>
             <a href={info.data.numbers[0].data}>
               <span className="">Тел:</span> {info.data.numbers[0].title}
             </a>
-          </div>
+          </>
         )}
       </div>
-    </div>
+    </>
   );
 };
 

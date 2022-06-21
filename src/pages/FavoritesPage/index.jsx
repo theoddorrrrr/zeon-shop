@@ -1,12 +1,22 @@
 import React, { useEffect, useState } from "react";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 
 import PaginationCustom from "../../components/PaginationCustom";
 
 import FavoritesGood from "../../components/FavoritesGood";
 import Interested from "../../components/Interested";
+import { useNavigate } from "react-router-dom";
+import { setLoginAction } from "../../store/reducers/modalSlice";
 
 const FavirotePage = () => {
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
+
+  // useEffect(() => {
+  //   dispatch(setLoginAction());
+  //   navigate(-1);
+  // }, []);
+
   const favorites = useSelector((state) => state.favorites);
   const interestedGoods = useSelector((state) => state.mainInfo.interested);
 
@@ -70,11 +80,7 @@ const FavirotePage = () => {
             })}
           </div>
           {favorites.length >= 12 && (
-            <PaginationCustom
-              limit={limit}
-              count={fav}
-              func={changePage}
-            />
+            <PaginationCustom limit={limit} count={fav} func={changePage} />
           )}
         </>
       )}

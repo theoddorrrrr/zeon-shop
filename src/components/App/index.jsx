@@ -28,7 +28,8 @@ import MediaButton from "../MediaButton";
 import CallForm from "../../forms/CallForm";
 import SuccessForm from "../../forms/SuccessForm";
 import CartForm from "../../forms/CartForm";
-import "../../firebase"
+import LoginForm from "../../forms/LoginForm";
+import RegisterForm from "../../forms/RegisterForm";
 
 function App() {
   const dispatch = useDispatch();
@@ -75,6 +76,8 @@ function App() {
       {modal.isModal && <CallForm />}
       {modal.isSuccess && <SuccessForm />}
       {modal.isCart && <CartForm />}
+      {modal.isLogin && <LoginForm />}
+      {modal.isRegister && <RegisterForm />}
 
       <Footer />
     </div>

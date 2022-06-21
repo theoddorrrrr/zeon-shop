@@ -155,6 +155,24 @@
     display: flex;
     flex-wrap: wrap;
     padding: 1.5em 1em;
+
+    @media (min-width: 768px) {
+      .header-top__right {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex: 1 1;
+
+        @media (min-width: 950px) {
+          flex: 1 1;
+        }
+      }
+
+      .header__login {
+        margin: 0 1em;
+        cursor: pointer;
+      }
+    }
   }
 
   .nav__list_desktop {
@@ -163,7 +181,11 @@
     @media (min-width: 768px) {
       display: flex;
       gap: 24px;
-      flex: 1 1 70%;
+      flex: 1 1;
+    }
+
+    @media (min-width: 950px) {
+      flex: 1 1;
     }
 
     li {
@@ -176,7 +198,7 @@
 
     @media (min-width: 768px) {
       display: flex;
-      flex: 1 1 30%;
+      flex: 1 1;
     }
   }
 }
@@ -559,9 +581,9 @@
   cursor: pointer;
   margin: 0 auto 50px auto;
   left: -10px;
-  width: 100vw;
+  width: calc(100vw - 15px);
 
-  @media (min-width:1166px) {
+  @media (min-width: 1166px) {
     width: 100%;
     left: 0;
   }
@@ -1759,6 +1781,10 @@
 
   pointer-events: none;
 
+  @media (max-width: 768px) {
+    display: none;
+  }
+
   .up,
   .callBack {
     display: flex;
@@ -1803,6 +1829,19 @@
   background-color: #1d1d1b5d;
   overflow: auto;
   z-index: 100;
+
+  &__register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  &__link{
+    // cursor: pointer;
+  }
 
   &__body {
     display: flex;
@@ -1961,6 +2000,8 @@
         opacity: 0.8;
       }
     }
+
+   
   }
 
   .PhoneInput {

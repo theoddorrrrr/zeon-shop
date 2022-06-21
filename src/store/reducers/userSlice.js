@@ -6,7 +6,6 @@ const defaultState = {
 
 const SET_USER = "SET_USER";
 const REMOVE_USER = "REMOVE_USER";
-// const GET_ABOUT_US = "GET_ABOUT_US";
 
 export const userSlice = (state = defaultState, action) => {
     switch (action.type) {

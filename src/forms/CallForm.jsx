@@ -13,7 +13,7 @@ export default function App() {
     handleSubmit: handleSubmitCall,
     watch,
     formState: { errors: errorsCall, isValid },
-  } = useForm({ mode: "onTouched" });
+  } = useForm({ mode: "all" });
 
   const onSubmitCall = (data) => {
     dispatch(setModalAction());
