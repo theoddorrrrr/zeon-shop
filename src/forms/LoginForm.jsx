@@ -1,11 +1,11 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import {
   setLoginAction,
   setRegisterAction,
 } from "../store/reducers/modalSlice";
 import closeBtn from "../assets/icons/close-btn.png";
-import { useForm } from "react-hook-form";
+import { Controller, useForm } from "react-hook-form";
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import { setUserAction } from "../store/reducers/userSlice";
 
@@ -14,7 +14,10 @@ const LoginForm = () => {
     register: registerLogin,
     handleSubmit: handleSubmitLogin,
     formState: { errors: errorsLogin, isValid },
-  } = useForm({ mode: "all" });
+    control,
+  } = useForm({ mode: "onTouched" });
+
+  const [error, setError] = useState();
 
   const dispatch = useDispatch();
 
@@ -23,7 +26,7 @@ const LoginForm = () => {
   const onSubmitLogin = (data) => {
     signInWithEmailAndPassword(auth, data.emailLogin, data.passwordLogin)
       .then((userCredential) => {
-        const user = userCredential.user
+        const user = userCredential.user;
         console.log(user);
         dispatch(
           setUserAction({
@@ -36,7 +39,7 @@ const LoginForm = () => {
         dispatch(setLoginAction());
         console.log(data);
       })
-      .catch((error) => console.log(error));
+      .catch((error) => setError(error));
   };
 
   useEffect(() => {
@@ -102,6 +105,13 @@ const LoginForm = () => {
                   })}
                 />
               </div>
+
+              {error && (
+                <div style={{ color: "red", margin: "0 auto" }}>
+                  Wrong email or password
+                </div>
+              )}
+
               <button
                 className={isValid ? "form__submit" : "form__submit error"}
                 type="submit"

@@ -158,9 +158,6 @@ const clothes = instance.get('clothes') .then(json => json.data)
 const skirts = instance.get('skirts') .then(json => json.data)
 
 
-
-
-
 export const fetchAllGoods = () => {
   return function (dispatch) {
     axios.all([hot, bestSellers, summer2020, spring2020, winter2020, fall2020, forNature, dresses, clothes, skirts])
@@ -218,6 +215,10 @@ export const fetchInterested = () => {
 
 // Cart
 
-export const postCart = (data) => {
-  instance.post(`orders`, data)
+// export const postCart = (data) => {
+//   instance.post(`orders`, data)
+// }
+
+export const postCart = (data, id) => {
+  instance.put(`users/${id}`, data)
 }

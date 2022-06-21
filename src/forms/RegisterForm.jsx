@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { setRegisterAction } from "../store/reducers/modalSlice";
 import { setLoginAction } from "../store/reducers/modalSlice";
@@ -12,8 +12,9 @@ const RegisterForm = () => {
     register: registerRegister,
     handleSubmit: handleSubmitRegister,
     formState: { errors: errorsRegister, isValid },
-  } = useForm({ mode: "all" });
+  } = useForm({ mode: "onTouched" });
 
+  const [error, setError] = useState();
   const dispatch = useDispatch();
   const auth = getAuth();
 
@@ -37,8 +38,9 @@ const RegisterForm = () => {
 
       dispatch(setRegisterAction());
       console.log(data);
-      // ...
-    });
+
+    })
+    .catch((error) => setError(error));
   };
 
   useEffect(() => {
@@ -106,6 +108,12 @@ const RegisterForm = () => {
                   })}
                 />
               </div>
+
+              {error && (
+                <div style={{ color: "red", margin: "0 auto" }}>
+                  User with this email already exists
+                </div>
+              )}
               <button
                 className={isValid ? "form__submit" : "form__submit error"}
                 type="submit"

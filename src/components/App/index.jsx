@@ -12,13 +12,14 @@ import CartPage from "../../pages/CartPage";
 import HelpPage from "../../pages/HelpPage";
 import PublicOfferPage from "../../pages/PublicOfferPage";
 import { useDispatch, useSelector } from "react-redux";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import {
   fetchBestSellers,
   fetchColletions,
   fetchHotGoods,
   fetchInterested,
   fetchMainInfo,
+  instance,
 } from "../../api/API";
 import Details from "../Details";
 import Collection from "../Collection";
@@ -32,15 +33,42 @@ import LoginForm from "../../forms/LoginForm";
 import RegisterForm from "../../forms/RegisterForm";
 import NotFoundPage from "../../pages/NotFoundPage";
 import OrdersPage from "../../pages/OrdersPage";
+import { useAuth } from "../../hooks/use-auth";
+import { setUserStateAction } from "../../store/reducers/userStateSlice";
 
 function App() {
   const dispatch = useDispatch();
   const { pathname } = useLocation();
   const { modal } = useSelector((state) => state);
+  const { isAuth, id } = useAuth();
+
+  console.log(isAuth, id);
+
+  const user = useSelector(state => state.userState)
+
+  const getData = async () => {
+    const { data } = await instance.get(`users?id=${id}`);
+    // console.log(data);
+
+    if (data.length > 0) {
+      dispatch(setUserStateAction(data[0]))
+    } else {
+      const newUser = {"id": id, "cart": [], "favorites": [], "orders": []}
+
+      await instance.post('users', newUser)
+      await getData()
+    }
+  };
+
+  useEffect(() => {
+    isAuth && getData();
+  }, [isAuth]);
+
+  // console.log(user);
 
   useEffect(() => {
     dispatch(fetchMainInfo());
-    dispatch(fetchInterested())
+    dispatch(fetchInterested());
     dispatch(fetchHotGoods());
     dispatch(fetchBestSellers());
     dispatch(fetchColletions());
@@ -72,7 +100,6 @@ function App() {
               <Route path="/search-page" element={<SearchPage />} />
               <Route path="/orders" element={<OrdersPage />} />
               <Route path="*" element={<NotFoundPage />} />
-              
             </Routes>
           </div>
         </div>

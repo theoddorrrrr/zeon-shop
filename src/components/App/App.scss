@@ -373,8 +373,6 @@
   }
 
   &__wrapper {
-    padding: 0 0.5em;
-
     @media (min-width: 768px) {
       padding: 0;
     }
@@ -1359,7 +1357,7 @@
   &__items {
     display: flex;
     flex-direction: column;
-    padding: 1em;
+    // padding: 1em;
   }
 
   &__item {
@@ -1713,8 +1711,13 @@
     justify-content: center;
     align-items: center;
 
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
+
+    @media (min-width: 768px) {
+      width: 40px;
+      height: 40px;
+    }
   }
 
   li:first-child {
@@ -1963,8 +1966,24 @@
       margin-bottom: 1em;
     }
 
-    margin-top: 5em;
+    margin-top: 20em;
     margin-bottom: 1em;
+
+    @media (min-height: 400px) {
+      margin-top: 15em;
+    }
+
+    @media (min-height: 500px) {
+      margin-top: 12em;
+    }
+
+    @media (min-height: 600px) {
+      margin-top: 6em;
+    }
+
+    @media (min-height: 700px) {
+      margin-top: 1em;
+    }
 
     .form__inputs {
       gap: 1.2em;
@@ -2146,7 +2165,6 @@
     align-items: center;
     gap: 10px;
     cursor: pointer;
-
   }
 
   &__img {
