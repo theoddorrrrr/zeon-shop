@@ -30,6 +30,8 @@ import SuccessForm from "../../forms/SuccessForm";
 import CartForm from "../../forms/CartForm";
 import LoginForm from "../../forms/LoginForm";
 import RegisterForm from "../../forms/RegisterForm";
+import NotFoundPage from "../../pages/NotFoundPage";
+import OrdersPage from "../../pages/OrdersPage";
 
 function App() {
   const dispatch = useDispatch();
@@ -68,6 +70,9 @@ function App() {
               <Route path="/cart" element={<CartPage />} />
               <Route path="/public-offer" element={<PublicOfferPage />} />
               <Route path="/search-page" element={<SearchPage />} />
+              <Route path="/orders" element={<OrdersPage />} />
+              <Route path="*" element={<NotFoundPage />} />
+              
             </Routes>
           </div>
         </div>

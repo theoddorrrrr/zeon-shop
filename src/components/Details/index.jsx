@@ -69,7 +69,7 @@ const Details = () => {
 
   // Check if it exist in cart
   let isInCart =
-    cart &&
+    cart.length >= 1 &&
     cart.some((i) => data.id == i.id && currentColor == i.selectedColor);
 
   // Set color for good

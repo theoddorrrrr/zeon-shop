@@ -20,7 +20,8 @@ import {
 import SearchMobile from "../SearchMobile";
 import { useAuth } from "../../hooks/use-auth";
 
-import { removeUserAction} from "../../store/reducers/userSlice"
+import { removeUserAction } from "../../store/reducers/userSlice";
+import userImg from "../../assets/icons/user-outlined.png";
 
 const Header = () => {
   const dispatch = useDispatch();
@@ -90,11 +91,21 @@ const Login = () => {
 
 const Logout = ({ email }) => {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
+  const { isAuth } = useAuth();
 
   return (
     <>
-      <div style={{marginLeft: "20px"}}>{email}</div>
-      <div className="header__login" onClick={() => dispatch(removeUserAction())}>
+      <div
+        className="header__orders"
+        onClick={() => isAuth && navigate("/orders")}
+      >
+        {email}
+      </div>
+      <div
+        className="header__login"
+        onClick={() => dispatch(removeUserAction())}
+      >
         Logout
       </div>
     </>
@@ -318,6 +329,8 @@ const Navbar = () => {
   const isNavbar = useSelector((state) => state.navbar.isNavbar);
   const info = useSelector((state) => state.info);
 
+  const { isAuth, email } = useAuth();
+
   const toggleNavbar = () => {
     dispatch(setIsNavbarAction(isNavbar));
     document.body.classList.toggle("fixed");
@@ -347,6 +360,19 @@ const Navbar = () => {
           <Divider />
           <FavoriteButton toggleNavbar={toggleNavbar} />
           <CartButton toggleNavbar={toggleNavbar} />
+          <Divider />
+
+          {isAuth ? (
+            <div className="navbar-mobile__user" onClick={() => toggleNavbar()}>
+              <img className="navbar-mobile__img" src={userImg} /> 
+              <Logout email={email} />
+            </div>
+          ) : (
+            <div className="navbar-mobile__user" onClick={(() => toggleNavbar())}>
+              <img className="navbar-mobile__img" src={userImg} /> 
+              <Login email={email} />
+            </div>
+          )}
         </ul>
         <div className="nav-contacts">
           <div className="nav-contacts__title">Свяжитесь с нами</div>

@@ -12,6 +12,7 @@ import { Link, useNavigate } from "react-router-dom";
 import PhoneInput from "react-phone-number-input";
 import { postCart } from "../api/API";
 import { resetCart } from "../store/reducers/cartSlice";
+import { useAuth } from "../hooks/use-auth";
 
 const CartForm = () => {
   const {
@@ -26,11 +27,13 @@ const CartForm = () => {
   
   const cartDetails = useSelector(state => state.modal.cart) 
   
+  const {email, id} = useAuth()
+
   const onSubmitCart = (data) => {
     dispatch(setCartAction());
     dispatch(setSuccessAction());
 
-    data = { id: Date.now(), goods: cart, cartDetails: cartDetails, ...data, }
+    data = { id: id, user: email, goods: cart, cartDetails: cartDetails, formDetails: data, }
     postCart(data)
     console.log(data);
 
