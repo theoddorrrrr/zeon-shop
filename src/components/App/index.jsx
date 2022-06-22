@@ -42,13 +42,10 @@ function App() {
   const { modal } = useSelector((state) => state);
   const { isAuth, id } = useAuth();
 
-  console.log(isAuth, id);
-
   const user = useSelector(state => state.userState)
 
   const getData = async () => {
     const { data } = await instance.get(`users?id=${id}`);
-    // console.log(data);
 
     if (data.length > 0) {
       dispatch(setUserStateAction(data[0]))
@@ -63,8 +60,6 @@ function App() {
   useEffect(() => {
     isAuth && getData();
   }, [isAuth]);
-
-  // console.log(user);
 
   useEffect(() => {
     dispatch(fetchMainInfo());

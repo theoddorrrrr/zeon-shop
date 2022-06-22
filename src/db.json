@@ -7002,6 +7002,231 @@
         {
           "goods": [
             {
+              "id": 14,
+              "src": [
+                "https://cdn.discordapp.com/attachments/978541129228230710/978597821714432021/dress02.png",
+                "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+                "https://cdn.discordapp.com/attachments/978541129228230710/978597821714432021/dress02.png",
+                "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+              ],
+              "title": "Не Вечернее Платье",
+              "collection": "bestSellers",
+              "collectionTitle": "Хит продаж",
+              "code": "Платье PL984/dakota",
+              "colors": [
+                "#73A39D",
+                "#84CC4C",
+                "#B5A8A1",
+                "#AB844A",
+                "#6977F0",
+                "#FFFFFF",
+                "#141414",
+                "#FF0000"
+              ],
+              "isFavorite": false,
+              "isDiscount": false,
+              "price": {
+                "price": 1365
+              },
+              "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+              "sizes": "42-50",
+              "countInBundle": 5,
+              "material": "Полиэстер",
+              "compound": "Полиэстер",
+              "selectedColor": "#73A39D",
+              "count": 1
+            }
+          ],
+          "cartDetails": {
+            "totalGoods": 5,
+            "totalLines": 1,
+            "totalPrice": 1365,
+            "discount": 0,
+            "price": 1365
+          },
+          "formDetails": {
+            "name": "Айдар",
+            "surname": "asdsda",
+            "mail": "asd@mail.ru",
+            "phone-input": "+996555555555",
+            "country": "123123",
+            "city": "QWe",
+            "checkbox": true
+          }
+        },
+        {
+          "goods": [
+            {
+              "id": 15,
+              "src": [
+                "https://cdn.discordapp.com/attachments/978541129228230710/978597821714432021/dress02.png",
+                "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+                "https://cdn.discordapp.com/attachments/978541129228230710/978597821714432021/dress02.png",
+                "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+              ],
+              "title": "Не Вечернее Платье",
+              "collection": "bestSellers",
+              "collectionTitle": "Хит продаж",
+              "code": "Платье PL984/dakota",
+              "colors": [
+                "#73A39D",
+                "#84CC4C",
+                "#B5A8A1",
+                "#AB844A",
+                "#6977F0",
+                "#FFFFFF",
+                "#141414",
+                "#FF0000"
+              ],
+              "isDiscount": true,
+              "isFavorite": false,
+              "price": {
+                "price": 1365,
+                "discount": 50,
+                "oldPrice": 2730
+              },
+              "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+              "sizes": "42-50",
+              "countInBundle": 5,
+              "material": "Полиэстер",
+              "compound": "Полиэстер",
+              "selectedColor": "#73A39D",
+              "count": 1
+            },
+            {
+              "id": 15,
+              "src": [
+                "https://cdn.discordapp.com/attachments/978541129228230710/978597821714432021/dress02.png",
+                "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+                "https://cdn.discordapp.com/attachments/978541129228230710/978597821714432021/dress02.png",
+                "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+              ],
+              "title": "Не Вечернее Платье",
+              "collection": "bestSellers",
+              "collectionTitle": "Хит продаж",
+              "code": "Платье PL984/dakota",
+              "colors": [
+                "#73A39D",
+                "#84CC4C",
+                "#B5A8A1",
+                "#AB844A",
+                "#6977F0",
+                "#FFFFFF",
+                "#141414",
+                "#FF0000"
+              ],
+              "isDiscount": true,
+              "isFavorite": false,
+              "price": {
+                "price": 1365,
+                "discount": 50,
+                "oldPrice": 2730
+              },
+              "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+              "sizes": "42-50",
+              "countInBundle": 5,
+              "material": "Полиэстер",
+              "compound": "Полиэстер",
+              "selectedColor": "#FF0000",
+              "count": 1
+            }
+          ],
+          "cartDetails": {
+            "totalGoods": 10,
+            "totalLines": 2,
+            "totalPrice": 5460,
+            "discount": 2730,
+            "price": 2730
+          },
+          "formDetails": {
+            "name": "Айдар",
+            "surname": "asd",
+            "mail": "asd@mail.ru",
+            "phone-input": "+996555555555",
+            "country": "123",
+            "city": "123123",
+            "checkbox": true
+          }
+        },
+        {
+          "goods": [
+            {
+              "id": 13,
+              "src": [
+                "https://cdn.discordapp.com/attachments/978541129228230710/978597821714432021/dress02.png",
+                "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
+                "https://cdn.discordapp.com/attachments/978541129228230710/978597821714432021/dress02.png",
+                "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
+              ],
+              "title": "Не Вечернее Платье",
+              "collection": "bestSellers",
+              "collectionTitle": "Хит продаж",
+              "code": "Платье PL984/dakota",
+              "colors": [
+                "#73A39D",
+                "#84CC4C",
+                "#B5A8A1",
+                "#AB844A",
+                "#6977F0",
+                "#FFFFFF",
+                "#141414",
+                "#FF0000"
+              ],
+              "isDiscount": true,
+              "isFavorite": false,
+              "price": {
+                "price": 1365,
+                "discount": 50,
+                "oldPrice": 2730
+              },
+              "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
+              "sizes": "42-50",
+              "countInBundle": 5,
+              "material": "Полиэстер",
+              "compound": "Полиэстер",
+              "selectedColor": "#73A39D",
+              "count": 1
+            }
+          ],
+          "cartDetails": {
+            "totalGoods": 5,
+            "totalLines": 1,
+            "totalPrice": 2730,
+            "discount": 1365,
+            "price": 1365
+          },
+          "formDetails": {
+            "name": "Айдар",
+            "surname": "asdsda",
+            "mail": "asd@mail.ru",
+            "phone-input": "+996555555555",
+            "country": "ASdas",
+            "city": "asdASd",
+            "checkbox": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "Pa3E1gokkWaevnrXt17MqhBJpbm1",
+      "cart": [],
+      "favorites": [],
+      "orders": []
+    },
+    {
+      "id": "yKgrMwratJWJGJG1xfBDwqYmBsR2",
+      "cart": [],
+      "favorites": [],
+      "orders": []
+    },
+    {
+      "id": "YZEJxVBZxjYHlM5JnYvpHY1VS1z2",
+      "cart": [],
+      "favorites": [],
+      "orders": [
+        {
+          "goods": [
+            {
               "id": 15,
               "src": [
                 "https://cdn.discordapp.com/attachments/978541129228230710/978597821714432021/dress02.png",
@@ -7040,119 +7265,23 @@
             }
           ],
           "cartDetails": {
-            "Всего товаров": 5,
-            "Всего линеек": 1,
-            "Цена до скидки": 2730,
-            "Скидка": 1365,
-            "Итого": 1365
+            "totalGoods": 5,
+            "totalLines": 1,
+            "totalPrice": 2730,
+            "discount": 1365,
+            "price": 1365
           },
           "formDetails": {
-            "name": "sasda",
-            "surname": "asdasdd",
-            "mail": "asd@asd.asdd",
-            "phone-input": "+996223232222",
-            "country": "asdasd",
-            "city": "asdasd",
-            "checkbox": true
-          }
-        },
-        {
-          "goods": [
-            {
-              "id": 16,
-              "src": [
-                "https://cdn.discordapp.com/attachments/978541129228230710/978597821714432021/dress02.png",
-                "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
-                "https://cdn.discordapp.com/attachments/978541129228230710/978597821714432021/dress02.png",
-                "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
-              ],
-              "title": "Не Вечернее Платье",
-              "collection": "bestSellers",
-              "collectionTitle": "Хит продаж",
-              "code": "Платье PL984/dakota",
-              "colors": [
-                "#73A39D",
-                "#84CC4C",
-                "#B5A8A1",
-                "#AB844A",
-                "#6977F0",
-                "#FFFFFF",
-                "#141414",
-                "#FF0000"
-              ],
-              "isFavorite": false,
-              "isDiscount": false,
-              "price": {
-                "price": 1365
-              },
-              "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
-              "sizes": "42-50",
-              "countInBundle": 5,
-              "material": "Полиэстер",
-              "compound": "Полиэстер",
-              "selectedColor": "#73A39D",
-              "count": 1
-            },
-            {
-              "id": 16,
-              "src": [
-                "https://cdn.discordapp.com/attachments/978541129228230710/978597821714432021/dress02.png",
-                "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png",
-                "https://cdn.discordapp.com/attachments/978541129228230710/978597821714432021/dress02.png",
-                "https://cdn.discordapp.com/attachments/978541129228230710/978634226356322314/unknown.png"
-              ],
-              "title": "Не Вечернее Платье",
-              "collection": "bestSellers",
-              "collectionTitle": "Хит продаж",
-              "code": "Платье PL984/dakota",
-              "colors": [
-                "#73A39D",
-                "#84CC4C",
-                "#B5A8A1",
-                "#AB844A",
-                "#6977F0",
-                "#FFFFFF",
-                "#141414",
-                "#FF0000"
-              ],
-              "isFavorite": false,
-              "isDiscount": false,
-              "price": {
-                "price": 1365
-              },
-              "description": "За последние 35 лет бренд Bonucci из обычного производителя одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого качества и актуального стиля.",
-              "sizes": "42-50",
-              "countInBundle": 5,
-              "material": "Полиэстер",
-              "compound": "Полиэстер",
-              "selectedColor": "#FF0000",
-              "count": 1
-            }
-          ],
-          "cartDetails": {
-            "Всего товаров": 10,
-            "Всего линеек": 2,
-            "Цена до скидки": 2730,
-            "Скидка": 0,
-            "Итого": 2730
-          },
-          "formDetails": {
-            "name": "sasda",
-            "surname": "asdasdd",
-            "mail": "asd@asd.asdd",
-            "phone-input": "+996223232222",
-            "country": "asdasd",
-            "city": "asdasd",
+            "name": "Айдар",
+            "surname": "asdsda",
+            "mail": "asd@mail.ru",
+            "phone-input": "+996555555555",
+            "country": "asd",
+            "city": "123123",
             "checkbox": true
           }
         }
       ]
-    },
-    {
-      "id": "Pa3E1gokkWaevnrXt17MqhBJpbm1",
-      "cart": [],
-      "favorites": [],
-      "orders": []
     }
   ]
 }

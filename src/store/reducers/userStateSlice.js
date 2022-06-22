@@ -5,7 +5,7 @@ const defaultState = {
   orders: [],
 };
 
-const SET_USER_STATE = "SET_USER";
+const SET_USER_STATE = "SET_USER_STATE";
 
 export const userStateSlice = (state = defaultState, action) => {
   switch (action.type) {

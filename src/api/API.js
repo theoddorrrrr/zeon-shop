@@ -4,6 +4,7 @@ import { GetPublicOfferAction } from "../store/reducers/publicOfferSlice";
 import { GetInterestedGoods, GetMainInfoAction } from "../store/reducers/mainInfoSlice";
 import {
   GetHotGoodsAction,
+  GetLimitedHotGoodsAction,
   GetMoreHotGoodsAction,
 } from "../store/reducers/hotGoodsSlice";
 import {
@@ -60,6 +61,14 @@ export const fetchMoreHotGoods = () => {
     instance
       .get(`hot?_start=4&_end=12`)
       .then((json) => dispatch(GetMoreHotGoodsAction(json.data)));
+  };
+};
+
+export const fetchLimitedHotGoods = () => {
+  return function (dispatch) {
+    instance
+      .get(`hot?_limit=5`)
+      .then((json) => dispatch(GetLimitedHotGoodsAction(json.data)));
   };
 };
 

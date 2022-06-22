@@ -127,6 +127,7 @@
 
   &-contacts__contact span {
     color: grey;
+    opacity: 0.5;
   }
 
   &-contacts__social-media {
@@ -217,6 +218,12 @@
 
 .favorites-wrapper {
   padding: 0 10px;
+  .goods__items {
+    @media (max-width: 460px) {
+      display: grid;
+      grid-template-columns: repeat(1, minmax(150px, 1fr));
+    }
+  }
 }
 
 .favorite-btn a,
@@ -229,6 +236,7 @@
   display: none;
 
   @media (min-width: 768px) {
+    font-size: 16px;
     display: block;
   }
 }
@@ -426,6 +434,16 @@
     cursor: pointer;
     flex: 0 0 250px;
 
+    @media (any-hover: none) {
+      & {
+        .favorite {
+          opacity: 1;
+          overflow: visible;
+          pointer-events: all;
+        }
+      }
+    }
+
     &:hover {
       .favorite {
         opacity: 1;
@@ -557,11 +575,13 @@
     height: 25px;
     z-index: 3;
 
-    img {
-      transition: all 0.3s ease;
+    @media (any-hover: hover) {
+      img {
+        transition: all 0.3s ease;
 
-      &:hover {
-        transform: scale(1.3);
+        &:hover {
+          transform: scale(1.3);
+        }
       }
     }
   }
@@ -584,7 +604,7 @@
   cursor: pointer;
   margin: 0 auto 50px auto;
   left: -10px;
-  width: calc(100vw - 15px);
+  width: 100vw;
 
   @media (min-width: 1166px) {
     width: 100%;
@@ -657,9 +677,11 @@
   margin: 2em 0;
   text-align: center;
   padding: 0;
+  font-size: 14px;
 
   &__items {
     display: grid;
+    align-items: center;
     gap: 15px;
     grid-template-columns: repeat(1, minmax(150px, 2fr));
 
@@ -675,6 +697,7 @@
   &__item {
     background-color: #fff;
     padding: 1em 0.5em;
+    height: 100%;
   }
 
   &__description {
@@ -1401,10 +1424,16 @@
 
     .search__floating {
       position: fixed;
-      left: 20%;
-      right: 20%;
+      left: 10%;
+      right: 10%;
       pointer-events: all;
       top: 72px;
+      max-width: 500px;
+
+      @media (min-width: 500px) {
+        left: 20%;
+        right: 20%;
+      }
 
       .search__img {
         margin-right: 10px;
@@ -2170,5 +2199,61 @@
   &__img {
     width: 24px;
     height: 24px;
+  }
+}
+
+.order {
+  &__items {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(1, minmax(150px, 2fr));
+    margin-top: 10px;
+
+    @media (min-width: 460px) {
+      grid-template-columns: repeat(2, minmax(150px, 2fr));
+    }
+
+    @media (min-width: 950px) {
+      grid-template-columns: repeat(4, minmax(150px, 1fr));
+    }
+  }
+
+  &__item {
+    background-color: white;
+    padding: 2em 1em;
+  }
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__good {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.header-buttons {
+  display: flex;
+  gap: 1em;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+
+  &__divider {
+    position: relative;
+  }
+
+  &__divider::before {
+    content: "";
+    width: 1px;
+    height: 24px;
+    position: absolute;
+    background-color: black;
+    opacity: 0.1;
   }
 }

@@ -20,7 +20,7 @@ const CartForm = () => {
     handleSubmit: handleSubmitCart,
     formState: { errors: errorsCart, isValid },
     control,
-  } = useForm({ mode: "onTouched" });
+  } = useForm({ mode: "all" });
 
   const { cart } = useSelector((state) => state);
   const navigate = useNavigate();

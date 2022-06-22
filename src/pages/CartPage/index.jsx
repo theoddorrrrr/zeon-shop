@@ -8,7 +8,7 @@ import {
   incrementCart,
   removeFromCart,
 } from "../../store/reducers/cartSlice";
-import { setCartAction } from "../../store/reducers/modalSlice";
+import { setCartAction, setLoginAction } from "../../store/reducers/modalSlice";
 
 import {
   setFavorites,
@@ -18,12 +18,15 @@ import {
 import favorite from "../../assets/icons/heart-good.png";
 import favoriteActive from "../../assets/icons/heart-good-filled.png";
 import Interested from "../../components/Interested";
+import { useAuth } from "../../hooks/use-auth";
 
 const CartPage = () => {
   const dispatch = useDispatch();
   const cartGoods = useSelector((state) => state.cart);
   const interestedGoods = useSelector((state) => state.mainInfo.interested);
   const [isShow, setIsShow] = useState(false);
+
+  const { isAuth } = useAuth();
 
   const array = [];
 
@@ -76,6 +79,20 @@ const CartPage = () => {
   }, 0);
 
   const price = totalPrice - discount;
+
+  const buttonHandler = () => {
+    isAuth ? 
+
+    dispatch(
+      setCartAction({
+        "totalGoods": totalGoods,
+        "totalLines": totalLines,
+        "totalPrice": totalPrice,
+        "discount": discount,
+        "price": price,
+      })
+    ) : dispatch(setLoginAction())
+  };
 
   return (
     <div className="cart-wrapper">
@@ -214,17 +231,7 @@ const CartPage = () => {
 
             <button
               className="btn button cart__details-button"
-              onClick={() =>
-                dispatch(
-                  setCartAction({
-                    "Всего товаров": totalGoods,
-                    "Всего линеек": totalLines,
-                    "Цена до скидки": totalPrice,
-                    "Скидка": discount,
-                    "Итого": price,
-                  })
-                )
-              }
+              onClick={buttonHandler}
             >
               Оформить заказ
             </button>

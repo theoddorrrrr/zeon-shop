@@ -52,6 +52,9 @@
 
   &__divider {
     background-color: #363635;
+    @media (min-width: 768px) {
+      display: none;
+    }
   }
 
   &-title {

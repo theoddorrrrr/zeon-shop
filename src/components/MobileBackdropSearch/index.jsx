@@ -69,19 +69,22 @@ const MobileBackdropSearch = ({ setIsShow, isButton, setIsButton }) => {
                     <input
                         placeholder="Поиск"
                         onChange={handleFilter}
-                        onBlur={() =>
-                            setTimeout(() => {
-                                setIsShow(false);
-                                setIsButton(false);
-                            }, 1)
-                        }
+                        // onBlur={() =>
+                        //     setTimeout(() => {
+                        //         setIsShow(false);
+                        //         setIsButton(false);
+                        //     }, 1)
+                        // }
                         ref={ref}
                         autoFocus
                         onKeyDown={(e) => handleKeyPress(e)}
                         tabIndex="0"
                     ></input>
-                    <div className="search__img">
-                        <img src={search} onClick={() => setIsButton(true)} />
+                    <div className="search__img" >
+                        <img src={search} onClick={() => {
+                            setIsButton(true) 
+                            navigateHandler()
+                        }} />
                     </div>
                 </label>
                 <>

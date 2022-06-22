@@ -131,8 +131,11 @@ const HeaderBody = () => {
         <Search />
         <SearchMobile />
 
-        <FavoriteButton desktop={true} />
-        <CartButton desktop={true} />
+        <div className="header-buttons">
+          <FavoriteButton desktop={true} />
+          <span className="header-buttons__divider"></span>
+          <CartButton desktop={true} />
+        </div>
       </div>
     </div>
   );
@@ -196,6 +199,7 @@ const HeaderBreadCrumbs = () => {
     { title: "public-offer", path: "Публичная офферта" },
     { title: "collections", path: "Коллекции" },
     { title: "search", path: "Результаты поиска" },
+    { title: "orders", path: "Мои заказы" },
   ];
 
   const [data, setData] = useState([]);
@@ -364,12 +368,12 @@ const Navbar = () => {
 
           {isAuth ? (
             <div className="navbar-mobile__user" onClick={() => toggleNavbar()}>
-              <img className="navbar-mobile__img" src={userImg} /> 
+              <img className="navbar-mobile__img" src={userImg} />
               <Logout email={email} />
             </div>
           ) : (
-            <div className="navbar-mobile__user" onClick={(() => toggleNavbar())}>
-              <img className="navbar-mobile__img" src={userImg} /> 
+            <div className="navbar-mobile__user" onClick={() => toggleNavbar()}>
+              <img className="navbar-mobile__img" src={userImg} />
               <Login email={email} />
             </div>
           )}

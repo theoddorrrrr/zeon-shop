@@ -12,7 +12,7 @@ const RegisterForm = () => {
     register: registerRegister,
     handleSubmit: handleSubmitRegister,
     formState: { errors: errorsRegister, isValid },
-  } = useForm({ mode: "onTouched" });
+  } = useForm({ mode: "all" });
 
   const [error, setError] = useState();
   const dispatch = useDispatch();

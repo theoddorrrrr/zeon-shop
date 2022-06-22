@@ -15,7 +15,7 @@ const LoginForm = () => {
     handleSubmit: handleSubmitLogin,
     formState: { errors: errorsLogin, isValid },
     control,
-  } = useForm({ mode: "onTouched" });
+  } = useForm({ mode: "all" });
 
   const [error, setError] = useState();
 
@@ -26,18 +26,17 @@ const LoginForm = () => {
   const onSubmitLogin = (data) => {
     signInWithEmailAndPassword(auth, data.emailLogin, data.passwordLogin)
       .then((userCredential) => {
-        const user = userCredential.user;
-        console.log(user);
+        const { email, uid, accessToken } = userCredential.user;
+
         dispatch(
           setUserAction({
-            email: user.email,
-            id: user.uid,
-            token: user.accessToken,
+            email: email,
+            id: uid,
+            token: accessToken,
           })
         );
 
         dispatch(setLoginAction());
-        console.log(data);
       })
       .catch((error) => setError(error));
   };
