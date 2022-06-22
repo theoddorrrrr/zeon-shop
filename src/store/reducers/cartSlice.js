@@ -11,6 +11,9 @@ const RESET_CART = "RESET_CART";
 export const cartSlice = (state = defaultState, action) => {
   switch (action.type) {
     case ADD_TO_CART:
+      console.log(state);
+      console.log([...state, action.payload]);
+
       localStorage.setItem("cart", JSON.stringify([...state, action.payload]));
       return [...state, action.payload];
 
@@ -62,7 +65,7 @@ export const cartSlice = (state = defaultState, action) => {
 
     case RESET_CART:
       localStorage.setItem("cart", JSON.stringify([]));
-      return { state: [] };
+      return [];
 
     default:
       return state;

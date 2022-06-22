@@ -55,7 +55,7 @@ const SearchPage = () => {
     <>
       <div className="goods__wrapper search__wrapper">
         <div className="goods__result">
-          Результаты поиска по запросу: {state?.data || ""}
+          <span>Результаты поиска по запросу:</span> {state?.data || ""}
         </div>
         {!state || state?.filteredData.length <= 0 ? (
           <>

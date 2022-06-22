@@ -55,7 +55,10 @@ const Good = ({ item, isFavorite }) => {
         )}
 
         <div className="goods__img">
-          <div className="goods__img_main" style={{backgroundImage: `url(${item.src[index]})`}} ></div>
+          <div
+            className="goods__img_main"
+            style={{ backgroundImage: `url(${item.src[index]})` }}
+          ></div>
 
           <div className="goods__img_hidden">
             {item.src.map((item, index) => {
@@ -71,9 +74,11 @@ const Good = ({ item, isFavorite }) => {
               );
             })}
           </div>
+          <div
+            style={{ left: `${10 + index * 18}%`, transition: "0.5s ease" }}
+            className="hover"
+          ></div>
         </div>
-
-        <div style={{left: `${10+30*index}px`, transition: "0.5s ease"}} className="hover"></div>
       </div>
       <div className="goods__body">
         <div className="goods__title">{item.title}</div>

@@ -198,7 +198,7 @@ const CartForm = () => {
               style={errorsCart.checkbox && { boxShadow: "0 0 5px 1px red" }}
               {...registerCart("checkbox", { required: true })}
             />
-            <span>
+            <span className="public-offer">
               Согласен с условиями{" "}
               <Link to="public-offer" target="_blank" rel="noopener noreferrer">
                 публичной оферты

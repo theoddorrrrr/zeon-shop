@@ -40,7 +40,7 @@ const BestSellers = () => {
         )}
       </div>
 
-      {bestSellers.data.length <= 4 && (
+      {bestSellers.data.length <= 8 && (
         <button onClick={getMoreBestSellers} className="button btn button-load">
           Еще
         </button>

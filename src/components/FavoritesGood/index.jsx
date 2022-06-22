@@ -2,14 +2,12 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 
-import {
-  setUnFavorites,
-} from "../../store/reducers/favoritesSlice";
+import { setUnFavorites } from "../../store/reducers/favoritesSlice";
 
 import favoriteActive from "../../assets/icons/heart-good-filled.png";
 import { useState } from "react";
 
-const FavoritesGood = ({item}) => {
+const FavoritesGood = ({ item }) => {
   const [index, setIndex] = useState(0);
   const dispatch = useDispatch();
   let navigate = useNavigate();
@@ -40,7 +38,10 @@ const FavoritesGood = ({item}) => {
         </div>
 
         <div className="goods__img">
-          <div className="goods__img_main" style={{backgroundImage: `url(${item.src[index]})`}} ></div>
+          <div
+            className="goods__img_main"
+            style={{ backgroundImage: `url(${item.src[index]})` }}
+          ></div>
 
           <div className="goods__img_hidden">
             {item.src.map((item, index) => {
@@ -56,9 +57,11 @@ const FavoritesGood = ({item}) => {
               );
             })}
           </div>
+          <div
+            style={{ left: `${10 + index * 18}%`, transition: "0.5s ease" }}
+            className="hover"
+          ></div>
         </div>
-
-        <div style={{left: `${10+30*index}px`, transition: "0.5s ease"}} className="hover"></div>
       </div>
       <div className="goods__body">
         <div className="goods__title">{item.title}</div>

@@ -74,7 +74,7 @@ export const fetchLimitedHotGoods = () => {
 
 // Best Sellers
 
-export const fetchBestSellers = (size = 4) => {
+export const fetchBestSellers = (size = 8) => {
   return function (dispatch) {
     instance
       .get(`bestSellers?_limit=${size}`)
@@ -85,7 +85,7 @@ export const fetchBestSellers = (size = 4) => {
 export const fetchMoreBestSellers = () => {
   return function (dispatch) {
     instance
-      .get(`bestSellers?_start=4&_end=12`)
+      .get(`bestSellers?_start=8&_end=16`)
       .then((json) => dispatch(GetMoreBestSellersGoodsAction(json.data)));
   };
 };

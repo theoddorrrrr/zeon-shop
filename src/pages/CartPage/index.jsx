@@ -81,17 +81,17 @@ const CartPage = () => {
   const price = totalPrice - discount;
 
   const buttonHandler = () => {
-    isAuth ? 
-
-    dispatch(
-      setCartAction({
-        "totalGoods": totalGoods,
-        "totalLines": totalLines,
-        "totalPrice": totalPrice,
-        "discount": discount,
-        "price": price,
-      })
-    ) : dispatch(setLoginAction())
+    isAuth
+      ? dispatch(
+          setCartAction({
+            totalGoods: totalGoods,
+            totalLines: totalLines,
+            totalPrice: totalPrice,
+            discount: discount,
+            price: price,
+          })
+        )
+      : dispatch(setLoginAction());
   };
 
   return (
@@ -127,7 +127,7 @@ const CartPage = () => {
                   <div className="cart__img">
                     <img src={item.src[0]} alt={item.title} />
                   </div>
-                  <div className="goods__body">
+                  <div className="goods__body cart__body">
                     <div className="goods__title cart-title">{item.title}</div>
                     <div className="goods__sizes cart__sizes">
                       <span>Размер: </span> {item.sizes}
@@ -169,19 +169,19 @@ const CartPage = () => {
                       >
                         <span>_</span>
                       </button>
-                      <div className="cart__count">{item.count}</div>
+                      <div className="cart__counts">{item.count}</div>
                       <button
                         onClick={() => itemIncrement(item)}
                         className="cart__button cart__increment"
                       >
                         +
                       </button>
-                      <button
-                        onClick={() => removeHandler(item)}
-                        className="cart__delete"
-                      ></button>
                     </div>
                   </div>
+                    <button
+                      onClick={() => removeHandler(item)}
+                      className="cart__delete"
+                    ></button>
                 </div>
               );
             })}
@@ -190,13 +190,20 @@ const CartPage = () => {
             {!isShow && (
               <div className="cart__details-price">
                 <h2>Сумма заказа</h2>
-                <div className="cart__details-item">
+                <div className="cart__details-item cart__desktop">
                   <h3>Количество линеек: </h3>
                   <span>{totalLines} шт</span>
                 </div>
-                <div className="cart__details-item">
+                <div className="cart__details-item cart__desktop">
                   <h3>Количество товаров: </h3>
                   <span>{totalGoods} шт</span>
+                </div>
+                <div className="cart__details-item cart__mobile">
+                  <h3>Общее количество: </h3>
+                  <div>
+                    <span>{totalLines} линеек </span>
+                    <span>({totalGoods} шт.)</span>
+                  </div>
                 </div>
                 <div className="cart__details-item">
                   <h3>Общая цена: </h3>

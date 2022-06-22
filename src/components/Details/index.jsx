@@ -107,10 +107,10 @@ const Details = () => {
             <div className="details__right">
               <div className="details__title">{data.title}</div>
               <div className="details__code">
-                <span>Артикул</span> {data.code}
+                <span>Артикул: </span> {data.code}
               </div>
               <div className="details__colors">
-                <h3>Цвет</h3>
+                <span>Цвет</span>
                 {data.colors.map((color, index) => {
                   return (
                     <div
