@@ -1,14 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 
 import PaginationCustom from "../../components/PaginationCustom";
 
 import FavoritesGood from "../../components/FavoritesGood";
 import Interested from "../../components/Interested";
-import { useNavigate } from "react-router-dom";
 
 const FavirotePage = () => {
-  
   const favorites = useSelector((state) => state.favorites);
   const interestedGoods = useSelector((state) => state.mainInfo.interested);
 
@@ -72,7 +70,7 @@ const FavirotePage = () => {
               return <FavoritesGood item={item} key={item.id} />;
             })}
           </div>
-          {favorites.length >= 12 && (
+          {favorites.length >= limit && (
             <PaginationCustom limit={limit} count={fav} func={changePage} />
           )}
         </>

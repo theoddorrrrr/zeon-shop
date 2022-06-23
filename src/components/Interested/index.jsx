@@ -27,7 +27,7 @@ const Interested = ({ item, isFavorite }) => {
     dispatch(setFavorites(item));
   };
 
-  const cart = useSelector(state => state.cart)
+  const cart = useSelector((state) => state.cart);
 
   const isInCart =
     cart.length >= 1 &&
@@ -117,7 +117,7 @@ const Interested = ({ item, isFavorite }) => {
               <>
                 {isInCart && isInCart.includes(color) ? (
                   <div
-                    key={color + index}
+                    key={color + index + item.id}
                     className="goods__color goods__color_acive"
                     style={
                       color === "#FFFFFF"
@@ -130,7 +130,7 @@ const Interested = ({ item, isFavorite }) => {
                   ></div>
                 ) : (
                   <div
-                    key={color + index}
+                    key={color + index + item.id}
                     className="goods__color"
                     style={
                       color === "#FFFFFF"

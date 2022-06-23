@@ -12,7 +12,7 @@ const OrdersPage = () => {
   const navigate = useNavigate();
 
   !isAuth && navigate("/");
-  // console.log(email, id);
+
 
   const getData = async () => {
     const { data } = await instance.get(`users/${id}`);
@@ -23,10 +23,6 @@ const OrdersPage = () => {
     getData();
   }, []);
 
-  // const state = useSelector(state => state.userState)
-  // console.log(state);
-
-  // console.log(userState);
 
   // Takes goods from local storage
   const fav = localStorage.getItem("123")
@@ -36,11 +32,7 @@ const OrdersPage = () => {
   const favorites = useSelector((state) => state.favorites);
   const interestedGoods = useSelector((state) => state.mainInfo.interested);
 
-  console.log(userState.orders);
-
   const [expanded, setExpanded] = useState(false);
-
-  // console.log(expanded);
 
   const handleChange = (panel) => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false);

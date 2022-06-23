@@ -31,7 +31,6 @@ const Collection = () => {
   }, []);
 
   const hots = useSelector((state) => state.hotGoods);
-  console.log(hots);
 
   // Takes goods from local storage
   const fav = localStorage.getItem("123")
@@ -71,16 +70,21 @@ const Collection = () => {
                 );
               })}
             </div>
-            <PaginationCustom
-              limit={limit}
-              count={collection.data}
-              func={changePage}
-            />
+
+            {collection.data.length >= limit && (
+              <PaginationCustom
+                limit={limit}
+                count={collection.data}
+                func={changePage}
+              />
+            )}
           </>
         )}
       </div>
 
-      <div className="cart__title interested__title hots-interested__title">Новинки</div>
+      <div className="cart__title interested__title hots-interested__title">
+        Новинки
+      </div>
 
       <div className="goods__items interested__goods">
         {hots.loading ? (

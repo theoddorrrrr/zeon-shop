@@ -46,9 +46,6 @@ const SearchPage = () => {
     else setLimit(4);
   });
 
-  console.log(state);
-  console.log(state?.filteredData.length);
-
   return (
     <>
       <div className="goods__wrapper search__wrapper">
@@ -89,11 +86,14 @@ const SearchPage = () => {
                 );
               })}
             </div>
-            <PaginationCustom
-              limit={limit}
-              count={state?.filteredData}
-              func={changePage}
-            />
+
+            {state?.filteredData.length >= limit && (
+              <PaginationCustom
+                limit={limit}
+                count={state?.filteredData}
+                func={changePage}
+              />
+            )}
           </>
         )}
       </div>

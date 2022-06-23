@@ -29,7 +29,6 @@ const CartForm = () => {
   const { email, id } = useAuth();
 
   const userState = useSelector(state => state.userState)
-  console.log(userState);
 
   const onSubmitCart = (data) => {
     dispatch(setCartAction());

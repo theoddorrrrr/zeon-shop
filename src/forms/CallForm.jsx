@@ -18,7 +18,6 @@ export default function App() {
   const onSubmitCall = (data) => {
     dispatch(setModalAction());
     dispatch(setSuccessAction());
-    console.log(data);
   };
 
   const dispatch = useDispatch();

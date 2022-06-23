@@ -17,7 +17,7 @@ const FavoritesGood = ({ item }) => {
     dispatch(setUnFavorites(item));
   };
 
-  const cart = useSelector(state => state.cart)
+  const cart = useSelector((state) => state.cart);
 
   const isInCart =
     cart.length >= 1 &&
@@ -92,7 +92,7 @@ const FavoritesGood = ({ item }) => {
               <>
                 {isInCart && isInCart.includes(color) ? (
                   <div
-                    key={color + index}
+                    key={color + index + item.id}
                     className="goods__color goods__color_acive"
                     style={
                       color === "#FFFFFF"
@@ -105,7 +105,7 @@ const FavoritesGood = ({ item }) => {
                   ></div>
                 ) : (
                   <div
-                    key={color + index}
+                    key={color + index + item.id}
                     className="goods__color"
                     style={
                       color === "#FFFFFF"

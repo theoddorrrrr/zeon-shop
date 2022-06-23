@@ -26,7 +26,6 @@ const RegisterForm = () => {
     ).then((userCredential) => {
       // Signed in
       const user = userCredential.user;
-      console.log(user);
 
       dispatch(
         setUserAction({
@@ -37,7 +36,6 @@ const RegisterForm = () => {
       );
 
       dispatch(setRegisterAction());
-      console.log(data);
 
     })
     .catch((error) => setError(error));

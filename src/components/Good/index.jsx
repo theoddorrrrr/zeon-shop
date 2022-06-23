@@ -115,7 +115,7 @@ const Good = ({ item, isFavorite }) => {
               <>
                 {isInCart && isInCart.includes(color) ? (
                   <div
-                    key={color + index}
+                    key={color + index + item.id}
                     className="goods__color goods__color_acive"
                     style={
                       color === "#FFFFFF"
@@ -128,7 +128,7 @@ const Good = ({ item, isFavorite }) => {
                   ></div>
                 ) : (
                   <div
-                    key={color + index}
+                  key={color + index + item.id}
                     className="goods__color"
                     style={
                       color === "#FFFFFF"

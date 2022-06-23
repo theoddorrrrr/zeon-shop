@@ -10,8 +10,6 @@ const REMOVE_USER = "REMOVE_USER";
 export const userSlice = (state = defaultState, action) => {
     switch (action.type) {
         case SET_USER:
-            console.log('---------');
-            console.log(action.payload);
             return {
                 ...state,
                 email: action.payload.email,

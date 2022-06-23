@@ -8,8 +8,6 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 
 const HelpItem = ({ item, expanded, handleChange }) => {
 
-  console.log(expanded);
-
   return (
     <>
       <Accordion className="help__item" expanded={expanded === item.id} onChange={handleChange(item.id)}>

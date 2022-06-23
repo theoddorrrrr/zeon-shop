@@ -65,11 +65,13 @@ const CollectionsPage = () => {
             })}
           </div>
 
-          <PaginationCustom
-            limit={limit}
-            count={collections}
-            func={changePage}
-          />
+          {collections.length >= limit && (
+            <PaginationCustom
+              limit={limit}
+              count={collections}
+              func={changePage}
+            />
+          )}
         </div>
       )}
     </>

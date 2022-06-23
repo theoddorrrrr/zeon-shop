@@ -29,7 +29,6 @@ const OrderItem = ({ item, expanded, handleChange, index }) => {
         <AccordionDetails>
           <div className="about-us__description help__description order__good">
             {item.map((item, index) => {
-                console.log(item);
               return <div onClick={() => navigate(`/collections/${item.collection}/${item.id}`)} key={index}>{item.title}</div>;
             })}
           </div>

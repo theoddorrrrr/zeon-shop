@@ -10,7 +10,6 @@ const SET_USER_STATE = "SET_USER_STATE";
 export const userStateSlice = (state = defaultState, action) => {
   switch (action.type) {
     case SET_USER_STATE:
-        console.log(action.payload);
       return {
         ...state,
         id: action.payload.id,
