@@ -25,6 +25,16 @@ const Good = ({ item, isFavorite }) => {
     dispatch(setUnFavorites(item));
   };
 
+  const cart = useSelector((state) => state.cart);
+
+  const isInCart =
+    cart.length >= 1 &&
+    cart.map(
+      (i) =>
+        item.id == i.id &&
+        item.colors.find((color) => color == i.selectedColor && color)
+    );
+
   return (
     <div
       className="goods__item"
@@ -100,20 +110,37 @@ const Good = ({ item, isFavorite }) => {
         </div>
         <div className="goods__sizes">Размер: {item.sizes}</div>
         <div className="goods__colors">
-          {item.colors.map((color) => {
+          {item.colors.map((color, index) => {
             return (
-              <div
-                key={color}
-                className="goods__color"
-                style={
-                  color === "#FFFFFF"
-                    ? {
-                        backgroundColor: color,
-                        border: "1px solid #D1D1D1",
-                      }
-                    : { backgroundColor: color }
-                }
-              ></div>
+              <>
+                {isInCart && isInCart.includes(color) ? (
+                  <div
+                    key={color + index}
+                    className="goods__color goods__color_acive"
+                    style={
+                      color === "#FFFFFF"
+                        ? {
+                            backgroundColor: color,
+                            border: "1px solid #D1D1D1",
+                          }
+                        : { backgroundColor: color }
+                    }
+                  ></div>
+                ) : (
+                  <div
+                    key={color + index}
+                    className="goods__color"
+                    style={
+                      color === "#FFFFFF"
+                        ? {
+                            backgroundColor: color,
+                            border: "1px solid #D1D1D1",
+                          }
+                        : { backgroundColor: color }
+                    }
+                  ></div>
+                )}
+              </>
             );
           })}
         </div>

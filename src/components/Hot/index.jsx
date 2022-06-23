@@ -24,6 +24,8 @@ const Hot = () => {
 
   const favorites = useSelector((state) => state.favorites);
 
+
+
   return (
     <>
       <div className="goods__wrapper">
