@@ -51,7 +51,7 @@ const FavirotePage = () => {
       <div className="favorites__title">Избранное</div>
       {!fav || fav.length < 1 ? (
         <>
-          <div className="favorites__count">
+          <div className="favorites__count cart__text">
             У вас пока нет избранных товаров
           </div>
 

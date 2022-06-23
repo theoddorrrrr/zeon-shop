@@ -16,10 +16,13 @@
 
   &__img {
     display: block;
-    margin: 0 auto;
     padding-bottom: 1em;
     width: 243px;
     filter: brightness(0) invert(1);
+
+    @media (min-width: 700px) {
+      margin: 0 auto;
+    }
   }
 
   &__content {

@@ -59,7 +59,7 @@ const SearchPage = () => {
         </div>
         {!state || state?.filteredData.length <= 0 ? (
           <>
-            <div>По вашему запросу ничего не найдено</div>
+            <div className="goods__empty">По вашему запросу ничего не найдено</div>
             <div className="cart__title interested__title">
               Возможно Вас заинтересует
             </div>

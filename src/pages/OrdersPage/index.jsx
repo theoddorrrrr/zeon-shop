@@ -80,7 +80,7 @@ const OrdersPage = () => {
                 <div className="order__item" key={index}>
                   <div className="order__details">
                     <div className="order__detail">
-                      Ликеек: {item.cartDetails.totalLines}
+                      Линеек: {item.cartDetails.totalLines}
                     </div>
                     <div className="order__detail">
                       Товаров: {item.cartDetails.totalGoods}
