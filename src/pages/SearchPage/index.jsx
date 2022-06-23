@@ -19,7 +19,6 @@ const SearchPage = () => {
   const interestedGoods = useSelector((state) => state.mainInfo.interested);
   const { state } = useLocation();
 
-
   // Takes goods from local storage
   const fav = localStorage.getItem("123")
     ? JSON.parse(localStorage.getItem("123"))
@@ -50,36 +49,44 @@ const SearchPage = () => {
   console.log(state);
   console.log(state?.filteredData.length);
 
-
   return (
     <>
       <div className="goods__wrapper search__wrapper">
         <div className="goods__result">
-          <span>Результаты поиска по запросу:</span> {state?.data || ""}
+          <span>Результаты поиска по запросу:</span>
+          <span> {state?.data || ""}</span>
         </div>
         {!state || state?.filteredData.length <= 0 ? (
           <>
-            <div className="goods__empty">По вашему запросу ничего не найдено</div>
+            <div className="goods__empty">
+              По вашему запросу ничего не найдено
+            </div>
             <div className="cart__title interested__title">
               Возможно Вас заинтересует
             </div>
 
             <div className="goods__items interested__goods">
-            {interestedGoods.map((item) => {
-              const isFavorite = fav && fav.some((i) => i.id === item.id);
+              {interestedGoods.map((item) => {
+                const isFavorite = fav && fav.some((i) => i.id === item.id);
 
-              return (
-                <Interested item={item} isFavorite={isFavorite} key={item.id} />
-              );
-            })}
-          </div>
+                return (
+                  <Interested
+                    item={item}
+                    isFavorite={isFavorite}
+                    key={item.id}
+                  />
+                );
+              })}
+            </div>
           </>
         ) : (
           <>
             <div className="goods__items search__items">
               {paginatedGoods.map((item) => {
                 const isFavorite = fav && fav.some((i) => i.id === item.id);
-                return <Good item={item} isFavorite={isFavorite} key={item.id} />;
+                return (
+                  <Good item={item} isFavorite={isFavorite} key={item.id} />
+                );
               })}
             </div>
             <PaginationCustom

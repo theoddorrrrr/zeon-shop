@@ -6,17 +6,9 @@ import PaginationCustom from "../../components/PaginationCustom";
 import FavoritesGood from "../../components/FavoritesGood";
 import Interested from "../../components/Interested";
 import { useNavigate } from "react-router-dom";
-import { setLoginAction } from "../../store/reducers/modalSlice";
 
 const FavirotePage = () => {
-  const navigate = useNavigate();
-  const dispatch = useDispatch();
-
-  // useEffect(() => {
-  //   dispatch(setLoginAction());
-  //   navigate(-1);
-  // }, []);
-
+  
   const favorites = useSelector((state) => state.favorites);
   const interestedGoods = useSelector((state) => state.mainInfo.interested);
 
@@ -29,6 +21,7 @@ const FavirotePage = () => {
 
   const [page, setPage] = useState(1);
   const [limit, setLimit] = useState(4);
+
   const paginatedGoods = fav.slice((page - 1) * limit, page * limit);
 
   const changePage = (data) => {
@@ -38,11 +31,11 @@ const FavirotePage = () => {
   };
 
   useEffect(() => {
-    if (window.innerWidth >= 768) setLimit(12);
+    if (window.innerWidth >= 768) setLimit(8);
   }, []);
 
   window.addEventListener("resize", () => {
-    if (window.innerWidth >= 768) setLimit(12);
+    if (window.innerWidth >= 768) setLimit(8);
     else setLimit(4);
   });
 
@@ -71,7 +64,7 @@ const FavirotePage = () => {
         </>
       ) : (
         <>
-          <div className="favorites__count">
+          <div className="favorites__count favorites__full">
             Товаров в избранном: {fav?.length}
           </div>
           <div className="goods__items">
